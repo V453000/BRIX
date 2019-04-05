@@ -1,0 +1,67 @@
+##grflangid 0x01
+# English lng file
+
+STR_GRF_NAME		:BRIX Realism Is XXXX {VERSION}
+STR_GRF_DESC		:I SHAT BRIX. Do you want them?{}{}Brought to you by V453000{}www.openttdcoop.org
+STR_GRF_WEBSITE		:http://dev.openttdcoop.org/projects/brix
+
+STR_PARAM_TERRAIN			:Terrain
+STR_PARAM_TERRAIN_DESC		:Influences ground tiles, bulldozed tiles, snow/desert.
+STR_PARAM_TERRAIN_OFF		:OFF
+STR_PARAM_TERRAIN_ON		:ON
+
+STR_PARAM_SIGNALS_SEMAPHORE			:Signals - Semaphore
+STR_PARAM_SIGNALS_SEMAPHORE_DESC	:Influences semaphore train signals.
+STR_PARAM_SIGNALS_SEMAPHORE_OFF		:OFF
+STR_PARAM_SIGNALS_SEMAPHORE_ON		:ON
+
+STR_PARAM_SIGNALS_ELECTRIC			:Signals - Electric
+STR_PARAM_SIGNALS_ELECTRIC_DESC		:Influences electric train signals.
+STR_PARAM_SIGNALS_ELECTRIC_OFF		:OFF
+STR_PARAM_SIGNALS_ELECTRIC_ON		:ON
+
+STR_PARAM_FARMS				:Farms
+STR_PARAM_FARMS_DESC		:Influences farm tiles.
+STR_PARAM_FARMS_OFF			:OFF
+STR_PARAM_FARMS_ON			:ON
+
+STR_PARAM_BRIDGES			:Bridges
+STR_PARAM_BRIDGES_DESC		:Influences road and rail bridges.
+STR_PARAM_BRIDGES_OFF		:OFF
+STR_PARAM_BRIDGES_ON		:ON
+
+STR_PARAM_TREES			:Trees
+STR_PARAM_TREES_DESC	:Influences trees.
+STR_PARAM_TREES_OFF		:OFF
+STR_PARAM_TREES_ON		:ON
+
+STR_PARAM_ROADS			:Roads
+STR_PARAM_ROADS_DESC	:Influences roads.
+STR_PARAM_ROADS_OFF		:OFF
+STR_PARAM_ROADS_ON		:ON
+
+STR_PARAM_ROAD_CROSSINGS		:Road crossings
+STR_PARAM_ROAD_CROSSINGS_DESC	:Influences road crossings.
+STR_PARAM_ROAD_CROSSINGS_OFF	:OFF
+STR_PARAM_ROAD_CROSSINGS_ON		:ON
+
+STR_PARAM_TRACKS		:Tracks
+STR_PARAM_TRACKS_DESC	:Influences tracks.
+STR_PARAM_TRACKS_OFF	:OFF
+STR_PARAM_TRACKS_ON		:ON
+
+STR_PARAM_SNOW			:Snow/Desert colour
+STR_PARAM_SNOW_DESC		:Changes snow/desert and related road/track/tunnel/road crossing sprites.
+STR_PARAM_SNOW_AUTO		:Automatic - by climate
+STR_PARAM_SNOW_SNOW		:Snow
+STR_PARAM_SNOW_DESERT	:Desert
+
+STR_PARAM_FOUNDATIONS		:Foundations
+STR_PARAM_FOUNDATIONS_DESC	:Influences foundations.
+STR_PARAM_FOUNDATIONS_OFF	:OFF
+STR_PARAM_FOUNDATIONS_ON	:ON
+
+STR_PARAM_TRAINS			:Trains
+STR_PARAM_TRAINS_DESC		:Influences trains and wagons.
+STR_PARAM_TRAINS_OFF		:OFF
+STR_PARAM_TRAINS_ON			:ON

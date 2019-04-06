@@ -54,8 +54,7 @@ os.makedirs(outputFolder, exist_ok = True)
 os.makedirs(tempFolder, exist_ok = True)
 
 # making sure the output exists - !!!!! NEEDS TO BE MANUALLY ADDED HERE, CAN'T FEED BY ARGUMENT !!!!!
-os.makedirs('8bpp/Trees/x4/', exist_ok = True)
-os.makedirs('8bpp/Trees/x1/', exist_ok = True)
+os.makedirs('8bpp/', exist_ok = True)
 
 # printing path just to check
 print_start(show_starting_messages, 'inputFolder is ' + inputFolder)
@@ -109,6 +108,7 @@ def rgb2palette(args):
   arg_debug_level = args[15]
   offset_list = args[16]
   arg_individual_temp = args[17]
+  arg_checker_alpha = args[18]
   print_lvl_5(arg_debug_level, 'rgb2palette args: ' + str(args))
 
   # create allowed colours list
@@ -392,6 +392,15 @@ def rgb2palette(args):
       if pixAlpha >= alpha_offset_2:
         finalAlpha = 255
         colorOffset = 0
+
+      # checker alpha
+      if arg_checker_alpha == True:
+        if pixAlpha >= alpha_ignore:
+          checker_coord = x + y
+          if checker_coord % 2 == 0:
+            pixAlpha = 255
+          else:
+            pixAlpha = 0
           
       # if alpha above 50%, do colour comparing to palette
       if pixAlpha >= alpha_ignore:
@@ -475,7 +484,7 @@ def combineResults(args, thread_count, palette_data, arg_debug_level, arg_indivi
   for combine_order in args:
     # take the image we want to paste into the final output image
     if arg_individual_temp == True:
-      image_to_paste = Image.open(diskPath + 'x-script-temp/' + str(combine_order[1]) + '_'  + str(combine_order[0]) + '_8bpp.png')
+      image_to_paste = Image.open(diskPath + 'x-script-temp/' + str(combine_order[1]) + '_'  + str(combine_order[0]) + '-8bpp.png')
     elif arg_individual_temp == False:
       image_to_paste = Image.open(diskPath + 'x-script-temp/' + 'temp' + '_'  + str(combine_order[0]) + '-8bpp.png')
     # print which strip we are pasting
@@ -494,7 +503,7 @@ def combineResults(args, thread_count, palette_data, arg_debug_level, arg_indivi
       if arg_individual_temp == True:
         os.remove(diskPath + 'x-script-temp/' + str(combine_order[1]) + '_'  + str(combine_order[0]) + '_8bpp.png')
       elif arg_individual_temp == False:
-        os.remove(diskPath + 'x-script-temp/' + 'temp' + '_'  + str(combine_order[0]) + '_8bpp.png')
+        os.remove(diskPath + 'x-script-temp/' + 'temp' + '_'  + str(combine_order[0]) + '-8bpp.png')
 
 # function for easy debug of constructing the long and rather unreadable offset list
 def check_list_count(arg_debug_level, list_to_check, n):
@@ -573,7 +582,8 @@ def run():
       options['blue_weight'],#blue weight (number, default = 1)
       options['colour_shift'],
       options['debug_level'],
-      options['individual_temp']
+      options['individual_temp'],
+      options['checker_alpha']
       ]
     ]
   # job_list-related stuff to be continued later down after creating offset list...
@@ -886,12 +896,13 @@ def run():
                         job[11],#14- colour_shift
                         job[12],#15- debug_level
                         offset_list,#16
-                        options['individual_temp']#17
+                        options['individual_temp'],#17
+                        options['checker_alpha']#18
                       ]
       # append the job chunk list in to job chunks
       job_chunks.append(job_chunk_list)
       # append the list of job pieces into queue
-      queue.append( [thread, job[0], start, end, job[1], job[2], job[3], job[4], job[5], job[6], job[7], job[8], job[9], job[10], job[11], job[12], offset_list, options['individual_temp'] ])
+      queue.append( [thread, job[0], start, end, job[1], job[2], job[3], job[4], job[5], job[6], job[7], job[8], job[9], job[10], job[11], job[12], offset_list, options['individual_temp'], options['checker_alpha'] ])
     # append the job chunks into all jobs
     all_jobs.append(job_chunks)
 
@@ -1005,6 +1016,9 @@ if __name__ == '__main__':
                       action='store_true')
   parser.add_argument('-x', '--auto_clean_temp',
                       help='Automatically remove temp files after results are combined.',
+                      action='store_true')
+  parser.add_argument('-j', '--checker_alpha',
+                      help='Leave half of the pixels out in a checker pattern.',
                       action='store_true')
   options = vars(parser.parse_args())
   # defaults for parameters

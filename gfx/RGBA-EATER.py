@@ -8,6 +8,7 @@ from multiprocessing import Pool
 import multiprocessing
 from copy import deepcopy
 import argparse
+from random import randint
 
 # print functions for control from debug_level parameter
 def print_start(bool, string):
@@ -109,6 +110,7 @@ def rgb2palette(args):
   offset_list = args[16]
   arg_individual_temp = args[17]
   arg_checker_alpha = args[18]
+  arg_probability_alpha = args[19]
   print_lvl_5(arg_debug_level, 'rgb2palette args: ' + str(args))
 
   # create allowed colours list
@@ -401,6 +403,14 @@ def rgb2palette(args):
             pixAlpha = 255
           else:
             pixAlpha = 0
+      # random alpha
+      elif arg_probability_alpha == True:
+        random_alpha_decider = randint(0, 255)
+        if pixAlpha > random_alpha_decider:
+          pixAlpha = 255
+        else:
+          pixAlpha = 0
+
           
       # if alpha above 50%, do colour comparing to palette
       if pixAlpha >= alpha_ignore:
@@ -583,7 +593,8 @@ def run():
       options['colour_shift'],
       options['debug_level'],
       options['individual_temp'],
-      options['checker_alpha']
+      options['checker_alpha'],
+      options['probability_alpha']
       ]
     ]
   # job_list-related stuff to be continued later down after creating offset list...
@@ -897,12 +908,13 @@ def run():
                         job[12],#15- debug_level
                         offset_list,#16
                         options['individual_temp'],#17
-                        options['checker_alpha']#18
+                        options['checker_alpha'],#18
+                        options['probability_alpha']#19
                       ]
       # append the job chunk list in to job chunks
       job_chunks.append(job_chunk_list)
       # append the list of job pieces into queue
-      queue.append( [thread, job[0], start, end, job[1], job[2], job[3], job[4], job[5], job[6], job[7], job[8], job[9], job[10], job[11], job[12], offset_list, options['individual_temp'], options['checker_alpha'] ])
+      queue.append( [thread, job[0], start, end, job[1], job[2], job[3], job[4], job[5], job[6], job[7], job[8], job[9], job[10], job[11], job[12], offset_list, options['individual_temp'], options['checker_alpha'], options['probability_alpha'] ])
     # append the job chunks into all jobs
     all_jobs.append(job_chunks)
 
@@ -1019,6 +1031,9 @@ if __name__ == '__main__':
                       action='store_true')
   parser.add_argument('-j', '--checker_alpha',
                       help='Leave half of the pixels out in a checker pattern.',
+                      action='store_true')
+  parser.add_argument('-k', '--probability_alpha',
+                      help='The more alpha in the source, the more probability those pixels stay.',
                       action='store_true')
   options = vars(parser.parse_args())
   # defaults for parameters

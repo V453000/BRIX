@@ -111,6 +111,7 @@ def rgb2palette(args):
   arg_individual_temp = args[17]
   arg_checker_alpha = args[18]
   arg_probability_alpha = args[19]
+  arg_checker_alpha_pink = args[20]
   print_lvl_5(arg_debug_level, 'rgb2palette args: ' + str(args))
 
   # create allowed colours list
@@ -396,13 +397,22 @@ def rgb2palette(args):
         colorOffset = 0
 
       # checker alpha
-      if arg_checker_alpha == True:
+      if arg_checker_alpha > 0:
         if pixAlpha >= alpha_ignore:
-          checker_coord = x + y
-          if checker_coord % 2 == 0:
-            pixAlpha = 255
-          else:
-            pixAlpha = 0
+          checker_coord = math.floor(x/arg_checker_alpha) + math.floor(y/arg_checker_alpha)
+          if arg_checker_alpha_pink == False:
+            if checker_coord % 2 == 0:
+              pixAlpha = 255
+            else:
+              pixAlpha = 0
+          elif arg_checker_alpha_pink == True:
+            if checker_coord % 2 == 0:
+              pixAlpha = 255
+            else:
+              pixAlpha = 255
+              pixRed = 255
+              pixGreen = 0
+              pixBlue = 255
       # random alpha
       elif arg_probability_alpha == True:
         random_alpha_decider = randint(0, 255)
@@ -594,7 +604,8 @@ def run():
       options['debug_level'],
       options['individual_temp'],
       options['checker_alpha'],
-      options['probability_alpha']
+      options['probability_alpha'],
+      options['checker_alpha_pink'],
       ]
     ]
   # job_list-related stuff to be continued later down after creating offset list...
@@ -909,12 +920,13 @@ def run():
                         offset_list,#16
                         options['individual_temp'],#17
                         options['checker_alpha'],#18
-                        options['probability_alpha']#19
+                        options['probability_alpha'],#19
+                        options['checker_alpha_pink'],#20
                       ]
       # append the job chunk list in to job chunks
       job_chunks.append(job_chunk_list)
       # append the list of job pieces into queue
-      queue.append( [thread, job[0], start, end, job[1], job[2], job[3], job[4], job[5], job[6], job[7], job[8], job[9], job[10], job[11], job[12], offset_list, options['individual_temp'], options['checker_alpha'], options['probability_alpha'] ])
+      queue.append( [thread, job[0], start, end, job[1], job[2], job[3], job[4], job[5], job[6], job[7], job[8], job[9], job[10], job[11], job[12], offset_list, options['individual_temp'], options['checker_alpha'], options['probability_alpha'], options['checker_alpha_pink'] ])
     # append the job chunks into all jobs
     all_jobs.append(job_chunks)
 
@@ -1031,6 +1043,10 @@ if __name__ == '__main__':
                       action='store_true')
   parser.add_argument('-j', '--checker_alpha',
                       help='Leave half of the pixels out in a checker pattern.',
+                      type = int,
+                      required = False)
+  parser.add_argument('-l', '--checker_alpha_pink',
+                      help='Left out alpha pixels are pink. Requires allowing a pink index to be filtered by -i',
                       action='store_true')
   parser.add_argument('-k', '--probability_alpha',
                       help='The more alpha in the source, the more probability those pixels stay.',
@@ -1050,6 +1066,7 @@ if __name__ == '__main__':
       ('green_weight',              1),
       ('blue_weight',               1),
       ('debug_level',               1),
+      ('checker_alpha',             0),
   ]
   for name, def_value in default_values:
     if not options[name]:

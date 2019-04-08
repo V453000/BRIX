@@ -5855,67 +5855,110 @@ else{ //param_tracks
 }
 
 
-replace DEPOT_RAIL_00(1063)                                               { template_stations_x1_8bpp(1,  3, 0, 0,  "gfx/8bpp/train-depot/x1/train-depot_0000-x1-8bpp.png" ) }
-alternative_sprites(DEPOT_RAIL_00, ZOOM_LEVEL_IN_4X  ,  BIT_DEPTH_8BPP  ) { template_stations_x4_8bpp(0, 16, 0, 0,  "gfx/8bpp/train-depot/x4/train-depot_0000-8bpp.png"    ) }
-alternative_sprites(DEPOT_RAIL_00, ZOOM_LEVEL_NORMAL ,  BIT_DEPTH_32BPP ) { template_stations_x1_8bpp(1,  3, 0, 0, "gfx/32bpp/train-depot/x1/train-depot_0000-x1.png"      ) }
-alternative_sprites(DEPOT_RAIL_00, ZOOM_LEVEL_IN_4X  ,  BIT_DEPTH_32BPP ) { template_stations_x4_8bpp(0, 16, 0, 0, "gfx/32bpp/train-depot/x4/train-depot_0000.png"         ) }
+replace             DEPOT_RAIL_00(1063)                                   { template_stations_x1_8bpp(1,  3, 0, 0,  "gfx/8bpp/train-depot/x1/train-depot-x1-8bpp.png" ) }
+alternative_sprites(DEPOT_RAIL_00, ZOOM_LEVEL_IN_4X  ,  BIT_DEPTH_8BPP  ) { template_stations_x4_8bpp(0, 16, 0, 0,  "gfx/8bpp/train-depot/x4/train-depot-8bpp.png"    ) }
+alternative_sprites(DEPOT_RAIL_00, ZOOM_LEVEL_NORMAL ,  BIT_DEPTH_32BPP ) { template_stations_x1_8bpp(1,  3, 0, 0, "gfx/32bpp/train-depot/x1/train-depot-x1.png"      ) }
+alternative_sprites(DEPOT_RAIL_00, ZOOM_LEVEL_IN_4X  ,  BIT_DEPTH_32BPP ) { template_stations_x4_8bpp(0, 16, 0, 0, "gfx/32bpp/train-depot/x4/train-depot.png"         ) }
 
-replace DEPOT_RAIL_01(1064)                                               { template_stations_x1_8bpp(23,  -8, 1, 0,  "gfx/8bpp/train-depot/x1/train-depot_0000-x1-8bpp.png" ) }
-alternative_sprites(DEPOT_RAIL_01, ZOOM_LEVEL_IN_4X  ,  BIT_DEPTH_8BPP  ) { template_stations_x4_8bpp(88, -28, 1, 0,  "gfx/8bpp/train-depot/x4/train-depot_0000-8bpp.png"    ) }
-alternative_sprites(DEPOT_RAIL_01, ZOOM_LEVEL_NORMAL ,  BIT_DEPTH_32BPP ) { template_stations_x1_8bpp(23,  -8, 1, 0, "gfx/32bpp/train-depot/x1/train-depot_0000-x1.png"      ) }
-alternative_sprites(DEPOT_RAIL_01, ZOOM_LEVEL_IN_4X  ,  BIT_DEPTH_32BPP ) { template_stations_x4_8bpp(88, -28, 1, 0, "gfx/32bpp/train-depot/x4/train-depot_0000.png"         ) }
+replace             DEPOT_RAIL_01(1064)                                   { template_stations_x1_8bpp(23,  -8, 1, 0,  "gfx/8bpp/train-depot/x1/train-depot-x1-8bpp.png" ) }
+alternative_sprites(DEPOT_RAIL_01, ZOOM_LEVEL_IN_4X  ,  BIT_DEPTH_8BPP  ) { template_stations_x4_8bpp(88, -28, 1, 0,  "gfx/8bpp/train-depot/x4/train-depot-8bpp.png"    ) }
+alternative_sprites(DEPOT_RAIL_01, ZOOM_LEVEL_NORMAL ,  BIT_DEPTH_32BPP ) { template_stations_x1_8bpp(23,  -8, 1, 0, "gfx/32bpp/train-depot/x1/train-depot-x1.png"      ) }
+alternative_sprites(DEPOT_RAIL_01, ZOOM_LEVEL_IN_4X  ,  BIT_DEPTH_32BPP ) { template_stations_x4_8bpp(88, -28, 1, 0, "gfx/32bpp/train-depot/x4/train-depot.png"         ) }
 
-replace DEPOT_RAIL_02(1065)                                               { template_stations_x1_8bpp(1,  3, 2, 0,  "gfx/8bpp/train-depot/x1/train-depot_0000-x1-8bpp.png" ) }
-alternative_sprites(DEPOT_RAIL_02, ZOOM_LEVEL_IN_4X  ,  BIT_DEPTH_8BPP  ) { template_stations_x4_8bpp(0, 16, 2, 0,  "gfx/8bpp/train-depot/x4/train-depot_0000-8bpp.png"    ) }
-alternative_sprites(DEPOT_RAIL_02, ZOOM_LEVEL_NORMAL ,  BIT_DEPTH_32BPP ) { template_stations_x1_8bpp(1,  3, 2, 0, "gfx/32bpp/train-depot/x1/train-depot_0000-x1.png"      ) }
-alternative_sprites(DEPOT_RAIL_02, ZOOM_LEVEL_IN_4X  ,  BIT_DEPTH_32BPP ) { template_stations_x4_8bpp(0, 16, 2, 0, "gfx/32bpp/train-depot/x4/train-depot_0000.png"         ) }
+replace             DEPOT_RAIL_02(1065)                                   { template_stations_x1_8bpp(1,  3, 2, 0,  "gfx/8bpp/train-depot/x1/train-depot-x1-8bpp.png" ) }
+alternative_sprites(DEPOT_RAIL_02, ZOOM_LEVEL_IN_4X  ,  BIT_DEPTH_8BPP  ) { template_stations_x4_8bpp(0, 16, 2, 0,  "gfx/8bpp/train-depot/x4/train-depot-8bpp.png"    ) }
+alternative_sprites(DEPOT_RAIL_02, ZOOM_LEVEL_NORMAL ,  BIT_DEPTH_32BPP ) { template_stations_x1_8bpp(1,  3, 2, 0, "gfx/32bpp/train-depot/x1/train-depot-x1.png"      ) }
+alternative_sprites(DEPOT_RAIL_02, ZOOM_LEVEL_IN_4X  ,  BIT_DEPTH_32BPP ) { template_stations_x4_8bpp(0, 16, 2, 0, "gfx/32bpp/train-depot/x4/train-depot.png"         ) }
 
-replace DEPOT_RAIL_03(1066)                                               { template_stations_x1_8bpp(-21,  -8, 3, 0,  "gfx/8bpp/train-depot/x1/train-depot_0000-x1-8bpp.png" ) }
-alternative_sprites(DEPOT_RAIL_03, ZOOM_LEVEL_IN_4X  ,  BIT_DEPTH_8BPP  ) { template_stations_x4_8bpp(-88, -28, 3, 0,  "gfx/8bpp/train-depot/x4/train-depot_0000-8bpp.png"    ) }
-alternative_sprites(DEPOT_RAIL_03, ZOOM_LEVEL_NORMAL ,  BIT_DEPTH_32BPP ) { template_stations_x1_8bpp(-21,  -8, 3, 0, "gfx/32bpp/train-depot/x1/train-depot_0000-x1.png"      ) }
-alternative_sprites(DEPOT_RAIL_03, ZOOM_LEVEL_IN_4X  ,  BIT_DEPTH_32BPP ) { template_stations_x4_8bpp(-88, -28, 3, 0, "gfx/32bpp/train-depot/x4/train-depot_0000.png"         ) }
+replace             DEPOT_RAIL_03(1066)                                   { template_stations_x1_8bpp(-21,  -8, 3, 0,  "gfx/8bpp/train-depot/x1/train-depot-x1-8bpp.png" ) }
+alternative_sprites(DEPOT_RAIL_03, ZOOM_LEVEL_IN_4X  ,  BIT_DEPTH_8BPP  ) { template_stations_x4_8bpp(-88, -28, 3, 0,  "gfx/8bpp/train-depot/x4/train-depot-8bpp.png"    ) }
+alternative_sprites(DEPOT_RAIL_03, ZOOM_LEVEL_NORMAL ,  BIT_DEPTH_32BPP ) { template_stations_x1_8bpp(-21,  -8, 3, 0, "gfx/32bpp/train-depot/x1/train-depot-x1.png"      ) }
+alternative_sprites(DEPOT_RAIL_03, ZOOM_LEVEL_IN_4X  ,  BIT_DEPTH_32BPP ) { template_stations_x4_8bpp(-88, -28, 3, 0, "gfx/32bpp/train-depot/x4/train-depot.png"         ) }
 
-replace DEPOT_RAIL_04(1067)                                               { template_stations_x1_8bpp(-21,  -8, 4, 0,  "gfx/8bpp/train-depot/x1/train-depot_0000-x1-8bpp.png" ) }
-alternative_sprites(DEPOT_RAIL_04, ZOOM_LEVEL_IN_4X  ,  BIT_DEPTH_8BPP  ) { template_stations_x4_8bpp(-88, -28, 4, 0,  "gfx/8bpp/train-depot/x4/train-depot_0000-8bpp.png"    ) }
-alternative_sprites(DEPOT_RAIL_04, ZOOM_LEVEL_NORMAL ,  BIT_DEPTH_32BPP ) { template_stations_x1_8bpp(-21,  -8, 4, 0, "gfx/32bpp/train-depot/x1/train-depot_0000-x1.png"      ) }
-alternative_sprites(DEPOT_RAIL_04, ZOOM_LEVEL_IN_4X  ,  BIT_DEPTH_32BPP ) { template_stations_x4_8bpp(-88, -28, 4, 0, "gfx/32bpp/train-depot/x4/train-depot_0000.png"         ) }
+replace             DEPOT_RAIL_04(1067)                                   { template_stations_x1_8bpp(-21,  -8, 4, 0,  "gfx/8bpp/train-depot/x1/train-depot-x1-8bpp.png" ) }
+alternative_sprites(DEPOT_RAIL_04, ZOOM_LEVEL_IN_4X  ,  BIT_DEPTH_8BPP  ) { template_stations_x4_8bpp(-88, -28, 4, 0,  "gfx/8bpp/train-depot/x4/train-depot-8bpp.png"    ) }
+alternative_sprites(DEPOT_RAIL_04, ZOOM_LEVEL_NORMAL ,  BIT_DEPTH_32BPP ) { template_stations_x1_8bpp(-21,  -8, 4, 0, "gfx/32bpp/train-depot/x1/train-depot-x1.png"      ) }
+alternative_sprites(DEPOT_RAIL_04, ZOOM_LEVEL_IN_4X  ,  BIT_DEPTH_32BPP ) { template_stations_x4_8bpp(-88, -28, 4, 0, "gfx/32bpp/train-depot/x4/train-depot.png"         ) }
 
-replace DEPOT_RAIL_05(1068)                                               { template_stations_x1_8bpp(23,  -8, 5, 0,  "gfx/8bpp/train-depot/x1/train-depot_0000-x1-8bpp.png" ) }
-alternative_sprites(DEPOT_RAIL_05, ZOOM_LEVEL_IN_4X  ,  BIT_DEPTH_8BPP  ) { template_stations_x4_8bpp(88, -28, 5, 0,  "gfx/8bpp/train-depot/x4/train-depot_0000-8bpp.png"    ) }
-alternative_sprites(DEPOT_RAIL_05, ZOOM_LEVEL_NORMAL ,  BIT_DEPTH_32BPP ) { template_stations_x1_8bpp(23,  -8, 5, 0, "gfx/32bpp/train-depot/x1/train-depot_0000-x1.png"      ) }
-alternative_sprites(DEPOT_RAIL_05, ZOOM_LEVEL_IN_4X  ,  BIT_DEPTH_32BPP ) { template_stations_x4_8bpp(88, -28, 5, 0, "gfx/32bpp/train-depot/x4/train-depot_0000.png"         ) }
+replace             DEPOT_RAIL_05(1068)                                   { template_stations_x1_8bpp(23,  -8, 5, 0,  "gfx/8bpp/train-depot/x1/train-depot-x1-8bpp.png" ) }
+alternative_sprites(DEPOT_RAIL_05, ZOOM_LEVEL_IN_4X  ,  BIT_DEPTH_8BPP  ) { template_stations_x4_8bpp(88, -28, 5, 0,  "gfx/8bpp/train-depot/x4/train-depot-8bpp.png"    ) }
+alternative_sprites(DEPOT_RAIL_05, ZOOM_LEVEL_NORMAL ,  BIT_DEPTH_32BPP ) { template_stations_x1_8bpp(23,  -8, 5, 0, "gfx/32bpp/train-depot/x1/train-depot-x1.png"      ) }
+alternative_sprites(DEPOT_RAIL_05, ZOOM_LEVEL_IN_4X  ,  BIT_DEPTH_32BPP ) { template_stations_x4_8bpp(88, -28, 5, 0, "gfx/32bpp/train-depot/x4/train-depot.png"         ) }
 
 
 
-replace STATION_RAIL_00(1069)                                               { template_stations_x1_8bpp(23, -3, 0, 0, "gfx/8bpp/train-station/x1/train-station-x1-8bpp.png" ) }
+replace             STATION_RAIL_00(1069)                                   { template_stations_x1_8bpp(23, -3, 0, 0, "gfx/8bpp/train-station/x1/train-station-x1-8bpp.png" ) }
 alternative_sprites(STATION_RAIL_00, ZOOM_LEVEL_IN_4X  ,  BIT_DEPTH_8BPP  ) { template_stations_x4_8bpp(88,-12, 0, 0, "gfx/8bpp/train-station/x4/train-station-8bpp.png"    ) }
 alternative_sprites(STATION_RAIL_00, ZOOM_LEVEL_NORMAL ,  BIT_DEPTH_32BPP ) { template_stations_x1(23, -3, 0, 0, "gfx/32bpp/train-station/x1/train-station-x1.png"    ,"gfx/8bpp/train-station/x1/train-station-CC-x1-8bpp.png" ) }
 alternative_sprites(STATION_RAIL_00, ZOOM_LEVEL_IN_4X  ,  BIT_DEPTH_32BPP ) { template_stations_x4(88,-12, 0, 0, "gfx/32bpp/train-station/x4/train-station.png"       ,"gfx/8bpp/train-station/x4/train-station-CC-8bpp.png"    ) }
 
-replace STATION_RAIL_01(1070)                                               { template_stations_x1_8bpp(1,  8, 1, 0, "gfx/8bpp/train-station/x1/train-station-x1-8bpp.png" ) }
+replace             STATION_RAIL_01(1070)                                   { template_stations_x1_8bpp(1,  8, 1, 0, "gfx/8bpp/train-station/x1/train-station-x1-8bpp.png" ) }
 alternative_sprites(STATION_RAIL_01, ZOOM_LEVEL_IN_4X  ,  BIT_DEPTH_8BPP  ) { template_stations_x4_8bpp(0, 32, 1, 0, "gfx/8bpp/train-station/x4/train-station-8bpp.png"    ) }
 alternative_sprites(STATION_RAIL_01, ZOOM_LEVEL_NORMAL ,  BIT_DEPTH_32BPP ) { template_stations_x1(1,  8, 1, 0, "gfx/32bpp/train-station/x1/train-station-x1.png"     ,"gfx/8bpp/train-station/x1/train-station-CC-x1-8bpp.png" ) }
 alternative_sprites(STATION_RAIL_01, ZOOM_LEVEL_IN_4X  ,  BIT_DEPTH_32BPP ) { template_stations_x4(0, 32, 1, 0, "gfx/32bpp/train-station/x4/train-station.png"        ,"gfx/8bpp/train-station/x4/train-station-CC-8bpp.png"    ) }
 
-replace STATION_RAIL_02(1071)                                               { template_stations_x1_8bpp(1,  8, 2, 0, "gfx/8bpp/train-station/x1/train-station-x1-8bpp.png" ) }
+replace             STATION_RAIL_02(1071)                                   { template_stations_x1_8bpp(1,  8, 2, 0, "gfx/8bpp/train-station/x1/train-station-x1-8bpp.png" ) }
 alternative_sprites(STATION_RAIL_02, ZOOM_LEVEL_IN_4X  ,  BIT_DEPTH_8BPP  ) { template_stations_x4_8bpp(0, 32, 2, 0, "gfx/8bpp/train-station/x4/train-station-8bpp.png"    ) }
 alternative_sprites(STATION_RAIL_02, ZOOM_LEVEL_NORMAL ,  BIT_DEPTH_32BPP ) { template_stations_x1(1,  8, 2, 0, "gfx/32bpp/train-station/x1/train-station-x1.png"     ,"gfx/8bpp/train-station/x1/train-station-CC-x1-8bpp.png" ) }
 alternative_sprites(STATION_RAIL_02, ZOOM_LEVEL_IN_4X  ,  BIT_DEPTH_32BPP ) { template_stations_x4(0, 32, 2, 0, "gfx/32bpp/train-station/x4/train-station.png"        ,"gfx/8bpp/train-station/x4/train-station-CC-8bpp.png"    ) }
 
-replace STATION_RAIL_03(1072)                                               { template_stations_x1_8bpp(-21, -3, 3, 0, "gfx/8bpp/train-station/x1/train-station-x1-8bpp.png" ) }
+replace             STATION_RAIL_03(1072)                                   { template_stations_x1_8bpp(-21, -3, 3, 0, "gfx/8bpp/train-station/x1/train-station-x1-8bpp.png" ) }
 alternative_sprites(STATION_RAIL_03, ZOOM_LEVEL_IN_4X  ,  BIT_DEPTH_8BPP  ) { template_stations_x4_8bpp(-88,-12, 3, 0, "gfx/8bpp/train-station/x4/train-station-8bpp.png"    ) }
 alternative_sprites(STATION_RAIL_03, ZOOM_LEVEL_NORMAL ,  BIT_DEPTH_32BPP ) { template_stations_x1(-21, -3, 3, 0, "gfx/32bpp/train-station/x1/train-station-x1.png"     ,"gfx/8bpp/train-station/x1/train-station-CC-x1-8bpp.png" ) }
 alternative_sprites(STATION_RAIL_03, ZOOM_LEVEL_IN_4X  ,  BIT_DEPTH_32BPP ) { template_stations_x4(-88,-12, 3, 0, "gfx/32bpp/train-station/x4/train-station.png"        ,"gfx/8bpp/train-station/x4/train-station-CC-8bpp.png"    ) }
 
-replace STATION_RAIL_04(1073)                                               { template_stations_x1_8bpp(1,  8, 4, 0, "gfx/8bpp/train-station/x1/train-station-x1-8bpp.png" ) }
+replace             STATION_RAIL_04(1073)                                   { template_stations_x1_8bpp(1,  8, 4, 0, "gfx/8bpp/train-station/x1/train-station-x1-8bpp.png" ) }
 alternative_sprites(STATION_RAIL_04, ZOOM_LEVEL_IN_4X  ,  BIT_DEPTH_8BPP  ) { template_stations_x4_8bpp(0, 32, 4, 0, "gfx/8bpp/train-station/x4/train-station-8bpp.png"    ) }
 alternative_sprites(STATION_RAIL_04, ZOOM_LEVEL_NORMAL ,  BIT_DEPTH_32BPP ) { template_stations_x1(1,  8, 4, 0, "gfx/32bpp/train-station/x1/train-station-x1.png"     ,"gfx/8bpp/train-station/x1/train-station-CC-x1-8bpp.png" ) }
 alternative_sprites(STATION_RAIL_04, ZOOM_LEVEL_IN_4X  ,  BIT_DEPTH_32BPP ) { template_stations_x4(0, 32, 4, 0, "gfx/32bpp/train-station/x4/train-station.png"        ,"gfx/8bpp/train-station/x4/train-station-CC-8bpp.png"    ) }
 
-replace STATION_RAIL_05(1074)                                               { template_stations_x1_8bpp(1,  8, 5, 0, "gfx/8bpp/train-station/x1/train-station-x1-8bpp.png" ) }
+replace             STATION_RAIL_05(1074)                                   { template_stations_x1_8bpp(1,  8, 5, 0, "gfx/8bpp/train-station/x1/train-station-x1-8bpp.png" ) }
 alternative_sprites(STATION_RAIL_05, ZOOM_LEVEL_IN_4X  ,  BIT_DEPTH_8BPP  ) { template_stations_x4_8bpp(0, 32, 5, 0, "gfx/8bpp/train-station/x4/train-station-8bpp.png"    ) }
 alternative_sprites(STATION_RAIL_05, ZOOM_LEVEL_NORMAL ,  BIT_DEPTH_32BPP ) { template_stations_x1(1,  8, 5, 0, "gfx/32bpp/train-station/x1/train-station-x1.png"     ,"gfx/8bpp/train-station/x1/train-station-CC-x1-8bpp.png" ) }
 alternative_sprites(STATION_RAIL_05, ZOOM_LEVEL_IN_4X  ,  BIT_DEPTH_32BPP ) { template_stations_x4(0, 32, 5, 0, "gfx/32bpp/train-station/x4/train-station.png"        ,"gfx/8bpp/train-station/x4/train-station-CC-8bpp.png"    ) }
+
+
+
+
+
+
+
+
+
+
+
+
+replace             DEPOT_MONO_00(1145)                                   { template_stations_x1_8bpp(1,  3, 0, 0,  "gfx/8bpp/train-depot/x1/train-depot-monorail-x1-8bpp.png" ) }
+alternative_sprites(DEPOT_MONO_00, ZOOM_LEVEL_IN_4X  ,  BIT_DEPTH_8BPP  ) { template_stations_x4_8bpp(0, 16, 0, 0,  "gfx/8bpp/train-depot/x4/train-depot-monorail-8bpp.png"    ) }
+alternative_sprites(DEPOT_MONO_00, ZOOM_LEVEL_NORMAL ,  BIT_DEPTH_32BPP ) { template_stations_x1_8bpp(1,  3, 0, 0, "gfx/32bpp/train-depot/x1/train-depot-monorail-x1.png"      ) }
+alternative_sprites(DEPOT_MONO_00, ZOOM_LEVEL_IN_4X  ,  BIT_DEPTH_32BPP ) { template_stations_x4_8bpp(0, 16, 0, 0, "gfx/32bpp/train-depot/x4/train-depot-monorail.png"         ) }
+
+replace             DEPOT_MONO_01(1146)                                   { template_stations_x1_8bpp(23,  -8, 1, 0,  "gfx/8bpp/train-depot/x1/train-depot-monorail-x1-8bpp.png" ) }
+alternative_sprites(DEPOT_MONO_01, ZOOM_LEVEL_IN_4X  ,  BIT_DEPTH_8BPP  ) { template_stations_x4_8bpp(88, -28, 1, 0,  "gfx/8bpp/train-depot/x4/train-depot-monorail-8bpp.png"    ) }
+alternative_sprites(DEPOT_MONO_01, ZOOM_LEVEL_NORMAL ,  BIT_DEPTH_32BPP ) { template_stations_x1_8bpp(23,  -8, 1, 0, "gfx/32bpp/train-depot/x1/train-depot-monorail-x1.png"      ) }
+alternative_sprites(DEPOT_MONO_01, ZOOM_LEVEL_IN_4X  ,  BIT_DEPTH_32BPP ) { template_stations_x4_8bpp(88, -28, 1, 0, "gfx/32bpp/train-depot/x4/train-depot-monorail.png"         ) }
+
+replace             DEPOT_MONO_02(1147)                                   { template_stations_x1_8bpp(1,  3, 2, 0,  "gfx/8bpp/train-depot/x1/train-depot-monorail-x1-8bpp.png" ) }
+alternative_sprites(DEPOT_MONO_02, ZOOM_LEVEL_IN_4X  ,  BIT_DEPTH_8BPP  ) { template_stations_x4_8bpp(0, 16, 2, 0,  "gfx/8bpp/train-depot/x4/train-depot-monorail-8bpp.png"    ) }
+alternative_sprites(DEPOT_MONO_02, ZOOM_LEVEL_NORMAL ,  BIT_DEPTH_32BPP ) { template_stations_x1_8bpp(1,  3, 2, 0, "gfx/32bpp/train-depot/x1/train-depot-monorail-x1.png"      ) }
+alternative_sprites(DEPOT_MONO_02, ZOOM_LEVEL_IN_4X  ,  BIT_DEPTH_32BPP ) { template_stations_x4_8bpp(0, 16, 2, 0, "gfx/32bpp/train-depot/x4/train-depot-monorail.png"         ) }
+
+replace             DEPOT_MONO_03(1148)                                   { template_stations_x1_8bpp(-21,  -8, 3, 0,  "gfx/8bpp/train-depot/x1/train-depot-monorail-x1-8bpp.png" ) }
+alternative_sprites(DEPOT_MONO_03, ZOOM_LEVEL_IN_4X  ,  BIT_DEPTH_8BPP  ) { template_stations_x4_8bpp(-88, -28, 3, 0,  "gfx/8bpp/train-depot/x4/train-depot-monorail-8bpp.png"    ) }
+alternative_sprites(DEPOT_MONO_03, ZOOM_LEVEL_NORMAL ,  BIT_DEPTH_32BPP ) { template_stations_x1_8bpp(-21,  -8, 3, 0, "gfx/32bpp/train-depot/x1/train-depot-monorail-x1.png"      ) }
+alternative_sprites(DEPOT_MONO_03, ZOOM_LEVEL_IN_4X  ,  BIT_DEPTH_32BPP ) { template_stations_x4_8bpp(-88, -28, 3, 0, "gfx/32bpp/train-depot/x4/train-depot-monorail.png"         ) }
+
+replace             DEPOT_MONO_04(1149)                                   { template_stations_x1_8bpp(-21,  -8, 4, 0,  "gfx/8bpp/train-depot/x1/train-depot-monorail-x1-8bpp.png" ) }
+alternative_sprites(DEPOT_MONO_04, ZOOM_LEVEL_IN_4X  ,  BIT_DEPTH_8BPP  ) { template_stations_x4_8bpp(-88, -28, 4, 0,  "gfx/8bpp/train-depot/x4/train-depot-monorail-8bpp.png"    ) }
+alternative_sprites(DEPOT_MONO_04, ZOOM_LEVEL_NORMAL ,  BIT_DEPTH_32BPP ) { template_stations_x1_8bpp(-21,  -8, 4, 0, "gfx/32bpp/train-depot/x1/train-depot-monorail-x1.png"      ) }
+alternative_sprites(DEPOT_MONO_04, ZOOM_LEVEL_IN_4X  ,  BIT_DEPTH_32BPP ) { template_stations_x4_8bpp(-88, -28, 4, 0, "gfx/32bpp/train-depot/x4/train-depot-monorail.png"         ) }
+
+replace             DEPOT_MONO_05(1150)                                   { template_stations_x1_8bpp(23,  -8, 5, 0,  "gfx/8bpp/train-depot/x1/train-depot-monorail-x1-8bpp.png" ) }
+alternative_sprites(DEPOT_MONO_05, ZOOM_LEVEL_IN_4X  ,  BIT_DEPTH_8BPP  ) { template_stations_x4_8bpp(88, -28, 5, 0,  "gfx/8bpp/train-depot/x4/train-depot-monorail-8bpp.png"    ) }
+alternative_sprites(DEPOT_MONO_05, ZOOM_LEVEL_NORMAL ,  BIT_DEPTH_32BPP ) { template_stations_x1_8bpp(23,  -8, 5, 0, "gfx/32bpp/train-depot/x1/train-depot-monorail-x1.png"      ) }
+alternative_sprites(DEPOT_MONO_05, ZOOM_LEVEL_IN_4X  ,  BIT_DEPTH_32BPP ) { template_stations_x4_8bpp(88, -28, 5, 0, "gfx/32bpp/train-depot/x4/train-depot-monorail.png"         ) }
+
+
 
 
 

@@ -1,6 +1,7 @@
 from PIL import Image
 import os
 import argparse
+import shutil
 
 def run():
   input_path    = options['input']
@@ -51,7 +52,7 @@ def run():
     # end of removing characters
 
     new_input_path = path_without_png + png
-    os.rename(input_path, new_input_path)
+    shutil.move(input_path, new_input_path)
     input_path = new_input_path
     print('Input path without frame count is:', input_path)
 

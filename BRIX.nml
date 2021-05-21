@@ -17,174 +17,10 @@ grf {
 			names: {
  				0: string(STR_PARAM_TERRAIN_OFF);
  				1: string(STR_PARAM_TERRAIN_ON);
-				};
-			}
+			};
 		}
-	
-	param 1 {
-	param_signals_semaphore {
-		type: int;
-		name: string(STR_PARAM_SIGNALS_SEMAPHORE);
-		desc: string(STR_PARAM_SIGNALS_SEMAPHORE_DESC);
-		min_value: 0;
-		max_value: 1;
-		def_value: 1;
-			names: {
- 				0: string(STR_PARAM_SIGNALS_SEMAPHORE_OFF);
- 				1: string(STR_PARAM_SIGNALS_SEMAPHORE_ON);
-				};
-			}
-		}
-	
-	param 2 {
-	param_signals_electric {
-		type: int;
-		name: string(STR_PARAM_SIGNALS_ELECTRIC);
-		desc: string(STR_PARAM_SIGNALS_ELECTRIC_DESC);
-		min_value: 0;
-		max_value: 1;
-		def_value: 1;
-			names: {
- 				0: string(STR_PARAM_SIGNALS_ELECTRIC_OFF);
- 				1: string(STR_PARAM_SIGNALS_ELECTRIC_ON);
-				};
-			}
-		}
-		
-	param 3 {
-	param_farms {
-		type: int;
-		name: string(STR_PARAM_FARMS);
-		desc: string(STR_PARAM_FARMS_DESC);
-		min_value: 0;
-		max_value: 1;
-		def_value: 1;
-			names: {
- 				0: string(STR_PARAM_FARMS_OFF);
- 				1: string(STR_PARAM_FARMS_ON);
-				};
-			}
-		}
-		
-	param 4 {
-	param_bridges {
-		type: int;
-		name: string(STR_PARAM_BRIDGES);
-		desc: string(STR_PARAM_BRIDGES_DESC);
-		min_value: 0;
-		max_value: 1;
-		def_value: 1;
-			names: {
- 				0: string(STR_PARAM_BRIDGES_OFF);
- 				1: string(STR_PARAM_BRIDGES_ON);
-				};
-			}
-		}
-	
-	param 5 {
-	param_trees {
-		type: int;
-		name: string(STR_PARAM_TREES);
-		desc: string(STR_PARAM_TREES_DESC);
-		min_value: 0;
-		max_value: 1;
-		def_value: 1;
-			names: {
- 				0: string(STR_PARAM_TREES_OFF);
- 				1: string(STR_PARAM_TREES_ON);
-				};
-			}
-		}
-		
-	param 6 {
-	param_roads {
-		type: int;
-		name: string(STR_PARAM_ROADS);
-		desc: string(STR_PARAM_ROADS_DESC);
-		min_value: 0;
-		max_value: 1;
-		def_value: 1;
-			names: {
- 				0: string(STR_PARAM_ROADS_OFF);
- 				1: string(STR_PARAM_ROADS_ON);
-				};
-			}
-		}
-		
-	param 7 {
-	param_road_crossings {
-		type: int;
-		name: string(STR_PARAM_ROAD_CROSSINGS);
-		desc: string(STR_PARAM_ROAD_CROSSINGS_DESC);
-		min_value: 0;
-		max_value: 1;
-		def_value: 1;
-			names: {
- 				0: string(STR_PARAM_ROAD_CROSSINGS_OFF);
- 				1: string(STR_PARAM_ROAD_CROSSINGS_ON);
-				};
-			}
-		}
-		
-	param 8 {
-	param_tracks {
-		type: int;
-		name: string(STR_PARAM_TRACKS);
-		desc: string(STR_PARAM_TRACKS);
-		min_value: 0;
-		max_value: 1;
-		def_value: 1;
-			names: {
- 				0: string(STR_PARAM_TRACKS_OFF);
- 				1: string(STR_PARAM_TRACKS_ON);
-				};
-			}
-		}
-	
-	param 9 {
-	param_snow {
-		type: int;
-		name: string(STR_PARAM_SNOW);
-		desc: string(STR_PARAM_SNOW_DESC);
-		min_value: 0;
-		max_value: 2;
-		def_value: 0;
-			names: {
- 				0: string(STR_PARAM_SNOW_AUTO);
- 				1: string(STR_PARAM_SNOW_SNOW);
-				2: string(STR_PARAM_SNOW_DESERT);
-				};
-			}
-		}
-	param 10 {
-	param_foundations {
-		type: int;
-		name: string(STR_PARAM_FOUNDATIONS);
-		desc: string(STR_PARAM_FOUNDATIONS_DESC);
-		min_value: 0;
-		max_value: 1;
-		def_value: 1;
-			names: {
- 				0: string(STR_PARAM_FOUNDATIONS_OFF);
- 				1: string(STR_PARAM_FOUNDATIONS_ON);
-				};
-			}
-		}
-	param 11 {
-	param_trains {
-		type: int;
-		name: string(STR_PARAM_TRAINS);
-		desc: string(STR_PARAM_TRAINS_DESC);
-		min_value: 0;
-		max_value: 1;
-		def_value: 0;
-			names: {
- 				0: string(STR_PARAM_TRAINS_OFF);
- 				1: string(STR_PARAM_TRAINS_ON);
-				};
-			}
-		}
-    param 12 {
+	}
+    param 1 {
     param_grass_colour {
         type: int;
         name: string(STR_PARAM_GRASS_COLOUR);
@@ -200,6 +36,162 @@ grf {
             };
         }
     }
+    param 2 {
+	param_snow {
+		type: int;
+		name: string(STR_PARAM_SNOW);
+		desc: string(STR_PARAM_SNOW_DESC);
+		min_value: 0;
+		max_value: 2;
+		def_value: 0;
+			names: {
+ 				0: string(STR_PARAM_SNOW_AUTO);
+ 				1: string(STR_PARAM_SNOW_SNOW);
+				2: string(STR_PARAM_SNOW_DESERT);
+			};
+		}
+	}
+	param 3 {
+	param_farms {
+		type: int;
+		name: string(STR_PARAM_FARMS);
+		desc: string(STR_PARAM_FARMS_DESC);
+		min_value: 0;
+		max_value: 1;
+		def_value: 1;
+			names: {
+ 				0: string(STR_PARAM_FARMS_OFF);
+ 				1: string(STR_PARAM_FARMS_ON);
+			};
+		}
+	}
+	param 4 {
+	param_signals_semaphore {
+		type: int;
+		name: string(STR_PARAM_SIGNALS_SEMAPHORE);
+		desc: string(STR_PARAM_SIGNALS_SEMAPHORE_DESC);
+		min_value: 0;
+		max_value: 1;
+		def_value: 1;
+			names: {
+ 				0: string(STR_PARAM_SIGNALS_SEMAPHORE_OFF);
+ 				1: string(STR_PARAM_SIGNALS_SEMAPHORE_ON);
+			};
+		}
+	}
+	param 5 {
+	param_signals_electric {
+		type: int;
+		name: string(STR_PARAM_SIGNALS_ELECTRIC);
+		desc: string(STR_PARAM_SIGNALS_ELECTRIC_DESC);
+		min_value: 0;
+		max_value: 1;
+		def_value: 1;
+			names: {
+ 				0: string(STR_PARAM_SIGNALS_ELECTRIC_OFF);
+ 				1: string(STR_PARAM_SIGNALS_ELECTRIC_ON);
+			};
+		}
+	}
+	param 6 {
+	param_bridges {
+		type: int;
+		name: string(STR_PARAM_BRIDGES);
+		desc: string(STR_PARAM_BRIDGES_DESC);
+		min_value: 0;
+		max_value: 1;
+		def_value: 1;
+			names: {
+ 				0: string(STR_PARAM_BRIDGES_OFF);
+ 				1: string(STR_PARAM_BRIDGES_ON);
+				};
+			}
+		}
+	param 7 {
+	param_trees {
+		type: int;
+		name: string(STR_PARAM_TREES);
+		desc: string(STR_PARAM_TREES_DESC);
+		min_value: 0;
+		max_value: 1;
+		def_value: 1;
+			names: {
+ 				0: string(STR_PARAM_TREES_OFF);
+ 				1: string(STR_PARAM_TREES_ON);
+				};
+			}
+		}
+	param 8 {
+	param_roads {
+		type: int;
+		name: string(STR_PARAM_ROADS);
+		desc: string(STR_PARAM_ROADS_DESC);
+		min_value: 0;
+		max_value: 1;
+		def_value: 1;
+			names: {
+ 				0: string(STR_PARAM_ROADS_OFF);
+ 				1: string(STR_PARAM_ROADS_ON);
+				};
+			}
+		}
+	param 9 {
+	param_road_crossings {
+		type: int;
+		name: string(STR_PARAM_ROAD_CROSSINGS);
+		desc: string(STR_PARAM_ROAD_CROSSINGS_DESC);
+		min_value: 0;
+		max_value: 1;
+		def_value: 1;
+			names: {
+ 				0: string(STR_PARAM_ROAD_CROSSINGS_OFF);
+ 				1: string(STR_PARAM_ROAD_CROSSINGS_ON);
+				};
+			}
+		}
+	param 10 {
+	param_tracks {
+		type: int;
+		name: string(STR_PARAM_TRACKS);
+		desc: string(STR_PARAM_TRACKS);
+		min_value: 0;
+		max_value: 1;
+		def_value: 1;
+			names: {
+ 				0: string(STR_PARAM_TRACKS_OFF);
+ 				1: string(STR_PARAM_TRACKS_ON);
+				};
+			}
+		}
+	param 11 {
+	param_foundations {
+		type: int;
+		name: string(STR_PARAM_FOUNDATIONS);
+		desc: string(STR_PARAM_FOUNDATIONS_DESC);
+		min_value: 0;
+		max_value: 1;
+		def_value: 1;
+			names: {
+ 				0: string(STR_PARAM_FOUNDATIONS_OFF);
+ 				1: string(STR_PARAM_FOUNDATIONS_ON);
+				};
+			}
+		}
+	param 12 {
+	param_trains {
+		type: int;
+		name: string(STR_PARAM_TRAINS);
+		desc: string(STR_PARAM_TRAINS_DESC);
+		min_value: 0;
+		max_value: 1;
+		def_value: 0;
+			names: {
+ 				0: string(STR_PARAM_TRAINS_OFF);
+ 				1: string(STR_PARAM_TRAINS_ON);
+				};
+			}
+		}
+    
 }
 
 //#include src-includes/templates.nml
@@ -207,7 +199,7 @@ grf {
 //#include src-includes/gui.nml
 
 if (param_terrain == 1) {
-    if (param_grass_colour == 1 || (param_grass_colour == 0 && climate == CLIMATE_TEMPERATE)) {
+    if (param_grass_colour == 1 || (param_grass_colour == 0 && (climate == CLIMATE_TEMPERATE || CLIMATE_TOYLAND))) {
         //#include src-includes/terrain_temperate.nml
     }
     if (param_grass_colour == 2 || (param_grass_colour == 0 && climate == CLIMATE_ARCTIC)) {

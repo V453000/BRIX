@@ -10,6 +10,8 @@ from copy import deepcopy
 import argparse
 from random import randint
 
+Image.MAX_IMAGE_PIXELS = None
+
 # print functions for control from debug_level parameter
 def print_start(bool, string):
   if bool == True:

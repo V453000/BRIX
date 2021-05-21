@@ -184,6 +184,23 @@ grf {
 				};
 			}
 		}
+    
+    param 12 {
+    param_grass_colour {
+        type: int;
+        name: string(STR_PARAM_GRASS_COLOUR);
+        desc: string(STR_PARAM_GRASS_COLOUR_DESC);
+        min_value: 0;
+        max_value: 3;
+        def_value: 0;
+            names: {
+                0: string(STR_PARAM_GRASS_COLOUR_AUTO);
+                1: string(STR_PARAM_GRASS_COLOUR_TEMP);
+                2: string(STR_PARAM_GRASS_COLOUR_ARCT);
+                3: string(STR_PARAM_GRASS_COLOUR_TROP);
+            };
+        }
+    }
 }
 
 //#include src-includes/templates.nml

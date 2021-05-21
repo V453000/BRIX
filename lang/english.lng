@@ -66,8 +66,8 @@ STR_PARAM_TRAINS_DESC		:Influences trains and wagons.
 STR_PARAM_TRAINS_OFF		:OFF
 STR_PARAM_TRAINS_ON			:ON
 
-STR_PARAM_GRASS_COLOUR			:Trains
-STR_PARAM_GRASS_COLOUR_DESC		:Influences trains and wagons.
+STR_PARAM_GRASS_COLOUR			:Grass colour
+STR_PARAM_GRASS_COLOUR_DESC		:Forces the colour of grass to desired climate.
 STR_PARAM_GRASS_COLOUR_AUTO		:Automatic - by climate
 STR_PARAM_GRASS_COLOUR_TEMP  	:Temperate Grass
 STR_PARAM_GRASS_COLOUR_ARCT		:Arctic Grass

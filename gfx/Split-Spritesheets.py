@@ -16,6 +16,7 @@ def split_spritesheet(input_path, rows, columns):
             print('!!! Image Height could not be divided evenly. Use different Column count. % was', validation_height)
         
         if valid == True:
+            print('Splitting', os.path.basename(input_path), 'into', rows, 'rows and', columns, 'columns.')
             piece_x = int(input_image.width / columns)
             piece_y = int(input_image.height / rows)
 
@@ -27,14 +28,14 @@ def split_spritesheet(input_path, rows, columns):
                 # update crop corner X
                 crop_corner_1_x = column * piece_x
                 crop_corner_2_x = crop_corner_1_x + piece_x
-                print('Starting column', column, 'corners', crop_corner_1_x, crop_corner_1_y, crop_corner_2_x, crop_corner_2_y)
+                #print('Starting column', column, 'corners', crop_corner_1_x, crop_corner_1_y, crop_corner_2_x, crop_corner_2_y)
 
                 for row in range (0, rows):
                     # update crop corner Y
                     crop_corner_1_y = row * piece_y
                     crop_corner_2_y = crop_corner_1_y + piece_y
 
-                    print('Starting row', row, 'corners', crop_corner_1_x, crop_corner_1_y, crop_corner_2_x, crop_corner_2_y)
+                    #print('Starting row', row, 'corners', crop_corner_1_x, crop_corner_1_y, crop_corner_2_x, crop_corner_2_y)
 
                     output_image = input_image.crop( ( crop_corner_1_x, crop_corner_1_y, crop_corner_2_x, crop_corner_2_y ) )
 

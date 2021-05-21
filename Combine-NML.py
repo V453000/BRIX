@@ -12,6 +12,7 @@ prefix_length = len(prefix)
 for line in main_nml:
   if prefix in line:
     output_nml.write(line)
+    line = line.lstrip()
     filename_to_import = line[prefix_length:][:-1]
     if os.path.isfile(filename_to_import):
       with open(filename_to_import,'r') as file_to_import:

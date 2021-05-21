@@ -190,51 +190,51 @@ grf {
 
 //#include src-includes/gui.nml
 
-if (param_terrain == 1) { //param_terrain
-//#include src-includes/terrain_temperate.nml
+if (param_terrain == 1) {
+    //#include src-includes/terrain_temperate.nml
 }
 
 if (param_roads == 1) {
-//#include src-includes/roads.nml
+    //#include src-includes/roads.nml
 }
 
 if (param_road_crossings == 1) {
-//#include src-includes/road-crossings.nml
+    //#include src-includes/road-crossings.nml
 }
 
 if (param_tracks == 1) {
-//#include src-includes/tracks.nml
+    //#include src-includes/tracks.nml
 }
 
 //#include src-includes/track-stations.nml
 //#include src-includes/track-depots.nml
 
 if (param_signals_electric == 1) {
-//#include src-includes/signals-electric.nml
+    //#include src-includes/signals-electric.nml
 }
 
-if (param_signals_semaphore == 1) { //param_signals_semaphore
-//#include src-includes/signals-semaphore.nml
+if (param_signals_semaphore == 1) {
+    //#include src-includes/signals-semaphore.nml
 }
 
 if (param_farms == 1) {
-//#include src-includes/farmland.nml
+    //#include src-includes/farmland.nml
 }
 
-if (param_bridges == 1) { //param_bridges
-//#include src-includes/bridges.nml
+if (param_bridges == 1) {
+    //#include src-includes/bridges.nml
 }
 
 if (param_trees == 1) {
-//#include src-includes/trees.nml
+    //#include src-includes/trees.nml
 }
 
 if (param_foundations == 1) {
-//#include src-includes/foundations.nml
+    //#include src-includes/foundations.nml
 }
 
 if (param_trains == 1) {
-//#include src-includes/trains.nml
+    //#include src-includes/trains.nml
 }
 
 //#include src-includes/houses.nml

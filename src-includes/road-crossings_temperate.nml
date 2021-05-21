@@ -1,0 +1,268 @@
+
+replace TEMPERATE_ROAD_CROSSING_rail_grass_1(1370, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 							 { template_TRACKS_x1(0,2) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_rail_grass_1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png") { template_TRACKS_x1(0,2) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_rail_grass_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png")  { template_TRACKS_x4(0,2) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_rail_grass_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png")  { template_TRACKS_x4(0,2) }
+
+replace TEMPERATE_ROAD_CROSSING_rail_grass_2(1371, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 							 { template_TRACKS_x1(1,2) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_rail_grass_2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png") { template_TRACKS_x1(1,2) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_rail_grass_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png")  { template_TRACKS_x4(1,2) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_rail_grass_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png")  { template_TRACKS_x4(1,2) }
+
+replace TEMPERATE_ROAD_CROSSING_rail_grass_3(1372, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 							 { template_TRACKS_x1(2,2) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_rail_grass_3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png") { template_TRACKS_x1(2,2) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_rail_grass_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png")  { template_TRACKS_x4(2,2) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_rail_grass_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png")  { template_TRACKS_x4(2,2) }
+
+replace TEMPERATE_ROAD_CROSSING_rail_grass_4(1373, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 							 { template_TRACKS_x1(3,2) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_rail_grass_4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png") { template_TRACKS_x1(3,2) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_rail_grass_4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png")  { template_TRACKS_x4(3,2) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_rail_grass_4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png")  { template_TRACKS_x4(3,2) }
+ 
+replace TEMPERATE_ROAD_CROSSING_rail_city_1(1374, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 							 { template_TRACKS_x1(4,2) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_rail_city_1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png") { template_TRACKS_x1(4,2) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_rail_city_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png")  { template_TRACKS_x4(4,2) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_rail_city_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png")  { template_TRACKS_x4(4,2) }
+
+replace TEMPERATE_ROAD_CROSSING_rail_city_2(1375, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 							 { template_TRACKS_x1(5,2) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_rail_city_2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png") { template_TRACKS_x1(5,2) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_rail_city_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png")  { template_TRACKS_x4(5,2) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_rail_city_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png")  { template_TRACKS_x4(5,2) }
+
+replace TEMPERATE_ROAD_CROSSING_rail_city_3(1376, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 							 { template_TRACKS_x1(6,2) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_rail_city_3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png") { template_TRACKS_x1(6,2) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_rail_city_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png")  { template_TRACKS_x4(6,2) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_rail_city_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png")  { template_TRACKS_x4(6,2) }
+
+replace TEMPERATE_ROAD_CROSSING_rail_city_4(1377, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 							 { template_TRACKS_x1(7,2) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_rail_city_4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png") { template_TRACKS_x1(7,2) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_rail_city_4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png")  { template_TRACKS_x4(7,2) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_rail_city_4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png")  { template_TRACKS_x4(7,2) }
+
+if (param_snow == 1 || (param_snow ==0 && climate == CLIMATE_ARCTIC)) {
+
+replace TEMPERATE_ROAD_CROSSING_rail_snow_1(1378, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 							 { template_TRACKS_x1(8,2) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_rail_snow_1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png") { template_TRACKS_x1(8,2) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_rail_snow_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png")  { template_TRACKS_x4(8,2) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_rail_snow_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png")  { template_TRACKS_x4(8,2) }
+
+replace TEMPERATE_ROAD_CROSSING_rail_snow_2(1379, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 							 { template_TRACKS_x1(9,2) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_rail_snow_2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png") { template_TRACKS_x1(9,2) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_rail_snow_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png")  { template_TRACKS_x4(9,2) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_rail_snow_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png")  { template_TRACKS_x4(9,2) }
+
+replace TEMPERATE_ROAD_CROSSING_rail_snow_3(1380, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 						  { template_TRACKS_x1(10,2) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_rail_snow_3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png") { template_TRACKS_x1(10,2) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_rail_snow_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png")  { template_TRACKS_x4(10,2) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_rail_snow_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png")  { template_TRACKS_x4(10,2) }
+
+replace TEMPERATE_ROAD_CROSSING_rail_snow_4(1381, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 						  { template_TRACKS_x1(11,2) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_rail_snow_4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png") { template_TRACKS_x1(11,2) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_rail_snow_4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png")  { template_TRACKS_x4(11,2) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_rail_snow_4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png")  { template_TRACKS_x4(11,2) }
+
+}
+
+if (param_snow == 2 || (param_snow ==0 && climate == CLIMATE_TROPICAL)) {
+
+replace TEMPERATE_ROAD_CROSSING_rail_desert_1(1378, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 							 			{ template_TRACKS_x1(12,2) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_rail_desert_1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png") { template_TRACKS_x1(12,2) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_rail_desert_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png")  { template_TRACKS_x4(12,2) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_rail_desert_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png")  { template_TRACKS_x4(12,2) }
+
+replace TEMPERATE_ROAD_CROSSING_rail_desert_2(1379, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 							 			{ template_TRACKS_x1(13,2) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_rail_desert_2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png") { template_TRACKS_x1(13,2) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_rail_desert_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png")  { template_TRACKS_x4(13,2) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_rail_desert_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png")  { template_TRACKS_x4(13,2) }
+
+replace TEMPERATE_ROAD_CROSSING_rail_desert_3(1380, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 						  				{ template_TRACKS_x1(14,2) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_rail_desert_3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png") { template_TRACKS_x1(14,2) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_rail_desert_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png")  { template_TRACKS_x4(14,2) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_rail_desert_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png")  { template_TRACKS_x4(14,2) }
+
+replace TEMPERATE_ROAD_CROSSING_rail_desert_4(1381, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 						  				{ template_TRACKS_x1(15,2) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_rail_desert_4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png") { template_TRACKS_x1(15,2) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_rail_desert_4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png")  { template_TRACKS_x4(15,2) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_rail_desert_4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png")  { template_TRACKS_x4(15,2) }
+
+}
+
+//mono
+replace TEMPERATE_ROAD_CROSSING_mono_grass_1(1382, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 						  				{ template_TRACKS_x1(0,5) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mono_grass_1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png") 	{ template_TRACKS_x1(0,5) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mono_grass_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png")  	{ template_TRACKS_x4(0,5) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mono_grass_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png")  	{ template_TRACKS_x4(0,5) }
+
+replace TEMPERATE_ROAD_CROSSING_mono_grass_2(1383, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 						  				{ template_TRACKS_x1(1,5) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mono_grass_2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png") 	{ template_TRACKS_x1(1,5) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mono_grass_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png")  	{ template_TRACKS_x4(1,5) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mono_grass_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png")  	{ template_TRACKS_x4(1,5) }
+
+replace TEMPERATE_ROAD_CROSSING_mono_grass_3(1384, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 						  				{ template_TRACKS_x1(2,5) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mono_grass_3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png") 	{ template_TRACKS_x1(2,5) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mono_grass_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png")  	{ template_TRACKS_x4(2,5) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mono_grass_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png")  	{ template_TRACKS_x4(2,5) }
+
+replace TEMPERATE_ROAD_CROSSING_mono_grass_4(1385, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 						  				{ template_TRACKS_x1(3,5) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mono_grass_4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png") 	{ template_TRACKS_x1(3,5) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mono_grass_4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png")  	{ template_TRACKS_x4(3,5) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mono_grass_4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png")  	{ template_TRACKS_x4(3,5) }
+
+replace TEMPERATE_ROAD_CROSSING_mono_city_1(1386, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 						  				{ template_TRACKS_x1(4,5) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mono_city_1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png") { template_TRACKS_x1(4,5) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mono_city_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png")  { template_TRACKS_x4(4,5) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mono_city_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png")  { template_TRACKS_x4(4,5) }
+
+replace TEMPERATE_ROAD_CROSSING_mono_city_2(1387, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 						  				{ template_TRACKS_x1(5,5) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mono_city_2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png") { template_TRACKS_x1(5,5) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mono_city_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png")  { template_TRACKS_x4(5,5) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mono_city_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png")  { template_TRACKS_x4(5,5) }
+
+replace TEMPERATE_ROAD_CROSSING_mono_city_3(1388, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 						  				{ template_TRACKS_x1(6,5) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mono_city_3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png") { template_TRACKS_x1(6,5) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mono_city_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png")  { template_TRACKS_x4(6,5) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mono_city_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png")  { template_TRACKS_x4(6,5) }
+
+replace TEMPERATE_ROAD_CROSSING_mono_city_4(1389, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 						  				{ template_TRACKS_x1(7,5) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mono_city_4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png") { template_TRACKS_x1(7,5) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mono_city_4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png")  { template_TRACKS_x4(7,5) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mono_city_4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png")  { template_TRACKS_x4(7,5) }
+
+if (param_snow == 1 || (param_snow ==0 && climate == CLIMATE_ARCTIC)) {
+
+replace TEMPERATE_ROAD_CROSSING_mono_snow_1(1390, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 						  					 { template_TRACKS_x1(8,5) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mono_snow_1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png")	 { template_TRACKS_x1(8,5) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mono_snow_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png") 	 { template_TRACKS_x4(8,5) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mono_snow_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 	 { template_TRACKS_x4(8,5) }
+	
+replace TEMPERATE_ROAD_CROSSING_mono_snow_2(1391, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 						  					 { template_TRACKS_x1(9,5) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mono_snow_2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png")	 { template_TRACKS_x1(9,5) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mono_snow_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png") 	 { template_TRACKS_x4(9,5) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mono_snow_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 	 { template_TRACKS_x4(9,5) }
+	
+replace TEMPERATE_ROAD_CROSSING_mono_snow_3(1392, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 						  					 { template_TRACKS_x1(10,5) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mono_snow_3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png")	 { template_TRACKS_x1(10,5) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mono_snow_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png") 	 { template_TRACKS_x4(10,5) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mono_snow_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 	 { template_TRACKS_x4(10,5) }
+	
+replace TEMPERATE_ROAD_CROSSING_mono_snow_4(1393, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 						 					 { template_TRACKS_x1(11,5) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mono_snow_4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png")	 { template_TRACKS_x1(11,5) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mono_snow_4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png") 	 { template_TRACKS_x4(11,5) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mono_snow_4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 	 { template_TRACKS_x4(11,5) }
+
+}
+
+if (param_snow == 2 || (param_snow ==0 && climate == CLIMATE_TROPICAL)) {
+
+replace TEMPERATE_ROAD_CROSSING_mono_desert_1(1390, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 						  				 { template_TRACKS_x1(12,5) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mono_desert_1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png")	 { template_TRACKS_x1(12,5) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mono_desert_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png") 	 { template_TRACKS_x4(12,5) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mono_desert_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 	 { template_TRACKS_x4(12,5) }
+	
+replace TEMPERATE_ROAD_CROSSING_mono_desert_2(1391, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 						  				 { template_TRACKS_x1(13,5) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mono_desert_2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png")	 { template_TRACKS_x1(13,5) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mono_desert_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png") 	 { template_TRACKS_x4(13,5) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mono_desert_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 	 { template_TRACKS_x4(13,5) }
+	
+replace TEMPERATE_ROAD_CROSSING_mono_desert_3(1392, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 						  				 { template_TRACKS_x1(14,5) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mono_desert_3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png")	 { template_TRACKS_x1(14,5) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mono_desert_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png") 	 { template_TRACKS_x4(14,5) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mono_desert_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 	 { template_TRACKS_x4(14,5) }
+	
+replace TEMPERATE_ROAD_CROSSING_mono_desert_4(1393, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 						 				 { template_TRACKS_x1(15,5) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mono_desert_4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png")	 { template_TRACKS_x1(15,5) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mono_desert_4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png") 	 { template_TRACKS_x4(15,5) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mono_desert_4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 	 { template_TRACKS_x4(15,5) }
+
+}
+
+//MAGLEV
+
+replace TEMPERATE_ROAD_CROSSING_mglv_grass_1(1394, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 							 { template_TRACKS_x1(0,8) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mglv_grass_1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png") { template_TRACKS_x1(0,8) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mglv_grass_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png")  { template_TRACKS_x4(0,8) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mglv_grass_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png")  { template_TRACKS_x4(0,8) }
+
+replace TEMPERATE_ROAD_CROSSING_mglv_grass_2(1395, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 							 { template_TRACKS_x1(1,8) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mglv_grass_2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png") { template_TRACKS_x1(1,8) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mglv_grass_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png")  { template_TRACKS_x4(1,8) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mglv_grass_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png")  { template_TRACKS_x4(1,8) }
+
+replace TEMPERATE_ROAD_CROSSING_mglv_grass_3(1396, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 							 { template_TRACKS_x1(2,8) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mglv_grass_3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png") { template_TRACKS_x1(2,8) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mglv_grass_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png")  { template_TRACKS_x4(2,8) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mglv_grass_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png")  { template_TRACKS_x4(2,8) }
+
+replace TEMPERATE_ROAD_CROSSING_mglv_grass_4(1397, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 							 { template_TRACKS_x1(3,8) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mglv_grass_4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png") { template_TRACKS_x1(3,8) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mglv_grass_4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png")  { template_TRACKS_x4(3,8) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mglv_grass_4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png")  { template_TRACKS_x4(3,8) }
+ 
+replace TEMPERATE_ROAD_CROSSING_mglv_city_1(1398, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 							 { template_TRACKS_x1(4,8) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mglv_city_1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png") { template_TRACKS_x1(4,8) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mglv_city_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png")  { template_TRACKS_x4(4,8) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mglv_city_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png")  { template_TRACKS_x4(4,8) }
+
+replace TEMPERATE_ROAD_CROSSING_mglv_city_2(1399, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 							 { template_TRACKS_x1(5,8) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mglv_city_2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png") { template_TRACKS_x1(5,8) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mglv_city_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png")  { template_TRACKS_x4(5,8) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mglv_city_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png")  { template_TRACKS_x4(5,8) }
+
+replace TEMPERATE_ROAD_CROSSING_mglv_city_3(1400, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 							 { template_TRACKS_x1(6,8) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mglv_city_3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png") { template_TRACKS_x1(6,8) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mglv_city_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png")  { template_TRACKS_x4(6,8) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mglv_city_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png")  { template_TRACKS_x4(6,8) }
+
+replace TEMPERATE_ROAD_CROSSING_mglv_city_4(1401, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 							 { template_TRACKS_x1(7,8) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mglv_city_4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png") { template_TRACKS_x1(7,8) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mglv_city_4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png")  { template_TRACKS_x4(7,8) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mglv_city_4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png")  { template_TRACKS_x4(7,8) }
+
+if (param_snow == 1 || (param_snow ==0 && climate == CLIMATE_ARCTIC)) {
+
+replace TEMPERATE_ROAD_CROSSING_mglv_snow_1(1402, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 							 { template_TRACKS_x1(8,8) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mglv_snow_1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png") { template_TRACKS_x1(8,8) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mglv_snow_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png")  { template_TRACKS_x4(8,8) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mglv_snow_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png")  { template_TRACKS_x4(8,8) }
+
+replace TEMPERATE_ROAD_CROSSING_mglv_snow_2(1403, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 							 { template_TRACKS_x1(9,8) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mglv_snow_2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png") { template_TRACKS_x1(9,8) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mglv_snow_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png")  { template_TRACKS_x4(9,8) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mglv_snow_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png")  { template_TRACKS_x4(9,8) }
+
+replace TEMPERATE_ROAD_CROSSING_mglv_snow_3(1404, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 						  { template_TRACKS_x1(10,8) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mglv_snow_3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png") { template_TRACKS_x1(10,8) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mglv_snow_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png")  { template_TRACKS_x4(10,8) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mglv_snow_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png")  { template_TRACKS_x4(10,8) }
+
+replace TEMPERATE_ROAD_CROSSING_mglv_snow_4(1405, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 						  { template_TRACKS_x1(11,8) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mglv_snow_4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png") { template_TRACKS_x1(11,8) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mglv_snow_4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png")  { template_TRACKS_x4(11,8) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mglv_snow_4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png")  { template_TRACKS_x4(11,8) }
+
+}
+
+if (param_snow == 2 || (param_snow ==0 && climate == CLIMATE_TROPICAL)) {
+
+replace TEMPERATE_ROAD_CROSSING_mglv_desert_1(1402, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 							 			{ template_TRACKS_x1(12,8) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mglv_desert_1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png") { template_TRACKS_x1(12,8) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mglv_desert_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png")  { template_TRACKS_x4(12,8) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mglv_desert_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png")  { template_TRACKS_x4(12,8) }
+
+replace TEMPERATE_ROAD_CROSSING_mglv_desert_2(1403, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 							 			{ template_TRACKS_x1(13,8) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mglv_desert_2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png") { template_TRACKS_x1(13,8) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mglv_desert_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png")  { template_TRACKS_x4(13,8) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mglv_desert_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png")  { template_TRACKS_x4(13,8) }
+
+replace TEMPERATE_ROAD_CROSSING_mglv_desert_3(1404, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 						  				{ template_TRACKS_x1(14,8) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mglv_desert_3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png") { template_TRACKS_x1(14,8) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mglv_desert_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png")  { template_TRACKS_x4(14,8) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mglv_desert_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png")  { template_TRACKS_x4(14,8) }
+
+replace TEMPERATE_ROAD_CROSSING_mglv_desert_4(1405, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png") 						  				{ template_TRACKS_x1(15,8) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mglv_desert_4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png") { template_TRACKS_x1(15,8) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mglv_desert_4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/tracks/tracks_row00_col00.png")  { template_TRACKS_x4(15,8) }
+alternative_sprites(TEMPERATE_ROAD_CROSSING_mglv_desert_4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/split-spritesheets/8bpp/tracks/tracks-8bpp_row00_col00.png")  { template_TRACKS_x4(15,8) }
+
+}
+

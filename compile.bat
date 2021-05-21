@@ -6,7 +6,7 @@ for /F "tokens=1-4 delims=:.," %%a in ("%time%") do (
 
 rem Any process here...
 @echo on
-C:\NML\nmlc -c --default-lang=english.lng --grf=BRIX.grf BRIX-NML-combined.nml --verbosity=0
+C:\NML\nmlc -c --default-lang=english.lng --grf=BRIX.grf BRIX-NML-combined.nml --verbosity=1
 copy /Y BRIX.grf "C:\Users\V\Documents\OpenTTD\newgrf"
 @echo off
 

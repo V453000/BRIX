@@ -55,5 +55,9 @@ def split_spritesheet(input_path, rows, columns):
 
                     output_image.save(output_filepath)
 
-split_spritesheet( '8bpp/terrain/terrain-8bpp.png' , 1, 3)
-split_spritesheet('32bpp/terrain/terrain.png'      , 1, 3)
+# split_spritesheet( '8bpp/terrain/terrain-8bpp.png' , 1, 3)
+# split_spritesheet('32bpp/terrain/terrain.png'      , 1, 3)
+# split_spritesheet( '8bpp/roads/roads-8bpp.png' , 3, 1)
+# split_spritesheet('32bpp/roads/roads.png'      , 3, 1)
+split_spritesheet( '8bpp/tracks/tracks-8bpp.png' , 3, 1)
+split_spritesheet('32bpp/tracks/tracks.png'      , 3, 1)

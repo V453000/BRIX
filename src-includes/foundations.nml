@@ -1,0 +1,68 @@
+
+//base foundations (990 .. 1003)
+replace FOUNDATIONS_base(990) {
+  template_FOUNDATIONS_x1_flat(0, "gfx/8bpp/foundations/foundations-8bpp.png")
+}
+alternative_sprites(FOUNDATIONS_base, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
+  template_FOUNDATIONS_x1_flat(0, "gfx/32bpp/foundations/foundations.png")
+}
+alternative_sprites(FOUNDATIONS_base, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+  template_FOUNDATIONS_x4_flat(0, "gfx/32bpp/foundations/foundations.png")
+}
+alternative_sprites(FOUNDATIONS_base, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP) {
+  template_FOUNDATIONS_x4_flat(0, "gfx/8bpp/foundations/foundations-8bpp.png")
+}
+
+//extra foundations (90)
+replacenew FOUNDATIONS_extra(FOUNDATIONS_SLOPES_HALFTILES) {
+	template_FOUNDATIONS_x1_inclined( 14, "gfx/8bpp/foundations/foundations-8bpp.png")
+	template_FOUNDATIONS_x1_flat    ( 22, "gfx/8bpp/foundations/foundations-8bpp.png")
+	template_FOUNDATIONS_x1_inclined( 36, "gfx/8bpp/foundations/foundations-8bpp.png")
+	template_FOUNDATIONS_x1_flat    ( 44, "gfx/8bpp/foundations/foundations-8bpp.png")
+	template_FOUNDATIONS_x1_inclined( 58, "gfx/8bpp/foundations/foundations-8bpp.png")
+	template_FOUNDATIONS_x1_flat    ( 66, "gfx/8bpp/foundations/foundations-8bpp.png")
+	template_FOUNDATIONS_x1_inclined( 80, "gfx/8bpp/foundations/foundations-8bpp.png")
+	template_FOUNDATIONS_x1_halftile( 88, "gfx/8bpp/foundations/foundations-8bpp.png")
+	template_FOUNDATIONS_x1_halftile( 92, "gfx/8bpp/foundations/foundations-8bpp.png")
+	template_FOUNDATIONS_x1_halftile( 96, "gfx/8bpp/foundations/foundations-8bpp.png")
+	template_FOUNDATIONS_x1_halftile(100, "gfx/8bpp/foundations/foundations-8bpp.png")
+}
+alternative_sprites(FOUNDATIONS_extra, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
+	template_FOUNDATIONS_x1_inclined( 14, "gfx/32bpp/foundations/foundations.png")
+	template_FOUNDATIONS_x1_flat    ( 22, "gfx/32bpp/foundations/foundations.png")
+	template_FOUNDATIONS_x1_inclined( 36, "gfx/32bpp/foundations/foundations.png")
+	template_FOUNDATIONS_x1_flat    ( 44, "gfx/32bpp/foundations/foundations.png")
+	template_FOUNDATIONS_x1_inclined( 58, "gfx/32bpp/foundations/foundations.png")
+	template_FOUNDATIONS_x1_flat    ( 66, "gfx/32bpp/foundations/foundations.png")
+	template_FOUNDATIONS_x1_inclined( 80, "gfx/32bpp/foundations/foundations.png")
+	template_FOUNDATIONS_x1_halftile( 88, "gfx/32bpp/foundations/foundations.png")
+	template_FOUNDATIONS_x1_halftile( 92, "gfx/32bpp/foundations/foundations.png")
+	template_FOUNDATIONS_x1_halftile( 96, "gfx/32bpp/foundations/foundations.png")
+	template_FOUNDATIONS_x1_halftile(100, "gfx/32bpp/foundations/foundations.png")
+}
+alternative_sprites(FOUNDATIONS_extra, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+	template_FOUNDATIONS_x4_inclined( 14, "gfx/32bpp/foundations/foundations.png")
+	template_FOUNDATIONS_x4_flat    ( 22, "gfx/32bpp/foundations/foundations.png")
+	template_FOUNDATIONS_x4_inclined( 36, "gfx/32bpp/foundations/foundations.png")
+	template_FOUNDATIONS_x4_flat    ( 44, "gfx/32bpp/foundations/foundations.png")
+	template_FOUNDATIONS_x4_inclined( 58, "gfx/32bpp/foundations/foundations.png")
+	template_FOUNDATIONS_x4_flat    ( 66, "gfx/32bpp/foundations/foundations.png")
+	template_FOUNDATIONS_x4_inclined( 80, "gfx/32bpp/foundations/foundations.png")
+	template_FOUNDATIONS_x4_halftile( 88, "gfx/32bpp/foundations/foundations.png")
+	template_FOUNDATIONS_x4_halftile( 92, "gfx/32bpp/foundations/foundations.png")
+	template_FOUNDATIONS_x4_halftile( 96, "gfx/32bpp/foundations/foundations.png")
+	template_FOUNDATIONS_x4_halftile(100, "gfx/32bpp/foundations/foundations.png")
+}
+alternative_sprites(FOUNDATIONS_extra, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP) {
+	template_FOUNDATIONS_x4_inclined( 14, "gfx/8bpp/foundations/foundations-8bpp.png")
+	template_FOUNDATIONS_x4_flat    ( 22, "gfx/8bpp/foundations/foundations-8bpp.png")
+	template_FOUNDATIONS_x4_inclined( 36, "gfx/8bpp/foundations/foundations-8bpp.png")
+	template_FOUNDATIONS_x4_flat    ( 44, "gfx/8bpp/foundations/foundations-8bpp.png")
+	template_FOUNDATIONS_x4_inclined( 58, "gfx/8bpp/foundations/foundations-8bpp.png")
+	template_FOUNDATIONS_x4_flat    ( 66, "gfx/8bpp/foundations/foundations-8bpp.png")
+	template_FOUNDATIONS_x4_inclined( 80, "gfx/8bpp/foundations/foundations-8bpp.png")
+	template_FOUNDATIONS_x4_halftile( 88, "gfx/8bpp/foundations/foundations-8bpp.png")
+	template_FOUNDATIONS_x4_halftile( 92, "gfx/8bpp/foundations/foundations-8bpp.png")
+	template_FOUNDATIONS_x4_halftile( 96, "gfx/8bpp/foundations/foundations-8bpp.png")
+	template_FOUNDATIONS_x4_halftile(100, "gfx/8bpp/foundations/foundations-8bpp.png")
+}

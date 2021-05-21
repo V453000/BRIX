@@ -1,0 +1,97 @@
+
+/*
+replace CURSOR_0(752, "gfx/8bpp/terrain/terrain-8bpp.png") { template_CURSOR_x1(0,0) }
+alternative_sprites(CURSOR_0, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_CURSOR_x1(0,0) }
+alternative_sprites(CURSOR_0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_CURSOR_x4(0,0) }
+alternative_sprites(CURSOR_0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_CURSOR_x4(0,0) }
+
+replace CURSOR_1(753, "gfx/8bpp/terrain/terrain-8bpp.png") { template_CURSOR_x1(1,0) }
+alternative_sprites(CURSOR_1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_CURSOR_x1(1,0) }
+alternative_sprites(CURSOR_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_CURSOR_x4(1,0) }
+alternative_sprites(CURSOR_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_CURSOR_x4(1,0) }
+
+replace CURSOR_2(754, "gfx/8bpp/terrain/terrain-8bpp.png") { template_CURSOR_x1(2,0) }
+alternative_sprites(CURSOR_2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_CURSOR_x1(2,0) }
+alternative_sprites(CURSOR_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_CURSOR_x4(2,0) }
+alternative_sprites(CURSOR_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_CURSOR_x4(2,0) }
+
+replace CURSOR_3(755, "gfx/8bpp/terrain/terrain-8bpp.png") { template_CURSOR_x1(3,0) }
+alternative_sprites(CURSOR_3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_CURSOR_x1(3,0) }
+alternative_sprites(CURSOR_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_CURSOR_x4(3,0) }
+alternative_sprites(CURSOR_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_CURSOR_x4(3,0) }
+
+replace CURSOR_4(756, "gfx/8bpp/terrain/terrain-8bpp.png") { template_CURSOR_x1(4,0) }
+alternative_sprites(CURSOR_4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_CURSOR_x1(4,0) }
+alternative_sprites(CURSOR_4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_CURSOR_x4(4,0) }
+alternative_sprites(CURSOR_4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_CURSOR_x4(4,0) }
+
+replace CURSOR_5(757, "gfx/8bpp/terrain/terrain-8bpp.png") { template_CURSOR_x1(5,0) }
+alternative_sprites(CURSOR_5, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_CURSOR_x1(5,0) }
+alternative_sprites(CURSOR_5, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_CURSOR_x4(5,0) }
+alternative_sprites(CURSOR_5, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_CURSOR_x4(5,0) }
+
+replace CURSOR_6(758, "gfx/8bpp/terrain/terrain-8bpp.png") { template_CURSOR_x1(6,0) }
+alternative_sprites(CURSOR_6, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_CURSOR_x1(6,0) }
+alternative_sprites(CURSOR_6, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_CURSOR_x4(6,0) }
+alternative_sprites(CURSOR_6, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_CURSOR_x4(6,0) }
+
+replace CURSOR_7(759, "gfx/8bpp/terrain/terrain-8bpp.png") { template_CURSOR_x1(7,0) }
+alternative_sprites(CURSOR_7, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_CURSOR_x1(7,0) }
+alternative_sprites(CURSOR_7, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_CURSOR_x4(7,0) }
+alternative_sprites(CURSOR_7, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_CURSOR_x4(7,0) }
+
+replace CURSOR_8(760, "gfx/8bpp/terrain/terrain-8bpp.png") { template_CURSOR_x1(8,0) }
+alternative_sprites(CURSOR_8, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_CURSOR_x1(8,0) }
+alternative_sprites(CURSOR_8, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_CURSOR_x4(8,0) }
+alternative_sprites(CURSOR_8, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_CURSOR_x4(8,0) }
+
+replace CURSOR_9(761, "gfx/8bpp/terrain/terrain-8bpp.png") { template_CURSOR_x1(9,0) }
+alternative_sprites(CURSOR_9, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_CURSOR_x1(9,0) }
+alternative_sprites(CURSOR_9, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_CURSOR_x4(9,0) }
+alternative_sprites(CURSOR_9, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_CURSOR_x4(9,0) }
+
+replace CURSOR_10(762, "gfx/8bpp/terrain/terrain-8bpp.png") { template_CURSOR_x1(10,0) }
+alternative_sprites(CURSOR_10, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_CURSOR_x1(10,0) }
+alternative_sprites(CURSOR_10, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_CURSOR_x4(10,0) }
+alternative_sprites(CURSOR_10, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_CURSOR_x4(10,0) }
+
+replace CURSOR_11(763, "gfx/8bpp/terrain/terrain-8bpp.png") { template_CURSOR_x1(11,0) }
+alternative_sprites(CURSOR_11, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_CURSOR_x1(11,0) }
+alternative_sprites(CURSOR_11, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_CURSOR_x4(11,0) }
+alternative_sprites(CURSOR_11, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_CURSOR_x4(11,0) }
+
+replace CURSOR_12(764, "gfx/8bpp/terrain/terrain-8bpp.png") { template_CURSOR_x1(12,0) }
+alternative_sprites(CURSOR_12, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_CURSOR_x1(12,0) }
+alternative_sprites(CURSOR_12, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_CURSOR_x4(12,0) }
+alternative_sprites(CURSOR_12, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_CURSOR_x4(12,0) }
+
+replace CURSOR_13(765, "gfx/8bpp/terrain/terrain-8bpp.png") { template_CURSOR_x1(13,0) }
+alternative_sprites(CURSOR_13, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_CURSOR_x1(13,0) }
+alternative_sprites(CURSOR_13, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_CURSOR_x4(13,0) }
+alternative_sprites(CURSOR_13, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_CURSOR_x4(13,0) }
+
+replace CURSOR_14(766, "gfx/8bpp/terrain/terrain-8bpp.png") { template_CURSOR_x1(14,0) }
+alternative_sprites(CURSOR_14, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_CURSOR_x1(14,0) }
+alternative_sprites(CURSOR_14, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_CURSOR_x4(14,0) }
+alternative_sprites(CURSOR_14, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_CURSOR_x4(14,0) }
+
+replace CURSOR_29(767, "gfx/8bpp/terrain/terrain-8bpp.png") { template_CURSOR_x1(15,0) }
+alternative_sprites(CURSOR_29, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_CURSOR_x1(15,0) }
+alternative_sprites(CURSOR_29, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_CURSOR_x4(15,0) }
+alternative_sprites(CURSOR_29, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_CURSOR_x4(15,0) }
+
+replace CURSOR_23(768, "gfx/8bpp/terrain/terrain-8bpp.png") { template_CURSOR_x1(16,0) }
+alternative_sprites(CURSOR_23, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_CURSOR_x1(16,0) }
+alternative_sprites(CURSOR_23, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_CURSOR_x4(16,0) }
+alternative_sprites(CURSOR_23, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_CURSOR_x4(16,0) }
+
+replace CURSOR_27(769, "gfx/8bpp/terrain/terrain-8bpp.png") { template_CURSOR_x1(17,0) }
+alternative_sprites(CURSOR_27, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_CURSOR_x1(17,0) }
+alternative_sprites(CURSOR_27, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_CURSOR_x4(17,0) }
+alternative_sprites(CURSOR_27, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_CURSOR_x4(17,0) }
+
+replace CURSOR_30(770, "gfx/8bpp/terrain/terrain-8bpp.png") { template_CURSOR_x1(18,0) }
+alternative_sprites(CURSOR_30, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_CURSOR_x1(18,0) }
+alternative_sprites(CURSOR_30, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_CURSOR_x4(18,0) }
+alternative_sprites(CURSOR_30, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_CURSOR_x4(18,0) }
+*/

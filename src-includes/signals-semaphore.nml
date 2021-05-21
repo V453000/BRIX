@@ -1,0 +1,497 @@
+
+// OLD Basic Block PBS PRE_SIGNAL_SEMAPHORE_PBS 48-63
+
+replacenew SIGNALS_OLD_BASIC_00				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		48)	{ template_SIGNALS_x1(0,0) }
+alternative_sprites(SIGNALS_OLD_BASIC_00, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(0,0) }
+alternative_sprites(SIGNALS_OLD_BASIC_00, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(0,0) }
+alternative_sprites(SIGNALS_OLD_BASIC_00, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(0,0) }
+
+replacenew SIGNALS_OLD_BASIC_01				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		49)	{ template_SIGNALS_x1(1,0) }
+alternative_sprites(SIGNALS_OLD_BASIC_01, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(1,0) }
+alternative_sprites(SIGNALS_OLD_BASIC_01, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(1,0) }
+alternative_sprites(SIGNALS_OLD_BASIC_01, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(1,0) }
+
+replacenew SIGNALS_OLD_BASIC_02				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		50)	{ template_SIGNALS_x1(2,0) }
+alternative_sprites(SIGNALS_OLD_BASIC_02, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(2,0) }
+alternative_sprites(SIGNALS_OLD_BASIC_02, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(2,0) }
+alternative_sprites(SIGNALS_OLD_BASIC_02, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(2,0) }
+
+replacenew SIGNALS_OLD_BASIC_03				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		51)	{ template_SIGNALS_x1(3,0) }
+alternative_sprites(SIGNALS_OLD_BASIC_03, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(3,0) }
+alternative_sprites(SIGNALS_OLD_BASIC_03, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(3,0) }
+alternative_sprites(SIGNALS_OLD_BASIC_03, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(3,0) }
+
+replacenew SIGNALS_OLD_BASIC_04				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		52)	{ template_SIGNALS_x1(4,0) }
+alternative_sprites(SIGNALS_OLD_BASIC_04, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(4,0) }
+alternative_sprites(SIGNALS_OLD_BASIC_04, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(4,0) }
+alternative_sprites(SIGNALS_OLD_BASIC_04, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(4,0) }
+
+replacenew SIGNALS_OLD_BASIC_05				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		53)	{ template_SIGNALS_x1(5,0) }
+alternative_sprites(SIGNALS_OLD_BASIC_05, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(5,0) }
+alternative_sprites(SIGNALS_OLD_BASIC_05, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(5,0) }
+alternative_sprites(SIGNALS_OLD_BASIC_05, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(5,0) }
+
+replacenew SIGNALS_OLD_BASIC_06				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		54)	{ template_SIGNALS_x1(6,0) }
+alternative_sprites(SIGNALS_OLD_BASIC_06, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(6,0) }
+alternative_sprites(SIGNALS_OLD_BASIC_06, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(6,0) }
+alternative_sprites(SIGNALS_OLD_BASIC_06, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(6,0) }
+
+replacenew SIGNALS_OLD_BASIC_07				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		55)	{ template_SIGNALS_x1(7,0) }
+alternative_sprites(SIGNALS_OLD_BASIC_07, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(7,0) }
+alternative_sprites(SIGNALS_OLD_BASIC_07, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(7,0) }
+alternative_sprites(SIGNALS_OLD_BASIC_07, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(7,0) }
+
+replacenew SIGNALS_OLD_BASIC_08				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		56)	{ template_SIGNALS_x1(8,0) }
+alternative_sprites(SIGNALS_OLD_BASIC_08, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(8,0) }
+alternative_sprites(SIGNALS_OLD_BASIC_08, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(8,0) }
+alternative_sprites(SIGNALS_OLD_BASIC_08, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(8,0) }
+
+replacenew SIGNALS_OLD_BASIC_09				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		57)	{ template_SIGNALS_x1(9,0) }
+alternative_sprites(SIGNALS_OLD_BASIC_09, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(9,0) }
+alternative_sprites(SIGNALS_OLD_BASIC_09, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(9,0) }
+alternative_sprites(SIGNALS_OLD_BASIC_09, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(9,0) }
+
+replacenew SIGNALS_OLD_BASIC_10				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		58)	{ template_SIGNALS_x1(10,0) }
+alternative_sprites(SIGNALS_OLD_BASIC_10, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(10,0) }
+alternative_sprites(SIGNALS_OLD_BASIC_10, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(10,0) }
+alternative_sprites(SIGNALS_OLD_BASIC_10, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(10,0) }
+
+replacenew SIGNALS_OLD_BASIC_11				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		59)	{ template_SIGNALS_x1(11,0) }
+alternative_sprites(SIGNALS_OLD_BASIC_11, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(11,0) }
+alternative_sprites(SIGNALS_OLD_BASIC_11, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(11,0) }
+alternative_sprites(SIGNALS_OLD_BASIC_11, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(11,0) }
+
+replacenew SIGNALS_OLD_BASIC_12				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		60)	{ template_SIGNALS_x1(12,0) }
+alternative_sprites(SIGNALS_OLD_BASIC_12, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(12,0) }
+alternative_sprites(SIGNALS_OLD_BASIC_12, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(12,0) }
+alternative_sprites(SIGNALS_OLD_BASIC_12, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(12,0) }
+
+replacenew SIGNALS_OLD_BASIC_13				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		61)	{ template_SIGNALS_x1(13,0) }
+alternative_sprites(SIGNALS_OLD_BASIC_13, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(13,0) }
+alternative_sprites(SIGNALS_OLD_BASIC_13, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(13,0) }
+alternative_sprites(SIGNALS_OLD_BASIC_13, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(13,0) }
+
+replacenew SIGNALS_OLD_BASIC_14				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		62)	{ template_SIGNALS_x1(14,0) }
+alternative_sprites(SIGNALS_OLD_BASIC_14, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(14,0) }
+alternative_sprites(SIGNALS_OLD_BASIC_14, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(14,0) }
+alternative_sprites(SIGNALS_OLD_BASIC_14, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(14,0) }
+
+replacenew SIGNALS_OLD_BASIC_15				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		63)	{ template_SIGNALS_x1(15,0) }
+alternative_sprites(SIGNALS_OLD_BASIC_15, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(15,0) }
+alternative_sprites(SIGNALS_OLD_BASIC_15, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(15,0) }
+alternative_sprites(SIGNALS_OLD_BASIC_15, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(15,0) }
+
+
+// OLD Entry PBS PRE_SIGNAL_SEMAPHORE_PBS 64-79
+
+replacenew SIGNALS_OLD_ENTRY_00				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		64)	{ template_SIGNALS_x1(0,1) }
+alternative_sprites(SIGNALS_OLD_ENTRY_00, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(0,1) }
+alternative_sprites(SIGNALS_OLD_ENTRY_00, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(0,1) }
+alternative_sprites(SIGNALS_OLD_ENTRY_00, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(0,1) }
+
+replacenew SIGNALS_OLD_ENTRY_01				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		65)	{ template_SIGNALS_x1(1,1) }
+alternative_sprites(SIGNALS_OLD_ENTRY_01, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(1,1) }
+alternative_sprites(SIGNALS_OLD_ENTRY_01, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(1,1) }
+alternative_sprites(SIGNALS_OLD_ENTRY_01, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(1,1) }
+
+replacenew SIGNALS_OLD_ENTRY_02				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		66)	{ template_SIGNALS_x1(2,1) }
+alternative_sprites(SIGNALS_OLD_ENTRY_02, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(2,1) }
+alternative_sprites(SIGNALS_OLD_ENTRY_02, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(2,1) }
+alternative_sprites(SIGNALS_OLD_ENTRY_02, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(2,1) }
+
+replacenew SIGNALS_OLD_ENTRY_03				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		67)	{ template_SIGNALS_x1(3,1) }
+alternative_sprites(SIGNALS_OLD_ENTRY_03, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(3,1) }
+alternative_sprites(SIGNALS_OLD_ENTRY_03, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(3,1) }
+alternative_sprites(SIGNALS_OLD_ENTRY_03, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(3,1) }
+
+replacenew SIGNALS_OLD_ENTRY_04				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		68)	{ template_SIGNALS_x1(4,1) }
+alternative_sprites(SIGNALS_OLD_ENTRY_04, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(4,1) }
+alternative_sprites(SIGNALS_OLD_ENTRY_04, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(4,1) }
+alternative_sprites(SIGNALS_OLD_ENTRY_04, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(4,1) }
+
+replacenew SIGNALS_OLD_ENTRY_05				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		69)	{ template_SIGNALS_x1(5,1) }
+alternative_sprites(SIGNALS_OLD_ENTRY_05, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(5,1) }
+alternative_sprites(SIGNALS_OLD_ENTRY_05, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(5,1) }
+alternative_sprites(SIGNALS_OLD_ENTRY_05, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(5,1) }
+
+replacenew SIGNALS_OLD_ENTRY_06				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		70)	{ template_SIGNALS_x1(6,1) }
+alternative_sprites(SIGNALS_OLD_ENTRY_06, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(6,1) }
+alternative_sprites(SIGNALS_OLD_ENTRY_06, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(6,1) }
+alternative_sprites(SIGNALS_OLD_ENTRY_06, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(6,1) }
+
+replacenew SIGNALS_OLD_ENTRY_07				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		71)	{ template_SIGNALS_x1(7,1) }
+alternative_sprites(SIGNALS_OLD_ENTRY_07, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(7,1) }
+alternative_sprites(SIGNALS_OLD_ENTRY_07, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(7,1) }
+alternative_sprites(SIGNALS_OLD_ENTRY_07, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(7,1) }
+
+replacenew SIGNALS_OLD_ENTRY_08				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		72)	{ template_SIGNALS_x1(8,1) }
+alternative_sprites(SIGNALS_OLD_ENTRY_08, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(8,1) }
+alternative_sprites(SIGNALS_OLD_ENTRY_08, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(8,1) }
+alternative_sprites(SIGNALS_OLD_ENTRY_08, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(8,1) }
+
+replacenew SIGNALS_OLD_ENTRY_09				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		73)	{ template_SIGNALS_x1(9,1) }
+alternative_sprites(SIGNALS_OLD_ENTRY_09, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(9,1) }
+alternative_sprites(SIGNALS_OLD_ENTRY_09, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(9,1) }
+alternative_sprites(SIGNALS_OLD_ENTRY_09, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(9,1) }
+
+replacenew SIGNALS_OLD_ENTRY_10				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		74)	{ template_SIGNALS_x1(10,1) }
+alternative_sprites(SIGNALS_OLD_ENTRY_10, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(10,1) }
+alternative_sprites(SIGNALS_OLD_ENTRY_10, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(10,1) }
+alternative_sprites(SIGNALS_OLD_ENTRY_10, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(10,1) }
+
+replacenew SIGNALS_OLD_ENTRY_11				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		75)	{ template_SIGNALS_x1(11,1) }
+alternative_sprites(SIGNALS_OLD_ENTRY_11, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(11,1) }
+alternative_sprites(SIGNALS_OLD_ENTRY_11, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(11,1) }
+alternative_sprites(SIGNALS_OLD_ENTRY_11, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(11,1) }
+
+replacenew SIGNALS_OLD_ENTRY_12				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		76)	{ template_SIGNALS_x1(12,1) }
+alternative_sprites(SIGNALS_OLD_ENTRY_12, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(12,1) }
+alternative_sprites(SIGNALS_OLD_ENTRY_12, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(12,1) }
+alternative_sprites(SIGNALS_OLD_ENTRY_12, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(12,1) }
+
+replacenew SIGNALS_OLD_ENTRY_13				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		77)	{ template_SIGNALS_x1(13,1) }
+alternative_sprites(SIGNALS_OLD_ENTRY_13, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(13,1) }
+alternative_sprites(SIGNALS_OLD_ENTRY_13, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(13,1) }
+alternative_sprites(SIGNALS_OLD_ENTRY_13, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(13,1) }
+
+replacenew SIGNALS_OLD_ENTRY_14				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		78)	{ template_SIGNALS_x1(14,1) }
+alternative_sprites(SIGNALS_OLD_ENTRY_14, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(14,1) }
+alternative_sprites(SIGNALS_OLD_ENTRY_14, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(14,1) }
+alternative_sprites(SIGNALS_OLD_ENTRY_14, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(14,1) }
+
+replacenew SIGNALS_OLD_ENTRY_15				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		79)	{ template_SIGNALS_x1(15,1) }
+alternative_sprites(SIGNALS_OLD_ENTRY_15, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(15,1) }
+alternative_sprites(SIGNALS_OLD_ENTRY_15, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(15,1) }
+alternative_sprites(SIGNALS_OLD_ENTRY_15, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(15,1) }
+
+
+// OLD Exit PBS PRE_SIGNAL_SEMAPHORE_PBS 80-95
+
+replacenew SIGNALS_OLD_EXIT_00				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		80)	{ template_SIGNALS_x1(0,2) }
+alternative_sprites(SIGNALS_OLD_EXIT_00, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(0,2) }
+alternative_sprites(SIGNALS_OLD_EXIT_00, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(0,2) }
+alternative_sprites(SIGNALS_OLD_EXIT_00, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(0,2) }
+
+replacenew SIGNALS_OLD_EXIT_01				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		81)	{ template_SIGNALS_x1(1,2) }
+alternative_sprites(SIGNALS_OLD_EXIT_01, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(1,2) }
+alternative_sprites(SIGNALS_OLD_EXIT_01, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(1,2) }
+alternative_sprites(SIGNALS_OLD_EXIT_01, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(1,2) }
+
+replacenew SIGNALS_OLD_EXIT_02				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		82)	{ template_SIGNALS_x1(2,2) }
+alternative_sprites(SIGNALS_OLD_EXIT_02, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(2,2) }
+alternative_sprites(SIGNALS_OLD_EXIT_02, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(2,2) }
+alternative_sprites(SIGNALS_OLD_EXIT_02, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(2,2) }
+
+replacenew SIGNALS_OLD_EXIT_03				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		83)	{ template_SIGNALS_x1(3,2) }
+alternative_sprites(SIGNALS_OLD_EXIT_03, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(3,2) }
+alternative_sprites(SIGNALS_OLD_EXIT_03, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(3,2) }
+alternative_sprites(SIGNALS_OLD_EXIT_03, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(3,2) }
+
+replacenew SIGNALS_OLD_EXIT_04				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		84)	{ template_SIGNALS_x1(4,2) }
+alternative_sprites(SIGNALS_OLD_EXIT_04, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(4,2) }
+alternative_sprites(SIGNALS_OLD_EXIT_04, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(4,2) }
+alternative_sprites(SIGNALS_OLD_EXIT_04, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(4,2) }
+
+replacenew SIGNALS_OLD_EXIT_05				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		85)	{ template_SIGNALS_x1(5,2) }
+alternative_sprites(SIGNALS_OLD_EXIT_05, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(5,2) }
+alternative_sprites(SIGNALS_OLD_EXIT_05, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(5,2) }
+alternative_sprites(SIGNALS_OLD_EXIT_05, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(5,2) }
+
+replacenew SIGNALS_OLD_EXIT_06				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		86)	{ template_SIGNALS_x1(6,2) }
+alternative_sprites(SIGNALS_OLD_EXIT_06, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(6,2) }
+alternative_sprites(SIGNALS_OLD_EXIT_06, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(6,2) }
+alternative_sprites(SIGNALS_OLD_EXIT_06, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(6,2) }
+
+replacenew SIGNALS_OLD_EXIT_07				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		87)	{ template_SIGNALS_x1(7,2) }
+alternative_sprites(SIGNALS_OLD_EXIT_07, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(7,2) }
+alternative_sprites(SIGNALS_OLD_EXIT_07, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(7,2) }
+alternative_sprites(SIGNALS_OLD_EXIT_07, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(7,2) }
+
+replacenew SIGNALS_OLD_EXIT_08				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		88)	{ template_SIGNALS_x1(8,2) }
+alternative_sprites(SIGNALS_OLD_EXIT_08, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(8,2) }
+alternative_sprites(SIGNALS_OLD_EXIT_08, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(8,2) }
+alternative_sprites(SIGNALS_OLD_EXIT_08, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(8,2) }
+
+replacenew SIGNALS_OLD_EXIT_09				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		89)	{ template_SIGNALS_x1(9,2) }
+alternative_sprites(SIGNALS_OLD_EXIT_09, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(9,2) }
+alternative_sprites(SIGNALS_OLD_EXIT_09, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(9,2) }
+alternative_sprites(SIGNALS_OLD_EXIT_09, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(9,2) }
+
+replacenew SIGNALS_OLD_EXIT_10				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		90)	{ template_SIGNALS_x1(10,2) }
+alternative_sprites(SIGNALS_OLD_EXIT_10, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(10,2) }
+alternative_sprites(SIGNALS_OLD_EXIT_10, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(10,2) }
+alternative_sprites(SIGNALS_OLD_EXIT_10, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(10,2) }
+
+replacenew SIGNALS_OLD_EXIT_11				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		91)	{ template_SIGNALS_x1(11,2) }
+alternative_sprites(SIGNALS_OLD_EXIT_11, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(11,2) }
+alternative_sprites(SIGNALS_OLD_EXIT_11, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(11,2) }
+alternative_sprites(SIGNALS_OLD_EXIT_11, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(11,2) }
+
+replacenew SIGNALS_OLD_EXIT_12				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		92)	{ template_SIGNALS_x1(12,2) }
+alternative_sprites(SIGNALS_OLD_EXIT_12, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(12,2) }
+alternative_sprites(SIGNALS_OLD_EXIT_12, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(12,2) }
+alternative_sprites(SIGNALS_OLD_EXIT_12, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(12,2) }
+
+replacenew SIGNALS_OLD_EXIT_13				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		93)	{ template_SIGNALS_x1(13,2) }
+alternative_sprites(SIGNALS_OLD_EXIT_13, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(13,2) }
+alternative_sprites(SIGNALS_OLD_EXIT_13, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(13,2) }
+alternative_sprites(SIGNALS_OLD_EXIT_13, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(13,2) }
+
+replacenew SIGNALS_OLD_EXIT_14				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		94)	{ template_SIGNALS_x1(14,2) }
+alternative_sprites(SIGNALS_OLD_EXIT_14, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(14,2) }
+alternative_sprites(SIGNALS_OLD_EXIT_14, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(14,2) }
+alternative_sprites(SIGNALS_OLD_EXIT_14, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(14,2) }
+
+replacenew SIGNALS_OLD_EXIT_15				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		95)	{ template_SIGNALS_x1(15,2) }
+alternative_sprites(SIGNALS_OLD_EXIT_15, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(15,2) }
+alternative_sprites(SIGNALS_OLD_EXIT_15, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(15,2) }
+alternative_sprites(SIGNALS_OLD_EXIT_15, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(15,2) }
+
+// OLD Combo PBS PRE_SIGNAL_SEMAPHORE_PBS 96-111
+
+replacenew SIGNALS_OLD_COMBO_00				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		96)	{ template_SIGNALS_x1(0,3) }
+alternative_sprites(SIGNALS_OLD_COMBO_00, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(0,3) }
+alternative_sprites(SIGNALS_OLD_COMBO_00, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(0,3) }
+alternative_sprites(SIGNALS_OLD_COMBO_00, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(0,3) }
+
+replacenew SIGNALS_OLD_COMBO_01				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		97)	{ template_SIGNALS_x1(1,3) }
+alternative_sprites(SIGNALS_OLD_COMBO_01, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(1,3) }
+alternative_sprites(SIGNALS_OLD_COMBO_01, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(1,3) }
+alternative_sprites(SIGNALS_OLD_COMBO_01, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(1,3) }
+
+replacenew SIGNALS_OLD_COMBO_02				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		98)	{ template_SIGNALS_x1(2,3) }
+alternative_sprites(SIGNALS_OLD_COMBO_02, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(2,3) }
+alternative_sprites(SIGNALS_OLD_COMBO_02, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(2,3) }
+alternative_sprites(SIGNALS_OLD_COMBO_02, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(2,3) }
+
+replacenew SIGNALS_OLD_COMBO_03				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		99)	{ template_SIGNALS_x1(3,3) }
+alternative_sprites(SIGNALS_OLD_COMBO_03, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(3,3) }
+alternative_sprites(SIGNALS_OLD_COMBO_03, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(3,3) }
+alternative_sprites(SIGNALS_OLD_COMBO_03, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(3,3) }
+
+replacenew SIGNALS_OLD_COMBO_04				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		100)	{ template_SIGNALS_x1(4,3) }
+alternative_sprites(SIGNALS_OLD_COMBO_04, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(4,3) }
+alternative_sprites(SIGNALS_OLD_COMBO_04, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(4,3) }
+alternative_sprites(SIGNALS_OLD_COMBO_04, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(4,3) }
+
+replacenew SIGNALS_OLD_COMBO_05				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		101)	{ template_SIGNALS_x1(5,3) }
+alternative_sprites(SIGNALS_OLD_COMBO_05, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(5,3) }
+alternative_sprites(SIGNALS_OLD_COMBO_05, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(5,3) }
+alternative_sprites(SIGNALS_OLD_COMBO_05, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(5,3) }
+
+replacenew SIGNALS_OLD_COMBO_06				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		102)	{ template_SIGNALS_x1(6,3) }
+alternative_sprites(SIGNALS_OLD_COMBO_06, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(6,3) }
+alternative_sprites(SIGNALS_OLD_COMBO_06, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(6,3) }
+alternative_sprites(SIGNALS_OLD_COMBO_06, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(6,3) }
+
+replacenew SIGNALS_OLD_COMBO_07				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		103)	{ template_SIGNALS_x1(7,3) }
+alternative_sprites(SIGNALS_OLD_COMBO_07, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(7,3) }
+alternative_sprites(SIGNALS_OLD_COMBO_07, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(7,3) }
+alternative_sprites(SIGNALS_OLD_COMBO_07, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(7,3) }
+
+replacenew SIGNALS_OLD_COMBO_08				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		104)	{ template_SIGNALS_x1(8,3) }
+alternative_sprites(SIGNALS_OLD_COMBO_08, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(8,3) }
+alternative_sprites(SIGNALS_OLD_COMBO_08, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(8,3) }
+alternative_sprites(SIGNALS_OLD_COMBO_08, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(8,3) }
+
+replacenew SIGNALS_OLD_COMBO_09				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		105)	{ template_SIGNALS_x1(9,3) }
+alternative_sprites(SIGNALS_OLD_COMBO_09, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(9,3) }
+alternative_sprites(SIGNALS_OLD_COMBO_09, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(9,3) }
+alternative_sprites(SIGNALS_OLD_COMBO_09, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(9,3) }
+
+replacenew SIGNALS_OLD_COMBO_10				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		106)	{ template_SIGNALS_x1(10,3) }
+alternative_sprites(SIGNALS_OLD_COMBO_10, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(10,3) }
+alternative_sprites(SIGNALS_OLD_COMBO_10, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(10,3) }
+alternative_sprites(SIGNALS_OLD_COMBO_10, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(10,3) }
+
+replacenew SIGNALS_OLD_COMBO_11				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		107)	{ template_SIGNALS_x1(11,3) }
+alternative_sprites(SIGNALS_OLD_COMBO_11, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(11,3) }
+alternative_sprites(SIGNALS_OLD_COMBO_11, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(11,3) }
+alternative_sprites(SIGNALS_OLD_COMBO_11, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(11,3) }
+
+replacenew SIGNALS_OLD_COMBO_12				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		108)	{ template_SIGNALS_x1(12,3) }
+alternative_sprites(SIGNALS_OLD_COMBO_12, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(12,3) }
+alternative_sprites(SIGNALS_OLD_COMBO_12, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(12,3) }
+alternative_sprites(SIGNALS_OLD_COMBO_12, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(12,3) }
+
+replacenew SIGNALS_OLD_COMBO_13				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		109)	{ template_SIGNALS_x1(13,3) }
+alternative_sprites(SIGNALS_OLD_COMBO_13, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(13,3) }
+alternative_sprites(SIGNALS_OLD_COMBO_13, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(13,3) }
+alternative_sprites(SIGNALS_OLD_COMBO_13, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(13,3) }
+
+replacenew SIGNALS_OLD_COMBO_14				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		110)	{ template_SIGNALS_x1(14,3) }
+alternative_sprites(SIGNALS_OLD_COMBO_14, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(14,3) }
+alternative_sprites(SIGNALS_OLD_COMBO_14, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(14,3) }
+alternative_sprites(SIGNALS_OLD_COMBO_14, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(14,3) }
+
+replacenew SIGNALS_OLD_COMBO_15				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		111)	{ template_SIGNALS_x1(15,3) }
+alternative_sprites(SIGNALS_OLD_COMBO_15, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 		{ template_SIGNALS_x1(15,3) }
+alternative_sprites(SIGNALS_OLD_COMBO_15, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 			{ template_SIGNALS_x4(15,3) }
+alternative_sprites(SIGNALS_OLD_COMBO_15, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 			{ template_SIGNALS_x4(15,3) }
+
+
+// OLD 2-way PBS PRE_SIGNAL_SEMAPHORE_PBS 176-191
+
+replacenew SIGNALS_OLD_PBS2way_00				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		176)	{ template_SIGNALS_x1(0,4) }
+alternative_sprites(SIGNALS_OLD_PBS2way_00, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x1(0,4) }
+alternative_sprites(SIGNALS_OLD_PBS2way_00, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x4(0,4) }
+alternative_sprites(SIGNALS_OLD_PBS2way_00, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 				{ template_SIGNALS_x4(0,4) }
+
+replacenew SIGNALS_OLD_PBS2way_01				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		177)	{ template_SIGNALS_x1(1,4) }
+alternative_sprites(SIGNALS_OLD_PBS2way_01, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x1(1,4) }
+alternative_sprites(SIGNALS_OLD_PBS2way_01, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x4(1,4) }
+alternative_sprites(SIGNALS_OLD_PBS2way_01, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 				{ template_SIGNALS_x4(1,4) }
+
+replacenew SIGNALS_OLD_PBS2way_02				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		178)	{ template_SIGNALS_x1(2,4) }
+alternative_sprites(SIGNALS_OLD_PBS2way_02, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x1(2,4) }
+alternative_sprites(SIGNALS_OLD_PBS2way_02, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x4(2,4) }
+alternative_sprites(SIGNALS_OLD_PBS2way_02, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 				{ template_SIGNALS_x4(2,4) }
+
+replacenew SIGNALS_OLD_PBS2way_03				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		179)	{ template_SIGNALS_x1(3,4) }
+alternative_sprites(SIGNALS_OLD_PBS2way_03, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x1(3,4) }
+alternative_sprites(SIGNALS_OLD_PBS2way_03, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x4(3,4) }
+alternative_sprites(SIGNALS_OLD_PBS2way_03, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 				{ template_SIGNALS_x4(3,4) }
+
+replacenew SIGNALS_OLD_PBS2way_04				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		180)	{ template_SIGNALS_x1(4,4) }
+alternative_sprites(SIGNALS_OLD_PBS2way_04, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x1(4,4) }
+alternative_sprites(SIGNALS_OLD_PBS2way_04, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x4(4,4) }
+alternative_sprites(SIGNALS_OLD_PBS2way_04, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 				{ template_SIGNALS_x4(4,4) }
+
+replacenew SIGNALS_OLD_PBS2way_05				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		181)	{ template_SIGNALS_x1(5,4) }
+alternative_sprites(SIGNALS_OLD_PBS2way_05, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x1(5,4) }
+alternative_sprites(SIGNALS_OLD_PBS2way_05, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x4(5,4) }
+alternative_sprites(SIGNALS_OLD_PBS2way_05, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 				{ template_SIGNALS_x4(5,4) }
+
+replacenew SIGNALS_OLD_PBS2way_06				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		182)	{ template_SIGNALS_x1(6,4) }
+alternative_sprites(SIGNALS_OLD_PBS2way_06, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x1(6,4) }
+alternative_sprites(SIGNALS_OLD_PBS2way_06, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x4(6,4) }
+alternative_sprites(SIGNALS_OLD_PBS2way_06, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 				{ template_SIGNALS_x4(6,4) }
+
+replacenew SIGNALS_OLD_PBS2way_07				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		183)	{ template_SIGNALS_x1(7,4) }
+alternative_sprites(SIGNALS_OLD_PBS2way_07, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x1(7,4) }
+alternative_sprites(SIGNALS_OLD_PBS2way_07, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x4(7,4) }
+alternative_sprites(SIGNALS_OLD_PBS2way_07, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 				{ template_SIGNALS_x4(7,4) }
+
+replacenew SIGNALS_OLD_PBS2way_08				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		184)	{ template_SIGNALS_x1(8,4) }
+alternative_sprites(SIGNALS_OLD_PBS2way_08, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x1(8,4) }
+alternative_sprites(SIGNALS_OLD_PBS2way_08, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x4(8,4) }
+alternative_sprites(SIGNALS_OLD_PBS2way_08, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 				{ template_SIGNALS_x4(8,4) }
+
+replacenew SIGNALS_OLD_PBS2way_09				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		185)	{ template_SIGNALS_x1(9,4) }
+alternative_sprites(SIGNALS_OLD_PBS2way_09, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x1(9,4) }
+alternative_sprites(SIGNALS_OLD_PBS2way_09, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x4(9,4) }
+alternative_sprites(SIGNALS_OLD_PBS2way_09, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 				{ template_SIGNALS_x4(9,4) }
+
+replacenew SIGNALS_OLD_PBS2way_10				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		186)	{ template_SIGNALS_x1(10,4) }
+alternative_sprites(SIGNALS_OLD_PBS2way_10, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x1(10,4) }
+alternative_sprites(SIGNALS_OLD_PBS2way_10, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x4(10,4) }
+alternative_sprites(SIGNALS_OLD_PBS2way_10, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 				{ template_SIGNALS_x4(10,4) }
+
+replacenew SIGNALS_OLD_PBS2way_11				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		187)	{ template_SIGNALS_x1(11,4) }
+alternative_sprites(SIGNALS_OLD_PBS2way_11, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x1(11,4) }
+alternative_sprites(SIGNALS_OLD_PBS2way_11, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x4(11,4) }
+alternative_sprites(SIGNALS_OLD_PBS2way_11, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 				{ template_SIGNALS_x4(11,4) }
+
+replacenew SIGNALS_OLD_PBS2way_12				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		188)	{ template_SIGNALS_x1(12,4) }
+alternative_sprites(SIGNALS_OLD_PBS2way_12, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x1(12,4) }
+alternative_sprites(SIGNALS_OLD_PBS2way_12, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x4(12,4) }
+alternative_sprites(SIGNALS_OLD_PBS2way_12, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 				{ template_SIGNALS_x4(12,4) }
+
+replacenew SIGNALS_OLD_PBS2way_13				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		189)	{ template_SIGNALS_x1(13,4) }
+alternative_sprites(SIGNALS_OLD_PBS2way_13, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x1(13,4) }
+alternative_sprites(SIGNALS_OLD_PBS2way_13, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x4(13,4) }
+alternative_sprites(SIGNALS_OLD_PBS2way_13, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 				{ template_SIGNALS_x4(13,4) }
+
+replacenew SIGNALS_OLD_PBS2way_14				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		190)	{ template_SIGNALS_x1(14,4) }
+alternative_sprites(SIGNALS_OLD_PBS2way_14, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x1(14,4) }
+alternative_sprites(SIGNALS_OLD_PBS2way_14, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x4(14,4) }
+alternative_sprites(SIGNALS_OLD_PBS2way_14, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 				{ template_SIGNALS_x4(14,4) }
+
+replacenew SIGNALS_OLD_PBS2way_15				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		191)	{ template_SIGNALS_x1(15,4) }
+alternative_sprites(SIGNALS_OLD_PBS2way_15, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x1(15,4) }
+alternative_sprites(SIGNALS_OLD_PBS2way_15, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x4(15,4) }
+alternative_sprites(SIGNALS_OLD_PBS2way_15, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 				{ template_SIGNALS_x4(15,4) }
+
+
+// OLD 1-way PBS PBS PRE_SIGNAL_SEMAPHORE_PBS 192-207
+
+replacenew SIGNALS_OLD_PBS1way_00				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		192)	{ template_SIGNALS_x1(0,5) }
+alternative_sprites(SIGNALS_OLD_PBS1way_00, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x1(0,5) }
+alternative_sprites(SIGNALS_OLD_PBS1way_00, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x4(0,5) }
+alternative_sprites(SIGNALS_OLD_PBS1way_00, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 				{ template_SIGNALS_x4(0,5) }
+
+replacenew SIGNALS_OLD_PBS1way_01				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		193)	{ template_SIGNALS_x1(1,5) }
+alternative_sprites(SIGNALS_OLD_PBS1way_01, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x1(1,5) }
+alternative_sprites(SIGNALS_OLD_PBS1way_01, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x4(1,5) }
+alternative_sprites(SIGNALS_OLD_PBS1way_01, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 				{ template_SIGNALS_x4(1,5) }
+
+replacenew SIGNALS_OLD_PBS1way_02				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		194)	{ template_SIGNALS_x1(2,5) }
+alternative_sprites(SIGNALS_OLD_PBS1way_02, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x1(2,5) }
+alternative_sprites(SIGNALS_OLD_PBS1way_02, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x4(2,5) }
+alternative_sprites(SIGNALS_OLD_PBS1way_02, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 				{ template_SIGNALS_x4(2,5) }
+
+replacenew SIGNALS_OLD_PBS1way_03				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		195)	{ template_SIGNALS_x1(3,5) }
+alternative_sprites(SIGNALS_OLD_PBS1way_03, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x1(3,5) }
+alternative_sprites(SIGNALS_OLD_PBS1way_03, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x4(3,5) }
+alternative_sprites(SIGNALS_OLD_PBS1way_03, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 				{ template_SIGNALS_x4(3,5) }
+
+replacenew SIGNALS_OLD_PBS1way_04				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		196)	{ template_SIGNALS_x1(4,5) }
+alternative_sprites(SIGNALS_OLD_PBS1way_04, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x1(4,5) }
+alternative_sprites(SIGNALS_OLD_PBS1way_04, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x4(4,5) }
+alternative_sprites(SIGNALS_OLD_PBS1way_04, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 				{ template_SIGNALS_x4(4,5) }
+
+replacenew SIGNALS_OLD_PBS1way_05				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		197)	{ template_SIGNALS_x1(5,5) }
+alternative_sprites(SIGNALS_OLD_PBS1way_05, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x1(5,5) }
+alternative_sprites(SIGNALS_OLD_PBS1way_05, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x4(5,5) }
+alternative_sprites(SIGNALS_OLD_PBS1way_05, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 				{ template_SIGNALS_x4(5,5) }
+
+replacenew SIGNALS_OLD_PBS1way_06				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		198)	{ template_SIGNALS_x1(6,5) }
+alternative_sprites(SIGNALS_OLD_PBS1way_06, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x1(6,5) }
+alternative_sprites(SIGNALS_OLD_PBS1way_06, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x4(6,5) }
+alternative_sprites(SIGNALS_OLD_PBS1way_06, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 				{ template_SIGNALS_x4(6,5) }
+
+replacenew SIGNALS_OLD_PBS1way_07				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		199)	{ template_SIGNALS_x1(7,5) }
+alternative_sprites(SIGNALS_OLD_PBS1way_07, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x1(7,5) }
+alternative_sprites(SIGNALS_OLD_PBS1way_07, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x4(7,5) }
+alternative_sprites(SIGNALS_OLD_PBS1way_07, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 				{ template_SIGNALS_x4(7,5) }
+
+replacenew SIGNALS_OLD_PBS1way_08				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		200)	{ template_SIGNALS_x1(8,5) }
+alternative_sprites(SIGNALS_OLD_PBS1way_08, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x1(8,5) }
+alternative_sprites(SIGNALS_OLD_PBS1way_08, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x4(8,5) }
+alternative_sprites(SIGNALS_OLD_PBS1way_08, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 				{ template_SIGNALS_x4(8,5) }
+
+replacenew SIGNALS_OLD_PBS1way_09				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		201)	{ template_SIGNALS_x1(9,5) }
+alternative_sprites(SIGNALS_OLD_PBS1way_09, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x1(9,5) }
+alternative_sprites(SIGNALS_OLD_PBS1way_09, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x4(9,5) }
+alternative_sprites(SIGNALS_OLD_PBS1way_09, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 				{ template_SIGNALS_x4(9,5) }
+
+replacenew SIGNALS_OLD_PBS1way_10				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		202)	{ template_SIGNALS_x1(10,5) }
+alternative_sprites(SIGNALS_OLD_PBS1way_10, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x1(10,5) }
+alternative_sprites(SIGNALS_OLD_PBS1way_10, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x4(10,5) }
+alternative_sprites(SIGNALS_OLD_PBS1way_10, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 				{ template_SIGNALS_x4(10,5) }
+
+replacenew SIGNALS_OLD_PBS1way_11				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		203)	{ template_SIGNALS_x1(11,5) }
+alternative_sprites(SIGNALS_OLD_PBS1way_11, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x1(11,5) }
+alternative_sprites(SIGNALS_OLD_PBS1way_11, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x4(11,5) }
+alternative_sprites(SIGNALS_OLD_PBS1way_11, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 				{ template_SIGNALS_x4(11,5) }
+
+replacenew SIGNALS_OLD_PBS1way_12				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		204)	{ template_SIGNALS_x1(12,5) }
+alternative_sprites(SIGNALS_OLD_PBS1way_12, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x1(12,5) }
+alternative_sprites(SIGNALS_OLD_PBS1way_12, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x4(12,5) }
+alternative_sprites(SIGNALS_OLD_PBS1way_12, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 				{ template_SIGNALS_x4(12,5) }
+
+replacenew SIGNALS_OLD_PBS1way_13				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		205)	{ template_SIGNALS_x1(13,5) }
+alternative_sprites(SIGNALS_OLD_PBS1way_13, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x1(13,5) }
+alternative_sprites(SIGNALS_OLD_PBS1way_13, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x4(13,5) }
+alternative_sprites(SIGNALS_OLD_PBS1way_13, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 				{ template_SIGNALS_x4(13,5) }
+
+replacenew SIGNALS_OLD_PBS1way_14				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		206)	{ template_SIGNALS_x1(14,5) }
+alternative_sprites(SIGNALS_OLD_PBS1way_14, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x1(14,5) }
+alternative_sprites(SIGNALS_OLD_PBS1way_14, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x4(14,5) }
+alternative_sprites(SIGNALS_OLD_PBS1way_14, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 				{ template_SIGNALS_x4(14,5) }
+
+replacenew SIGNALS_OLD_PBS1way_15				(PRE_SIGNAL_SEMAPHORE_PBS ,"gfx/8bpp/signals/signals-semaphore-8bpp.png",		207)	{ template_SIGNALS_x1(15,5) }
+alternative_sprites(SIGNALS_OLD_PBS1way_15, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x1(15,5) }
+alternative_sprites(SIGNALS_OLD_PBS1way_15, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/signals/signals-semaphore.png") 				{ template_SIGNALS_x4(15,5) }
+alternative_sprites(SIGNALS_OLD_PBS1way_15, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/signals/signals-semaphore-8bpp.png") 				{ template_SIGNALS_x4(15,5) }
+

@@ -1,0 +1,895 @@
+//second_rocky_tileset = 1;
+template template_x1_8bpp_vehicle8_4views(y,f) {
+	[ 0*64+2048, 80*y, 64, 80, -32, -34,  f]
+	[ 1*64+2048, 80*y, 64, 80, -34, -36, f]
+	[ 2*64+2048, 80*y, 64, 80, -32, -37, f]
+	[ 3*64+2048, 80*y, 64, 80, -29, -36, f]
+	
+}
+
+template template_x1_32bpp_vehicle8_4views(y,f,m) {
+	[ 0*64+2048, 80*y, 64, 80, -32, -34,	f, m]
+	[ 1*64+2048, 80*y, 64, 80, -34, -36,	f, m]
+	[ 2*64+2048, 80*y, 64, 80, -32, -37,	f, m]
+	[ 3*64+2048, 80*y, 64, 80, -29, -36,	f, m]
+}
+
+template template_x4_32bpp_vehicle8_4views(y,f,m) {
+	[ 0*256, 320*y, 256, 320, -128+4, -134-2,f,m]
+	[ 1*256, 320*y, 256, 320, -136+4, -145-2,f,m]
+	[ 2*256, 320*y, 256, 320, -128+4, -147-2,f,m]
+	[ 3*256, 320*y, 256, 320, -116+4, -143-2,f,m]
+}
+
+template template_x4_8bpp_vehicle8_4views(y,f) {
+	[ 0*256, 320*y, 256, 320, -128+4, -134-2,f]
+	[ 1*256, 320*y, 256, 320, -136+4, -145-2,f]
+	[ 2*256, 320*y, 256, 320, -128+4, -147-2,f]
+	[ 3*256, 320*y, 256, 320, -116+4, -143-2,f]
+}
+
+template template_x1_8bpp_vehicle8_8views(y,f) {
+	[ 0*64+2048, 80*y, 64, 80, -32, -34,  f]
+	[ 1*64+2048, 80*y, 64, 80, -34, -36, f]
+	[ 2*64+2048, 80*y, 64, 80, -32, -37, f]
+	[ 3*64+2048, 80*y, 64, 80, -29, -36, f]
+	
+	[ 4*64+2048, 80*y, 64, 80, -32, -34, f]
+	[ 5*64+2048, 80*y, 64, 80, -34, -36, f]
+	[ 6*64+2048, 80*y, 64, 80, -32, -37, f]
+	[ 7*64+2048, 80*y, 64, 80, -29, -36, f]
+}
+
+template template_x1_32bpp_vehicle8_8views(y,f,m) {
+	[ 0*64+2048, 80*y, 64, 80, -32, -34,	f, m]
+	[ 1*64+2048, 80*y, 64, 80, -38, -36,	f, m]
+	[ 2*64+2048, 80*y, 64, 80, -32, -37,	f, m]
+	[ 3*64+2048, 80*y, 64, 80, -29, -36,	f, m]
+	
+	[ 4*64+2048, 80*y, 64, 80, -32, -34,	f, m]
+	[ 5*64+2048, 80*y, 64, 80, -34, -36,	f, m]
+	[ 6*64+2048, 80*y, 64, 80, -32, -37,	f, m]
+	[ 7*64+2048, 80*y, 64, 80, -29, -36,	f, m]
+}
+
+template template_x4_32bpp_vehicle8_8views(y,f,m) {
+	[ 0*256, 320*y, 256, 320, -128+4, -134-2,f,m]
+	[ 1*256, 320*y, 256, 320, -136+4, -145-2,f,m]
+	[ 2*256, 320*y, 256, 320, -128+4, -147-2,f,m]
+	[ 3*256, 320*y, 256, 320, -116+4, -143-2,f,m]
+	                                              
+	[ 4*256, 320*y, 256, 320, -128+4, -134-2,f,m]
+	[ 5*256, 320*y, 256, 320, -136+4, -145-2,f,m]
+	[ 6*256, 320*y, 256, 320, -128+4, -147-2,f,m]
+	[ 7*256, 320*y, 256, 320, -116+4, -143-2,f,m]
+}
+
+template template_x4_8bpp_vehicle8_8views(y,f) {
+	[ 0*256, 320*y, 256, 320, -128+4, -134-2,f]
+	[ 1*256, 320*y, 256, 320, -136+4, -145-2,f]
+	[ 2*256, 320*y, 256, 320, -128+4, -147-2,f]
+	[ 3*256, 320*y, 256, 320, -116+4, -143-2,f]
+	                                            
+	[ 4*256, 320*y, 256, 320, -128+4, -134-2,f]
+	[ 5*256, 320*y, 256, 320, -136+4, -145-2,f]
+	[ 6*256, 320*y, 256, 320, -128+4, -147-2,f]
+	[ 7*256, 320*y, 256, 320, -116+4, -143-2,f]
+}
+
+template template_LANDSCAPE_x1(x,y) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*64, 	//position on X
+	6400+80*y,		//position on Y
+	64,		//X size
+	80,		//Y size
+	-31, -8-8-8] //X,Y offsets
+}
+
+template template_LANDSCAPE_x4(x,y) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*256, //position on X
+	320*y,		//position on Y
+	256,	//X size
+	320,	//Y size
+	-124, -160+65-3]//X,Y offsets
+}
+
+
+
+
+template template_WATER_COASTS_x1(y) {
+	[16*64, 6400+80*y, 64, 80, -31, -24]
+	[ 1*64, 6400+80*y, 64, 80, -31, -24]
+	[ 2*64, 6400+80*y, 64, 80, -31, -24]
+	[ 3*64, 6400+80*y, 64, 80, -31, -24]
+	[ 4*64, 6400+80*y, 64, 80, -31, -24]
+	[17*64, 6400+80*y, 64, 80, -31, -24]
+	[ 6*64, 6400+80*y, 64, 80, -31, -24]
+	[ 7*64, 6400+80*y, 64, 80, -31, -24]
+	[ 8*64, 6400+80*y, 64, 80, -31, -24]
+	[ 9*64, 6400+80*y, 64, 80, -31, -24]
+	[15*64, 6400+80*y, 64, 80, -31, -24]
+	[11*64, 6400+80*y, 64, 80, -31, -24]
+	[12*64, 6400+80*y, 64, 80, -31, -24]
+	[13*64, 6400+80*y, 64, 80, -31, -24]
+	[14*64, 6400+80*y, 64, 80, -31, -24]
+	[18*64, 6400+80*y, 64, 80, -31, -24]
+	
+}
+
+template template_WATER_COASTS_x4(y) {
+	[16*256, 320*y, 256, 320, -124, -98]
+	[ 1*256, 320*y, 256, 320, -124, -98]
+	[ 2*256, 320*y, 256, 320, -124, -98]
+	[ 3*256, 320*y, 256, 320, -124, -98]
+	[ 4*256, 320*y, 256, 320, -124, -98]
+	[17*256, 320*y, 256, 320, -124, -98]
+	[ 6*256, 320*y, 256, 320, -124, -98]
+	[ 7*256, 320*y, 256, 320, -124, -98]
+	[ 8*256, 320*y, 256, 320, -124, -98]
+	[ 9*256, 320*y, 256, 320, -124, -98]
+	[15*256, 320*y, 256, 320, -124, -98]
+	[11*256, 320*y, 256, 320, -124, -98]
+	[12*256, 320*y, 256, 320, -124, -98]
+	[13*256, 320*y, 256, 320, -124, -98]
+	[14*256, 320*y, 256, 320, -124, -98]
+	[18*256, 320*y, 256, 320, -124, -98]
+}
+
+
+
+
+
+
+
+
+/*
+template template_ROADS_x1(x,y) {
+	//x for movement to next tile
+	//y for Y offsets
+	[9216+x*64, 	//position on X
+	80*y,		//position on Y
+	64,		//X size
+	80,		//Y size
+	-31, -8-8-8] //X,Y offsets
+}
+
+template template_ROADS_x4(x,y) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*256, //position on X
+	320*y,		//position on Y
+	256,	//X size
+	320,	//Y size
+	-124, -160+65-3]//X,Y offsets
+}
+*/
+
+
+
+
+
+
+
+template template_TRACKS_x1(x,y) {
+	//x for movement to next tile
+	//y for Y offsets
+	[64*x+12800, 	//position on X
+	80*y,		//position on Y
+	64,		//X size
+	80,		//Y size
+	-31, -8-8-8] //X,Y offsets
+}
+
+template template_TRACKS_x4(x,y) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*256, //position on X
+	320*y,		//position on Y
+	256,	//X size
+	320,	//Y size
+	-124, -160+65-3]//X,Y offsets
+}
+
+template template_TRACKS_x1_tunnelOverlay(x,y) {
+	//x for movement to next tile
+	//y for Y offsets
+	[64*x+12800, 	//position on X
+	80*y,		//position on Y
+	64,		//X size
+	80,		//Y size
+	-31, -54] //X,Y offsets
+}
+
+template template_TRACKS_x4_tunnelOverlay(x,y) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*256, //position on X
+	320*y,		//position on Y
+	256,	//X size
+	320,	//Y size
+	-124, -218+6-6]//X,Y offsets
+}
+
+
+
+
+
+template template_SIGNALS_x1(x,y) {
+	//x for movement to next tile
+	//y for Y offsets
+	[64*x+4096, 	//position on X
+	80*y,		//position on Y
+	64,		//X size
+	80,		//Y size
+	-31, -40] //X,Y offsets
+}
+
+template template_SIGNALS_x4(x,y) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*256, //position on X
+	320*y,		//position on Y
+	256,	//X size
+	320,	//Y size
+	-124, -162]//X,Y offsets
+}
+
+
+
+
+
+template template_LANDSCAPE_x1_tunnelOverlay(x,y) {
+	//x for movement to next tile
+	//y for Y offsets
+	[64+x*64, 	//position on X
+	22528+64*y,		//position on Y
+	64,		//X size
+	64,		//Y size
+	-31, -46] //X,Y offsets
+}
+
+template template_LANDSCAPE_x4_tunnelOverlay(x,y) {
+	//x for movement to next tile
+	//y for Y offsets
+	[256+x*256, //position on X
+	256*y,		//position on Y
+	256,	//X size
+	256,	//Y size
+	-124, -186]//X,Y offsets
+}
+
+
+
+
+
+
+template template_BRIDGES_heads_x1_8bpp(x,y,z) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*64, 	//position on X
+	2560+80*y,		//position on Y
+	64,		//X size
+	80,		//Y size
+	-31-1, -48+16-16, //X,Y offsets
+	z]
+}
+
+
+template template_BRIDGES_heads_x1(x,y,z,m) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*64, 	//position on X
+	2560+80*y,		//position on Y
+	64,		//X size
+	80,		//Y size
+	-31-1, -48+16-16, //X,Y offsets
+	z,m]
+}
+
+template template_BRIDGES_heads_x4(x,y,z,m) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*256, //position on X
+	320*y,		//position on Y
+	256,	//X size
+	320,	//Y size
+	-124-4+4, -193+65-64-2,//X,Y offsets
+	z,m]
+}
+template template_BRIDGES_heads_x4_8bpp(x,y,z) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*256, //position on X
+	320*y,		//position on Y
+	256,	//X size
+	320,	//Y size
+	-124-4+4, -193+65-64-2,//X,Y offsets
+	z]
+}
+
+
+
+template template_BRIDGES_x1_8bpp(x,y,z) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*64, 	//position on X
+	2560+80*y,		//position on Y
+	64,		//X size
+	80,		//Y size
+	-31-1, -43+16-16, //X,Y offsets
+	z]
+}
+
+template template_BRIDGES_x1(x,y,z,m) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*64, 	//position on X
+	2560+80*y,		//position on Y
+	64,		//X size
+	80,		//Y size
+	-31-1, -43+16-16, //X,Y offsets
+	z,m]
+}
+
+template template_BRIDGES_x4(x,y,z,m) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*256, //position on X
+	320*y,		//position on Y
+	256,	//X size
+	320,	//Y size
+	-124-4+4, -173+65-64-2,//X,Y offsets
+	z,m]
+}
+
+template template_BRIDGES_x4_8bpp(x,y,z) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*256, //position on X
+	320*y,		//position on Y
+	256,	//X size
+	320,	//Y size
+	-124-4+4, -173+65-64-2,//X,Y offsets
+	z]
+}
+
+
+template template_BRIDGES_overlay_1_x1_8bpp(x,y,z) { // ////direction
+	//x for movement to next tile
+	//y for Y offsets
+	[x*64, 	//position on X
+	2560+80*y,		//position on Y
+	64,		//X size
+	80,		//Y size
+	-55-1, -55+16-16, //X,Y offsets
+	z]
+}
+
+template template_BRIDGES_overlay_1_x1(x,y,z,m) { // ////direction
+	//x for movement to next tile
+	//y for Y offsets
+	[x*64, 	//position on X
+	2560+80*y,		//position on Y
+	64,		//X size
+	80,		//Y size
+	-55-1, -55+16-16, //X,Y offsets
+	z,m]
+}
+
+template template_BRIDGES_overlay_1_x4(x,y,z,m) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*256, //position on X
+	320*y,		//position on Y
+	256,	//X size
+	320,	//Y size
+	-220-4+4, -221+65-64-2,//X,Y offsets
+	z,m]
+}
+
+template template_BRIDGES_overlay_1_x4_8bpp(x,y,z) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*256, //position on X
+	320*y,		//position on Y
+	256,	//X size
+	320,	//Y size
+	-220-4+4, -221+65-64-2,//X,Y offsets
+	z]
+}
+
+
+
+
+template template_BRIDGES_overlay_2_x1_8bpp(x,y,z) { // \\\\direction
+	//x for movement to next tile
+	//y for Y offsets
+	[x*64, 	//position on X
+	2560+80*y,		//position on Y
+	64,		//X size
+	80,		//Y size
+	-7-1, -55+16-16,//X,Y offsets
+	z]
+}
+
+template template_BRIDGES_overlay_2_x1(x,y,z,m) { // \\\\direction
+	//x for movement to next tile
+	//y for Y offsets
+	[x*64, 	//position on X
+	2560+80*y,		//position on Y
+	64,		//X size
+	80,		//Y size
+	-7-1, -55+16-16,//X,Y offsets
+	z,m]
+}
+
+template template_BRIDGES_overlay_2_x4(x,y,z,m) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*256, //position on X
+	320*y,		//position on Y
+	256,	//X size
+	320,	//Y size
+	-28-4+4, -221+65-64-2,
+	z,m]//X,Y offsets
+}
+
+template template_BRIDGES_overlay_2_x4_8bpp(x,y,z) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*256, //position on X
+	320*y,		//position on Y
+	256,	//X size
+	320,	//Y size
+	-28-4+4, -221+65-64-2,
+	z]//X,Y offsets
+}
+
+
+
+
+
+template template_BRIDGES_1pylon_x1_8bpp(a,b,x,y,z) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*64, 	//position on X
+	2560+80*y,		//position on Y
+	64,		//X size
+	80,		//Y size
+	-32+a-1, -40+b+16-16,//X,Y offsets
+	z]
+}
+
+template template_BRIDGES_1pylon_x1(a,b,x,y,z,m) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*64, 	//position on X
+	2560+80*y,		//position on Y
+	64,		//X size
+	80,		//Y size
+	-32+a-1, -40+b+16-16,//X,Y offsets
+	z,m]
+}
+
+template template_BRIDGES_1pylon_x4(a,b,x,y,z,m) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*256, //position on X
+	320*y,		//position on Y
+	256,	//X size
+	320,	//Y size
+	-124+a-4+4, -160+b+65-64-2,//X,Y offsets
+	z,m]
+}
+
+template template_BRIDGES_1pylon_x4_8bpp(a,b,x,y,z) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*256, //position on X
+	320*y,		//position on Y
+	256,	//X size
+	320,	//Y size
+	-124+a-4+4, -160+b+65-64-2,//X,Y offsets
+	z]
+}
+
+
+
+
+template template_BRIDGES_2pylons_wooden_x1_8bpp(x,y,z) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*64, 	//position on X
+	2560+80*y,		//position on Y
+	64,		//X size
+	80,		//Y size
+	-7-1, -56+16-16,//X,Y offsets
+	z]
+}
+
+template template_BRIDGES_2pylons_wooden_x1(x,y,z,m) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*64, 	//position on X
+	2560+80*y,		//position on Y
+	64,		//X size
+	80,		//Y size
+	-9-1, -56+16-16,//X,Y offsets
+	z,m]
+}
+
+template template_BRIDGES_2pylons_wooden_x4(x,y,z,m) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*256, //position on X
+	320*y,		//position on Y
+	256,	//X size
+	320,	//Y size
+	-35-4+4, -223+65-64-2,//X,Y offsets
+	z,m]
+}
+
+template template_BRIDGES_2pylons_wooden_x4_8bpp(x,y,z) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*256, //position on X
+	320*y,		//position on Y
+	256,	//X size
+	320,	//Y size
+	-35-4+4, -223+65-64-2,//X,Y offsets
+	z]
+}
+
+
+
+
+template template_BRIDGES_2pylons_2_x1_8bpp(x,y,z) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*64, 	//position on X
+	2560+80*y,		//position on Y
+	64,		//X size
+	80,		//Y size
+	-7-1, -55+16-16,//X,Y offsets
+	z]
+}
+
+template template_BRIDGES_2pylons_2_x1(x,y,z,m) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*64, 	//position on X
+	2560+80*y,		//position on Y
+	64,		//X size
+	80,		//Y size
+	-7-1, -55+16-16,//X,Y offsets
+	z,m]
+}
+
+template template_BRIDGES_2pylons_2_x4(x,y,z,m) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*256, //position on X
+	320*y,		//position on Y
+	256,	//X size
+	320,	//Y size
+	-28+1-4+4, -220-22+48+65-64-2,//X,Y offsets
+	z,m]
+}
+
+template template_BRIDGES_2pylons_2_x4_8bpp(x,y,z) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*256, //position on X
+	320*y,		//position on Y
+	256,	//X size
+	320,	//Y size
+	-28+1-4+4, -220-22+48+65-64-2,//X,Y offsets
+	z]
+}
+
+
+template template_BRIDGES_2pylons_1_x1_8bpp(x,y,z) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*64, 	//position on X
+	2560+80*y,		//position on Y
+	64,		//X size
+	80,		//Y size
+	-55-1-1, -55-27+16-16,
+	z] //X,Y offsets
+}
+
+template template_BRIDGES_2pylons_1_x1(x,y,z,m) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*64, 	//position on X
+	2560+80*y,		//position on Y
+	64,		//X size
+	80,		//Y size
+	-55-1, -55+16-16,
+	z,m] //X,Y offsets
+}
+
+template template_BRIDGES_2pylons_1_x4(x,y,z,m) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*256, //position on X
+	320*y,		//position on Y
+	256,	//X size
+	320,	//Y size
+	-220-4+4, -221+65-64-2,//X,Y offsets
+	z,m]
+}
+
+template template_BRIDGES_2pylons_1_x4_8bpp(x,y,z) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*256, //position on X
+	320*y,		//position on Y
+	256,	//X size
+	320,	//Y size
+	-220-4+4, -221+65-64-2,//X,Y offsets
+	z]
+}
+
+
+
+
+
+template template_BRIDGES_cantliever_pylons_x1_8bpp(a,b,x,y,z) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*64, 	//position on X
+	2560+80*y,		//position on Y
+	64,		//X size
+	80,		//Y size
+	a-1, b+16-16,
+	z] //X,Y offsets
+}
+
+template template_BRIDGES_cantliever_pylons_x1(a,b,x,y,z,m) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*64, 	//position on X
+	2560+80*y,		//position on Y
+	64,		//X size
+	80,		//Y size
+	a-1, b+16-16,
+	z,m] //X,Y offsets
+}
+
+template template_BRIDGES_cantliever_pylons_x4(a,b,x,y,z,m) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*256, //position on X
+	320*y,		//position on Y
+	256,	//X size
+	320,	//Y size
+	a-4+4, b+65-64-2,//X,Y offsets
+	z,m]
+}
+
+template template_BRIDGES_cantliever_pylons_x4_8bpp(a,b,x,y,z) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*256, //position on X
+	320*y,		//position on Y
+	256,	//X size
+	320,	//Y size
+	a-4+4, b+65-64-2,//X,Y offsets
+	z]
+}
+
+
+
+
+
+
+
+template template_CURSOR_x1(x,y) {
+	//x for movement to next tile
+	//y for Y offsets
+	[64+x*64, 	//position on X
+	22528+64*y,		//position on Y
+	64,		//X size
+	64,		//Y size
+	-31, -16+28] //X,Y offsets
+}
+
+template template_CURSOR_x4(x,y) {
+	//x for movement to next tile
+	//y for Y offsets
+	[256+x*256, //position on X
+	256*y,		//position on Y
+	256,	//X size
+	256,	//Y size
+	-124, -66+28]//X,Y offsets
+}
+
+
+
+
+
+
+
+template template_TREES_old_x1(y,x,z) {
+	//x for movement to next tile
+	//y for Y offsets
+	[1792 + x*64, 	//position on X
+	80*y,		//position on Y
+	64,		//X size
+	80,		//Y size
+	-32, -32,
+	z] //X,Y offsets
+}
+template template_TREES_old_x4(y,x,z) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*256, //position on X
+	320*y,		//position on Y
+	256,	//X size
+	320,	//Y size
+	-124, -130,
+	z]//X,Y offsets
+}
+
+
+template template_trees_x1(x,z) {
+	//x for movement on x - growth stages
+	//z for filename
+	[x*64,		//position on X
+	0,				//position on Y
+	64,				//X size
+	80,				//Y size
+	-32, -32, //X,Y offsets
+	z]        //filename
+}
+template template_trees_x4(x,z) {
+	//x for movement on x - growth stages
+	//z for filename
+	[x*256, 	  //position on X
+	0,		    //position on Y
+	256,	      //X size
+	320,	      //Y size
+	-124, -130, //X,Y offsets
+	z]          //filename
+}
+
+
+template template_stations_x1_8bpp(a, b, x, y, z) {
+	//x for movement on x - growth stages
+	//z for filename
+	[x*64,		//position on X
+	y*80,			//position on Y
+	64,				//X size
+	80,				//Y size
+	a-32, b-32, //X,Y offsets
+	z]        //filename
+}
+template template_stations_x4_8bpp(a, b, x, y, z) {
+	//x for movement on x - growth stages
+	//z for filename
+	[x*256, 	  //position on X
+	y*320,		  //position on Y
+	256,	      //X size
+	320,	      //Y size
+	a-124, b-130, //X,Y offsets
+	z]          //filename
+}
+template template_stations_x1(a, b, x, y, z, m) {
+	//x for movement on x - growth stages
+	//z for filename
+	[x*64,		//position on X
+	y*80,			//position on Y
+	64,				//X size
+	80,				//Y size
+	a-32, b-32, //X,Y offsets
+	z,
+	m]        //filename
+}
+template template_stations_x4(a, b ,x, y, z, m) {
+	//x for movement on x - growth stages
+	//z for filename
+	[x*256, 	  //position on X
+	y*320,		  //position on Y
+	256,	      //X size
+	320,	      //Y size
+	a-124, b-130, //X,Y offsets
+	z,
+	m]          //filename
+}
+
+
+
+
+
+template template_FOUNDATIONS_x1(nr,fn, y1,h, rx,ry) {
+	// nr    position in spritesheet
+	// fn    filename
+	// y1    top offset of child
+	// h     height of sprite
+	// rx,ry position offset
+	[2560 + (nr % 10)* 64, (nr / 10)* 80 + y1,  64,   h,   rx,   ry, NOCROP | NOALPHA, fn]
+}
+
+template template_FOUNDATIONS_x4(nr,fn, y1,h, rx,ry) {
+	//x for movement to next tile
+	//y for Y offsets
+	[       (nr % 10)*256, (nr / 10)*320 + y1, 256, 4*h, 4*rx, 4*ry, NOCROP | NOALPHA, fn]
+}
+
+
+template template_FOUNDATIONS_x1_flat(nr,fn) {
+	template_FOUNDATIONS_x1(nr+ 0, fn, 0, 40, -31,  -9)
+	template_FOUNDATIONS_x1(nr+ 1, fn, 0, 32, -31,  -9)
+	template_FOUNDATIONS_x1(nr+ 2, fn, 0, 32, -31,  -9)
+	template_FOUNDATIONS_x1(nr+ 3, fn, 0, 40, -31,  -9)
+	template_FOUNDATIONS_x1(nr+ 4, fn, 0, 40, -31,  -9)
+	template_FOUNDATIONS_x1(nr+ 5, fn, 0, 32, -31,  -9)
+	template_FOUNDATIONS_x1(nr+ 6, fn, 0, 32, -31,  -9)
+	template_FOUNDATIONS_x1(nr+ 7, fn, 0, 40, -31,  -9)
+	template_FOUNDATIONS_x1(nr+ 8, fn, 0, 40, -31,  -9)
+	template_FOUNDATIONS_x1(nr+ 9, fn, 0, 32, -31,  -9)
+	template_FOUNDATIONS_x1(nr+10, fn, 0, 32, -31,  -9)
+	template_FOUNDATIONS_x1(nr+11, fn, 0, 40, -31,  -9)
+	template_FOUNDATIONS_x1(nr+12, fn, 0, 40, -31,  -9)
+	template_FOUNDATIONS_x1(nr+13, fn, 0, 32, -31,  -9)
+}
+
+template template_FOUNDATIONS_x4_flat(nr,fn) {
+	template_FOUNDATIONS_x4(nr+ 0, fn, 0, 40+1, -31,  -9)
+	template_FOUNDATIONS_x4(nr+ 1, fn, 0, 32+1, -31,  -9)
+	template_FOUNDATIONS_x4(nr+ 2, fn, 0, 32+1, -31,  -9)
+	template_FOUNDATIONS_x4(nr+ 3, fn, 0, 40+1, -31,  -9)
+	template_FOUNDATIONS_x4(nr+ 4, fn, 0, 40+1, -31,  -9)
+	template_FOUNDATIONS_x4(nr+ 5, fn, 0, 32+1, -31,  -9)
+	template_FOUNDATIONS_x4(nr+ 6, fn, 0, 32+1, -31,  -9)
+	template_FOUNDATIONS_x4(nr+ 7, fn, 0, 40+1, -31,  -9)
+	template_FOUNDATIONS_x4(nr+ 8, fn, 0, 40+1, -31,  -9)
+	template_FOUNDATIONS_x4(nr+ 9, fn, 0, 32+1, -31,  -9)
+	template_FOUNDATIONS_x4(nr+10, fn, 0, 32+1, -31,  -9)
+	template_FOUNDATIONS_x4(nr+11, fn, 0, 40+1, -31,  -9)
+	template_FOUNDATIONS_x4(nr+12, fn, 0, 40+1, -31,  -9)
+	template_FOUNDATIONS_x4(nr+13, fn, 0, 32+1, -31,  -9)
+}
+
+template template_FOUNDATIONS_x1_inclined(nr,fn) {
+	template_FOUNDATIONS_x1(nr+ 0, fn, 0, 40+1, -31,  -9)
+	template_FOUNDATIONS_x1(nr+ 1, fn, 0, 40+1, -31,  -9)
+	template_FOUNDATIONS_x1(nr+ 2, fn, 0, 32+1, -31,  -9)
+	template_FOUNDATIONS_x1(nr+ 3, fn, 0, 32+1, -31,  -9)
+	template_FOUNDATIONS_x1(nr+ 4, fn, 0, 40+1, -31,  -9)
+	template_FOUNDATIONS_x1(nr+ 5, fn, 0, 40+1, -31,  -9)
+	template_FOUNDATIONS_x1(nr+ 6, fn, 0, 40+1, -31,  -9)
+	template_FOUNDATIONS_x1(nr+ 7, fn, 0, 40+1, -31,  -9)
+}
+
+template template_FOUNDATIONS_x4_inclined(nr,fn) {
+	template_FOUNDATIONS_x4(nr+ 0, fn, 0, 40+1, -31,  -9)
+	template_FOUNDATIONS_x4(nr+ 1, fn, 0, 40+1, -31,  -9)
+	template_FOUNDATIONS_x4(nr+ 2, fn, 0, 32+1, -31,  -9)
+	template_FOUNDATIONS_x4(nr+ 3, fn, 0, 32+1, -31,  -9)
+	template_FOUNDATIONS_x4(nr+ 4, fn, 0, 40+1, -31,  -9)
+	template_FOUNDATIONS_x4(nr+ 5, fn, 0, 40+1, -31,  -9)
+	template_FOUNDATIONS_x4(nr+ 6, fn, 0, 40+1, -31,  -9)
+	template_FOUNDATIONS_x4(nr+ 7, fn, 0, 40+1, -31,  -9)
+}
+
+
+
+
+template template_FOUNDATIONS_x1_halftile(nr,fn) {
+	template_FOUNDATIONS_x1(nr+ 0, fn, 0, 40, -15, -17)
+	template_FOUNDATIONS_x1(nr+ 1, fn, 0, 33+1, -31, -25)
+	template_FOUNDATIONS_x1(nr+ 2, fn, 0, 40, -47, -17)
+	template_FOUNDATIONS_x1(nr+ 3, fn, 0, 33+1, -31,  -9)
+}
+template template_FOUNDATIONS_x4_halftile(nr,fn) {
+	template_FOUNDATIONS_x4(nr+ 0, fn, 0, 40, -15, -17)
+	template_FOUNDATIONS_x4(nr+ 1, fn, 0, 33+1, -31, -25)
+	template_FOUNDATIONS_x4(nr+ 2, fn, 0, 40, -47, -17)
+	template_FOUNDATIONS_x4(nr+ 3, fn, 0, 33+1, -31,  -9)
+}

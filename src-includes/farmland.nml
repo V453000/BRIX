@@ -1,0 +1,962 @@
+// replace FARM_1_0(4126, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(0,10) }
+// alternative_sprites(FARM_1_0, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(0,10) }
+// alternative_sprites(FARM_1_0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(0,10) }
+// alternative_sprites(FARM_1_0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(0,10) }
+
+// replace FARM_1_1(4127, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(1,10) }
+// alternative_sprites(FARM_1_1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(1,10) }
+// alternative_sprites(FARM_1_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(1,10) }
+// alternative_sprites(FARM_1_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(1,10) }
+
+// replace FARM_1_2(4128, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(2,10) }
+// alternative_sprites(FARM_1_2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(2,10) }
+// alternative_sprites(FARM_1_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(2,10) }
+// alternative_sprites(FARM_1_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(2,10) }
+
+// replace FARM_1_3(4129, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(3,10) }
+// alternative_sprites(FARM_1_3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(3,10) }
+// alternative_sprites(FARM_1_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(3,10) }
+// alternative_sprites(FARM_1_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(3,10) }
+
+// replace FARM_1_4(4130, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(4,10) }
+// alternative_sprites(FARM_1_4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(4,10) }
+// alternative_sprites(FARM_1_4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(4,10) }
+// alternative_sprites(FARM_1_4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(4,10) }
+
+// replace FARM_1_5(4131, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(5,10) }
+// alternative_sprites(FARM_1_5, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(5,10) }
+// alternative_sprites(FARM_1_5, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(5,10) }
+// alternative_sprites(FARM_1_5, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(5,10) }
+
+// replace FARM_1_6(4132, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(6,10) }
+// alternative_sprites(FARM_1_6, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(6,10) }
+// alternative_sprites(FARM_1_6, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(6,10) }
+// alternative_sprites(FARM_1_6, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(6,10) }
+
+// replace FARM_1_7(4133, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(7,10) }
+// alternative_sprites(FARM_1_7, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(7,10) }
+// alternative_sprites(FARM_1_7, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(7,10) }
+// alternative_sprites(FARM_1_7, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(7,10) }
+
+// replace FARM_1_8(4134, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(8,10) }
+// alternative_sprites(FARM_1_8, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(8,10) }
+// alternative_sprites(FARM_1_8, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(8,10) }
+// alternative_sprites(FARM_1_8, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(8,10) }
+
+// replace FARM_1_9(4135, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(9,10) }
+// alternative_sprites(FARM_1_9, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(9,10) }
+// alternative_sprites(FARM_1_9, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(9,10) }
+// alternative_sprites(FARM_1_9, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(9,10) }
+
+// replace FARM_1_10(4136, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(10,10) }
+// alternative_sprites(FARM_1_10, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(10,10) }
+// alternative_sprites(FARM_1_10, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(10,10) }
+// alternative_sprites(FARM_1_10, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(10,10) }
+
+// replace FARM_1_11(4137, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(11,10) }
+// alternative_sprites(FARM_1_11, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(11,10) }
+// alternative_sprites(FARM_1_11, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(11,10) }
+// alternative_sprites(FARM_1_11, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(11,10) }
+
+// replace FARM_1_12(4138, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(12,10) }
+// alternative_sprites(FARM_1_12, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(12,10) }
+// alternative_sprites(FARM_1_12, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(12,10) }
+// alternative_sprites(FARM_1_12, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(12,10) }
+
+// replace FARM_1_13(4139, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(13,10) }
+// alternative_sprites(FARM_1_13, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(13,10) }
+// alternative_sprites(FARM_1_13, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(13,10) }
+// alternative_sprites(FARM_1_13, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(13,10) }
+
+// replace FARM_1_14(4140, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(14,10) }
+// alternative_sprites(FARM_1_14, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(14,10) }
+// alternative_sprites(FARM_1_14, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(14,10) }
+// alternative_sprites(FARM_1_14, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(14,10) }
+
+// replace FARM_1_29(4141, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(15,10) }
+// alternative_sprites(FARM_1_29, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(15,10) }
+// alternative_sprites(FARM_1_29, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(15,10) }
+// alternative_sprites(FARM_1_29, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(15,10) }
+
+// replace FARM_1_23(4142, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(16,10) }
+// alternative_sprites(FARM_1_23, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(16,10) }
+// alternative_sprites(FARM_1_23, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(16,10) }
+// alternative_sprites(FARM_1_23, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(16,10) }
+
+// replace FARM_1_27(4143, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(17,10) }
+// alternative_sprites(FARM_1_27, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(17,10) }
+// alternative_sprites(FARM_1_27, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(17,10) }
+// alternative_sprites(FARM_1_27, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(17,10) }
+
+// replace FARM_1_30(4144, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(18,10) }
+// alternative_sprites(FARM_1_30, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(18,10) }
+// alternative_sprites(FARM_1_30, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(18,10) }
+// alternative_sprites(FARM_1_30, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(18,10) }
+
+
+
+
+
+
+
+
+
+
+
+// replace FARM_2_0(4145, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(0,11) }
+// alternative_sprites(FARM_2_0, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(0,11) }
+// alternative_sprites(FARM_2_0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(0,11) }
+// alternative_sprites(FARM_2_0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(0,11) }
+
+// replace FARM_2_1(4146, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(1,11) }
+// alternative_sprites(FARM_2_1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(1,11) }
+// alternative_sprites(FARM_2_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(1,11) }
+// alternative_sprites(FARM_2_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(1,11) }
+
+// replace FARM_2_2(4147, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(2,11) }
+// alternative_sprites(FARM_2_2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(2,11) }
+// alternative_sprites(FARM_2_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(2,11) }
+// alternative_sprites(FARM_2_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(2,11) }
+
+// replace FARM_2_3(4148, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(3,11) }
+// alternative_sprites(FARM_2_3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(3,11) }
+// alternative_sprites(FARM_2_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(3,11) }
+// alternative_sprites(FARM_2_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(3,11) }
+
+// replace FARM_2_4(4149, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(4,11) }
+// alternative_sprites(FARM_2_4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(4,11) }
+// alternative_sprites(FARM_2_4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(4,11) }
+// alternative_sprites(FARM_2_4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(4,11) }
+
+// replace FARM_2_5(4150, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(5,11) }
+// alternative_sprites(FARM_2_5, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(5,11) }
+// alternative_sprites(FARM_2_5, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(5,11) }
+// alternative_sprites(FARM_2_5, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(5,11) }
+
+// replace FARM_2_6(4151, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(6,11) }
+// alternative_sprites(FARM_2_6, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(6,11) }
+// alternative_sprites(FARM_2_6, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(6,11) }
+// alternative_sprites(FARM_2_6, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(6,11) }
+
+// replace FARM_2_7(4152, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(7,11) }
+// alternative_sprites(FARM_2_7, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(7,11) }
+// alternative_sprites(FARM_2_7, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(7,11) }
+// alternative_sprites(FARM_2_7, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(7,11) }
+
+// replace FARM_2_8(4153, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(8,11) }
+// alternative_sprites(FARM_2_8, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(8,11) }
+// alternative_sprites(FARM_2_8, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(8,11) }
+// alternative_sprites(FARM_2_8, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(8,11) }
+
+// replace FARM_2_9(4154, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(9,11) }
+// alternative_sprites(FARM_2_9, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(9,11) }
+// alternative_sprites(FARM_2_9, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(9,11) }
+// alternative_sprites(FARM_2_9, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(9,11) }
+
+// replace FARM_2_10(4155, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(10,11) }
+// alternative_sprites(FARM_2_10, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(10,11) }
+// alternative_sprites(FARM_2_10, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(10,11) }
+// alternative_sprites(FARM_2_10, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(10,11) }
+
+// replace FARM_2_11(4156, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(11,11) }
+// alternative_sprites(FARM_2_11, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(11,11) }
+// alternative_sprites(FARM_2_11, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(11,11) }
+// alternative_sprites(FARM_2_11, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(11,11) }
+
+// replace FARM_2_12(4157, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(12,11) }
+// alternative_sprites(FARM_2_12, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(12,11) }
+// alternative_sprites(FARM_2_12, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(12,11) }
+// alternative_sprites(FARM_2_12, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(12,11) }
+
+// replace FARM_2_13(4158, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(13,11) }
+// alternative_sprites(FARM_2_13, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(13,11) }
+// alternative_sprites(FARM_2_13, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(13,11) }
+// alternative_sprites(FARM_2_13, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(13,11) }
+
+// replace FARM_2_14(4159, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(14,11) }
+// alternative_sprites(FARM_2_14, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(14,11) }
+// alternative_sprites(FARM_2_14, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(14,11) }
+// alternative_sprites(FARM_2_14, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(14,11) }
+
+// replace FARM_2_29(4160, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(15,11) }
+// alternative_sprites(FARM_2_29, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(15,11) }
+// alternative_sprites(FARM_2_29, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(15,11) }
+// alternative_sprites(FARM_2_29, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(15,11) }
+
+// replace FARM_2_23(4161, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(16,11) }
+// alternative_sprites(FARM_2_23, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(16,11) }
+// alternative_sprites(FARM_2_23, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(16,11) }
+// alternative_sprites(FARM_2_23, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(16,11) }
+
+// replace FARM_2_27(4162, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(17,11) }
+// alternative_sprites(FARM_2_27, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(17,11) }
+// alternative_sprites(FARM_2_27, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(17,11) }
+// alternative_sprites(FARM_2_27, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(17,11) }
+
+// replace FARM_2_30(4163, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(18,11) }
+// alternative_sprites(FARM_2_30, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(18,11) }
+// alternative_sprites(FARM_2_30, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(18,11) }
+// alternative_sprites(FARM_2_30, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(18,11) }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// replace FARM_3_0(4164, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(0,12) }
+// alternative_sprites(FARM_3_0, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(0,12) }
+// alternative_sprites(FARM_3_0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(0,12) }
+// alternative_sprites(FARM_3_0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(0,12) }
+
+// replace FARM_3_1(4165, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(1,12) }
+// alternative_sprites(FARM_3_1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(1,12) }
+// alternative_sprites(FARM_3_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(1,12) }
+// alternative_sprites(FARM_3_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(1,12) }
+
+// replace FARM_3_2(4166, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(2,12) }
+// alternative_sprites(FARM_3_2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(2,12) }
+// alternative_sprites(FARM_3_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(2,12) }
+// alternative_sprites(FARM_3_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(2,12) }
+
+// replace FARM_3_3(4167, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(3,12) }
+// alternative_sprites(FARM_3_3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(3,12) }
+// alternative_sprites(FARM_3_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(3,12) }
+// alternative_sprites(FARM_3_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(3,12) }
+
+// replace FARM_3_4(4168, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(4,12) }
+// alternative_sprites(FARM_3_4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(4,12) }
+// alternative_sprites(FARM_3_4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(4,12) }
+// alternative_sprites(FARM_3_4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(4,12) }
+
+// replace FARM_3_5(4169, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(5,12) }
+// alternative_sprites(FARM_3_5, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(5,12) }
+// alternative_sprites(FARM_3_5, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(5,12) }
+// alternative_sprites(FARM_3_5, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(5,12) }
+
+// replace FARM_3_6(4170, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(6,12) }
+// alternative_sprites(FARM_3_6, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(6,12) }
+// alternative_sprites(FARM_3_6, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(6,12) }
+// alternative_sprites(FARM_3_6, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(6,12) }
+
+// replace FARM_3_7(4171, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(7,12) }
+// alternative_sprites(FARM_3_7, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(7,12) }
+// alternative_sprites(FARM_3_7, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(7,12) }
+// alternative_sprites(FARM_3_7, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(7,12) }
+
+// replace FARM_3_8(4172, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(8,12) }
+// alternative_sprites(FARM_3_8, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(8,12) }
+// alternative_sprites(FARM_3_8, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(8,12) }
+// alternative_sprites(FARM_3_8, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(8,12) }
+
+// replace FARM_3_9(4173, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(9,12) }
+// alternative_sprites(FARM_3_9, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(9,12) }
+// alternative_sprites(FARM_3_9, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(9,12) }
+// alternative_sprites(FARM_3_9, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(9,12) }
+
+// replace FARM_3_10(4174, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(10,12) }
+// alternative_sprites(FARM_3_10, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(10,12) }
+// alternative_sprites(FARM_3_10, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(10,12) }
+// alternative_sprites(FARM_3_10, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(10,12) }
+
+// replace FARM_3_11(4175, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(11,12) }
+// alternative_sprites(FARM_3_11, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(11,12) }
+// alternative_sprites(FARM_3_11, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(11,12) }
+// alternative_sprites(FARM_3_11, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(11,12) }
+
+// replace FARM_3_12(4176, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(12,12) }
+// alternative_sprites(FARM_3_12, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(12,12) }
+// alternative_sprites(FARM_3_12, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(12,12) }
+// alternative_sprites(FARM_3_12, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(12,12) }
+
+// replace FARM_3_13(4177, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(13,12) }
+// alternative_sprites(FARM_3_13, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(13,12) }
+// alternative_sprites(FARM_3_13, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(13,12) }
+// alternative_sprites(FARM_3_13, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(13,12) }
+
+// replace FARM_3_14(4178, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(14,12) }
+// alternative_sprites(FARM_3_14, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(14,12) }
+// alternative_sprites(FARM_3_14, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(14,12) }
+// alternative_sprites(FARM_3_14, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(14,12) }
+
+// replace FARM_3_29(4179, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(15,12) }
+// alternative_sprites(FARM_3_29, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(15,12) }
+// alternative_sprites(FARM_3_29, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(15,12) }
+// alternative_sprites(FARM_3_29, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(15,12) }
+
+// replace FARM_3_23(4180, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(16,12) }
+// alternative_sprites(FARM_3_23, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(16,12) }
+// alternative_sprites(FARM_3_23, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(16,12) }
+// alternative_sprites(FARM_3_23, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(16,12) }
+
+// replace FARM_3_27(4181, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(17,12) }
+// alternative_sprites(FARM_3_27, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(17,12) }
+// alternative_sprites(FARM_3_27, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(17,12) }
+// alternative_sprites(FARM_3_27, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(17,12) }
+
+// replace FARM_3_30(4182, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(18,12) }
+// alternative_sprites(FARM_3_30, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(18,12) }
+// alternative_sprites(FARM_3_30, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(18,12) }
+// alternative_sprites(FARM_3_30, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(18,12) }
+
+
+
+
+
+
+
+
+
+
+
+
+// replace FARM_4_0(4183, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(0,13) }
+// alternative_sprites(FARM_4_0, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(0,13) }
+// alternative_sprites(FARM_4_0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(0,13) }
+// alternative_sprites(FARM_4_0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(0,13) }
+
+// replace FARM_4_1(4184, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(1,13) }
+// alternative_sprites(FARM_4_1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(1,13) }
+// alternative_sprites(FARM_4_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(1,13) }
+// alternative_sprites(FARM_4_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(1,13) }
+
+// replace FARM_4_2(4185, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(2,13) }
+// alternative_sprites(FARM_4_2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(2,13) }
+// alternative_sprites(FARM_4_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(2,13) }
+// alternative_sprites(FARM_4_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(2,13) }
+
+// replace FARM_4_3(4186, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(3,13) }
+// alternative_sprites(FARM_4_3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(3,13) }
+// alternative_sprites(FARM_4_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(3,13) }
+// alternative_sprites(FARM_4_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(3,13) }
+
+// replace FARM_4_4(4187, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(4,13) }
+// alternative_sprites(FARM_4_4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(4,13) }
+// alternative_sprites(FARM_4_4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(4,13) }
+// alternative_sprites(FARM_4_4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(4,13) }
+
+// replace FARM_4_5(4188, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(5,13) }
+// alternative_sprites(FARM_4_5, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(5,13) }
+// alternative_sprites(FARM_4_5, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(5,13) }
+// alternative_sprites(FARM_4_5, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(5,13) }
+
+// replace FARM_4_6(4189, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(6,13) }
+// alternative_sprites(FARM_4_6, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(6,13) }
+// alternative_sprites(FARM_4_6, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(6,13) }
+// alternative_sprites(FARM_4_6, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(6,13) }
+
+// replace FARM_4_7(4190, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(7,13) }
+// alternative_sprites(FARM_4_7, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(7,13) }
+// alternative_sprites(FARM_4_7, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(7,13) }
+// alternative_sprites(FARM_4_7, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(7,13) }
+
+// replace FARM_4_8(4191, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(8,13) }
+// alternative_sprites(FARM_4_8, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(8,13) }
+// alternative_sprites(FARM_4_8, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(8,13) }
+// alternative_sprites(FARM_4_8, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(8,13) }
+
+// replace FARM_4_9(4192, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(9,13) }
+// alternative_sprites(FARM_4_9, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(9,13) }
+// alternative_sprites(FARM_4_9, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(9,13) }
+// alternative_sprites(FARM_4_9, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(9,13) }
+
+// replace FARM_4_10(4193, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(10,13) }
+// alternative_sprites(FARM_4_10, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(10,13) }
+// alternative_sprites(FARM_4_10, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(10,13) }
+// alternative_sprites(FARM_4_10, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(10,13) }
+
+// replace FARM_4_11(4194, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(11,13) }
+// alternative_sprites(FARM_4_11, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(11,13) }
+// alternative_sprites(FARM_4_11, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(11,13) }
+// alternative_sprites(FARM_4_11, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(11,13) }
+
+// replace FARM_4_12(4195, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(12,13) }
+// alternative_sprites(FARM_4_12, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(12,13) }
+// alternative_sprites(FARM_4_12, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(12,13) }
+// alternative_sprites(FARM_4_12, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(12,13) }
+
+// replace FARM_4_13(4196, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(13,13) }
+// alternative_sprites(FARM_4_13, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(13,13) }
+// alternative_sprites(FARM_4_13, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(13,13) }
+// alternative_sprites(FARM_4_13, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(13,13) }
+
+// replace FARM_4_14(4197, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(14,13) }
+// alternative_sprites(FARM_4_14, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(14,13) }
+// alternative_sprites(FARM_4_14, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(14,13) }
+// alternative_sprites(FARM_4_14, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(14,13) }
+
+// replace FARM_4_29(4198, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(15,13) }
+// alternative_sprites(FARM_4_29, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(15,13) }
+// alternative_sprites(FARM_4_29, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(15,13) }
+// alternative_sprites(FARM_4_29, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(15,13) }
+
+// replace FARM_4_23(4199, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(16,13) }
+// alternative_sprites(FARM_4_23, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(16,13) }
+// alternative_sprites(FARM_4_23, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(16,13) }
+// alternative_sprites(FARM_4_23, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(16,13) }
+
+// replace FARM_4_27(4200, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(17,13) }
+// alternative_sprites(FARM_4_27, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(17,13) }
+// alternative_sprites(FARM_4_27, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(17,13) }
+// alternative_sprites(FARM_4_27, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(17,13) }
+
+// replace FARM_4_30(4201, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(18,13) }
+// alternative_sprites(FARM_4_30, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(18,13) }
+// alternative_sprites(FARM_4_30, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(18,13) }
+// alternative_sprites(FARM_4_30, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(18,13) }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// replace FARM_5_0(4202, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(0,14) }
+// alternative_sprites(FARM_5_0, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(0,14) }
+// alternative_sprites(FARM_5_0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(0,14) }
+// alternative_sprites(FARM_5_0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(0,14) }
+
+// replace FARM_5_1(4203, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(1,14) }
+// alternative_sprites(FARM_5_1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(1,14) }
+// alternative_sprites(FARM_5_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(1,14) }
+// alternative_sprites(FARM_5_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(1,14) }
+
+// replace FARM_5_2(4204, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(2,14) }
+// alternative_sprites(FARM_5_2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(2,14) }
+// alternative_sprites(FARM_5_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(2,14) }
+// alternative_sprites(FARM_5_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(2,14) }
+
+// replace FARM_5_3(4205, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(3,14) }
+// alternative_sprites(FARM_5_3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(3,14) }
+// alternative_sprites(FARM_5_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(3,14) }
+// alternative_sprites(FARM_5_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(3,14) }
+
+// replace FARM_5_4(4206, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(4,14) }
+// alternative_sprites(FARM_5_4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(4,14) }
+// alternative_sprites(FARM_5_4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(4,14) }
+// alternative_sprites(FARM_5_4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(4,14) }
+
+// replace FARM_5_5(4207, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(5,14) }
+// alternative_sprites(FARM_5_5, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(5,14) }
+// alternative_sprites(FARM_5_5, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(5,14) }
+// alternative_sprites(FARM_5_5, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(5,14) }
+
+// replace FARM_5_6(4208, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(6,14) }
+// alternative_sprites(FARM_5_6, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(6,14) }
+// alternative_sprites(FARM_5_6, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(6,14) }
+// alternative_sprites(FARM_5_6, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(6,14) }
+
+// replace FARM_5_7(4209, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(7,14) }
+// alternative_sprites(FARM_5_7, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(7,14) }
+// alternative_sprites(FARM_5_7, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(7,14) }
+// alternative_sprites(FARM_5_7, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(7,14) }
+
+// replace FARM_5_8(4210, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(8,14) }
+// alternative_sprites(FARM_5_8, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(8,14) }
+// alternative_sprites(FARM_5_8, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(8,14) }
+// alternative_sprites(FARM_5_8, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(8,14) }
+
+// replace FARM_5_9(4211, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(9,14) }
+// alternative_sprites(FARM_5_9, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(9,14) }
+// alternative_sprites(FARM_5_9, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(9,14) }
+// alternative_sprites(FARM_5_9, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(9,14) }
+
+// replace FARM_5_10(4212, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(10,14) }
+// alternative_sprites(FARM_5_10, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(10,14) }
+// alternative_sprites(FARM_5_10, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(10,14) }
+// alternative_sprites(FARM_5_10, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(10,14) }
+
+// replace FARM_5_11(4213, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(11,14) }
+// alternative_sprites(FARM_5_11, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(11,14) }
+// alternative_sprites(FARM_5_11, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(11,14) }
+// alternative_sprites(FARM_5_11, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(11,14) }
+
+// replace FARM_5_12(4214, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(12,14) }
+// alternative_sprites(FARM_5_12, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(12,14) }
+// alternative_sprites(FARM_5_12, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(12,14) }
+// alternative_sprites(FARM_5_12, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(12,14) }
+
+// replace FARM_5_13(4215, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(13,14) }
+// alternative_sprites(FARM_5_13, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(13,14) }
+// alternative_sprites(FARM_5_13, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(13,14) }
+// alternative_sprites(FARM_5_13, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(13,14) }
+
+// replace FARM_5_14(4216, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(14,14) }
+// alternative_sprites(FARM_5_14, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(14,14) }
+// alternative_sprites(FARM_5_14, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(14,14) }
+// alternative_sprites(FARM_5_14, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(14,14) }
+
+// replace FARM_5_29(4217, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(15,14) }
+// alternative_sprites(FARM_5_29, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(15,14) }
+// alternative_sprites(FARM_5_29, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(15,14) }
+// alternative_sprites(FARM_5_29, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(15,14) }
+
+// replace FARM_5_23(4218, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(16,14) }
+// alternative_sprites(FARM_5_23, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(16,14) }
+// alternative_sprites(FARM_5_23, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(16,14) }
+// alternative_sprites(FARM_5_23, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(16,14) }
+
+// replace FARM_5_27(4219, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(17,14) }
+// alternative_sprites(FARM_5_27, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(17,14) }
+// alternative_sprites(FARM_5_27, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(17,14) }
+// alternative_sprites(FARM_5_27, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(17,14) }
+
+// replace FARM_5_30(4220, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(18,14) }
+// alternative_sprites(FARM_5_30, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(18,14) }
+// alternative_sprites(FARM_5_30, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(18,14) }
+// alternative_sprites(FARM_5_30, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(18,14) }
+
+
+
+
+
+
+
+
+
+
+
+
+
+// replace FARM_6_0(4221, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(0,15) }
+// alternative_sprites(FARM_6_0, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(0,15) }
+// alternative_sprites(FARM_6_0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(0,15) }
+// alternative_sprites(FARM_6_0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(0,15) }
+
+// replace FARM_6_1(4222, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(1,15) }
+// alternative_sprites(FARM_6_1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(1,15) }
+// alternative_sprites(FARM_6_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(1,15) }
+// alternative_sprites(FARM_6_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(1,15) }
+
+// replace FARM_6_2(4223, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(2,15) }
+// alternative_sprites(FARM_6_2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(2,15) }
+// alternative_sprites(FARM_6_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(2,15) }
+// alternative_sprites(FARM_6_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(2,15) }
+
+// replace FARM_6_3(4224, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(3,15) }
+// alternative_sprites(FARM_6_3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(3,15) }
+// alternative_sprites(FARM_6_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(3,15) }
+// alternative_sprites(FARM_6_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(3,15) }
+
+// replace FARM_6_4(4225, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(4,15) }
+// alternative_sprites(FARM_6_4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(4,15) }
+// alternative_sprites(FARM_6_4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(4,15) }
+// alternative_sprites(FARM_6_4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(4,15) }
+
+// replace FARM_6_5(4226, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(5,15) }
+// alternative_sprites(FARM_6_5, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(5,15) }
+// alternative_sprites(FARM_6_5, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(5,15) }
+// alternative_sprites(FARM_6_5, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(5,15) }
+
+// replace FARM_6_6(4227, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(6,15) }
+// alternative_sprites(FARM_6_6, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(6,15) }
+// alternative_sprites(FARM_6_6, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(6,15) }
+// alternative_sprites(FARM_6_6, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(6,15) }
+
+// replace FARM_6_7(4228, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(7,15) }
+// alternative_sprites(FARM_6_7, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(7,15) }
+// alternative_sprites(FARM_6_7, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(7,15) }
+// alternative_sprites(FARM_6_7, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(7,15) }
+
+// replace FARM_6_8(4229, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(8,15) }
+// alternative_sprites(FARM_6_8, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(8,15) }
+// alternative_sprites(FARM_6_8, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(8,15) }
+// alternative_sprites(FARM_6_8, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(8,15) }
+
+// replace FARM_6_9(4230, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(9,15) }
+// alternative_sprites(FARM_6_9, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(9,15) }
+// alternative_sprites(FARM_6_9, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(9,15) }
+// alternative_sprites(FARM_6_9, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(9,15) }
+
+// replace FARM_6_10(4231, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(10,15) }
+// alternative_sprites(FARM_6_10, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(10,15) }
+// alternative_sprites(FARM_6_10, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(10,15) }
+// alternative_sprites(FARM_6_10, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(10,15) }
+
+// replace FARM_6_11(4232, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(11,15) }
+// alternative_sprites(FARM_6_11, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(11,15) }
+// alternative_sprites(FARM_6_11, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(11,15) }
+// alternative_sprites(FARM_6_11, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(11,15) }
+
+// replace FARM_6_12(4233, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(12,15) }
+// alternative_sprites(FARM_6_12, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(12,15) }
+// alternative_sprites(FARM_6_12, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(12,15) }
+// alternative_sprites(FARM_6_12, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(12,15) }
+
+// replace FARM_6_13(4234, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(13,15) }
+// alternative_sprites(FARM_6_13, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(13,15) }
+// alternative_sprites(FARM_6_13, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(13,15) }
+// alternative_sprites(FARM_6_13, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(13,15) }
+
+// replace FARM_6_14(4235, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(14,15) }
+// alternative_sprites(FARM_6_14, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(14,15) }
+// alternative_sprites(FARM_6_14, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(14,15) }
+// alternative_sprites(FARM_6_14, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(14,15) }
+
+// replace FARM_6_29(4236, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(15,15) }
+// alternative_sprites(FARM_6_29, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(15,15) }
+// alternative_sprites(FARM_6_29, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(15,15) }
+// alternative_sprites(FARM_6_29, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(15,15) }
+
+// replace FARM_6_23(4237, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(16,15) }
+// alternative_sprites(FARM_6_23, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(16,15) }
+// alternative_sprites(FARM_6_23, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(16,15) }
+// alternative_sprites(FARM_6_23, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(16,15) }
+
+// replace FARM_6_27(4238, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(17,15) }
+// alternative_sprites(FARM_6_27, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(17,15) }
+// alternative_sprites(FARM_6_27, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(17,15) }
+// alternative_sprites(FARM_6_27, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(17,15) }
+
+// replace FARM_6_30(4239, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(18,15) }
+// alternative_sprites(FARM_6_30, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(18,15) }
+// alternative_sprites(FARM_6_30, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(18,15) }
+// alternative_sprites(FARM_6_30, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(18,15) }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// replace FARM_7_0(4240, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(0,16) }
+// alternative_sprites(FARM_7_0, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(0,16) }
+// alternative_sprites(FARM_7_0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(0,16) }
+// alternative_sprites(FARM_7_0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(0,16) }
+
+// replace FARM_7_1(4241, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(1,16) }
+// alternative_sprites(FARM_7_1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(1,16) }
+// alternative_sprites(FARM_7_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(1,16) }
+// alternative_sprites(FARM_7_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(1,16) }
+
+// replace FARM_7_2(4242, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(2,16) }
+// alternative_sprites(FARM_7_2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(2,16) }
+// alternative_sprites(FARM_7_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(2,16) }
+// alternative_sprites(FARM_7_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(2,16) }
+
+// replace FARM_7_3(4243, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(3,16) }
+// alternative_sprites(FARM_7_3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(3,16) }
+// alternative_sprites(FARM_7_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(3,16) }
+// alternative_sprites(FARM_7_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(3,16) }
+
+// replace FARM_7_4(4244, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(4,16) }
+// alternative_sprites(FARM_7_4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(4,16) }
+// alternative_sprites(FARM_7_4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(4,16) }
+// alternative_sprites(FARM_7_4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(4,16) }
+
+// replace FARM_7_5(4245, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(5,16) }
+// alternative_sprites(FARM_7_5, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(5,16) }
+// alternative_sprites(FARM_7_5, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(5,16) }
+// alternative_sprites(FARM_7_5, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(5,16) }
+
+// replace FARM_7_6(4246, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(6,16) }
+// alternative_sprites(FARM_7_6, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(6,16) }
+// alternative_sprites(FARM_7_6, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(6,16) }
+// alternative_sprites(FARM_7_6, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(6,16) }
+
+// replace FARM_7_7(4247, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(7,16) }
+// alternative_sprites(FARM_7_7, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(7,16) }
+// alternative_sprites(FARM_7_7, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(7,16) }
+// alternative_sprites(FARM_7_7, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(7,16) }
+
+// replace FARM_7_8(4248, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(8,16) }
+// alternative_sprites(FARM_7_8, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(8,16) }
+// alternative_sprites(FARM_7_8, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(8,16) }
+// alternative_sprites(FARM_7_8, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(8,16) }
+
+// replace FARM_7_9(4249, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(9,16) }
+// alternative_sprites(FARM_7_9, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(9,16) }
+// alternative_sprites(FARM_7_9, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(9,16) }
+// alternative_sprites(FARM_7_9, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(9,16) }
+
+// replace FARM_7_10(4250, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(10,16) }
+// alternative_sprites(FARM_7_10, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(10,16) }
+// alternative_sprites(FARM_7_10, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(10,16) }
+// alternative_sprites(FARM_7_10, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(10,16) }
+
+// replace FARM_7_11(4251, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(11,16) }
+// alternative_sprites(FARM_7_11, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(11,16) }
+// alternative_sprites(FARM_7_11, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(11,16) }
+// alternative_sprites(FARM_7_11, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(11,16) }
+
+// replace FARM_7_12(4252, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(12,16) }
+// alternative_sprites(FARM_7_12, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(12,16) }
+// alternative_sprites(FARM_7_12, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(12,16) }
+// alternative_sprites(FARM_7_12, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(12,16) }
+
+// replace FARM_7_13(4253, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(13,16) }
+// alternative_sprites(FARM_7_13, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(13,16) }
+// alternative_sprites(FARM_7_13, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(13,16) }
+// alternative_sprites(FARM_7_13, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(13,16) }
+
+// replace FARM_7_14(4254, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(14,16) }
+// alternative_sprites(FARM_7_14, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(14,16) }
+// alternative_sprites(FARM_7_14, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(14,16) }
+// alternative_sprites(FARM_7_14, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(14,16) }
+
+// replace FARM_7_29(4255, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(15,16) }
+// alternative_sprites(FARM_7_29, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(15,16) }
+// alternative_sprites(FARM_7_29, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(15,16) }
+// alternative_sprites(FARM_7_29, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(15,16) }
+
+// replace FARM_7_23(4256, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(16,16) }
+// alternative_sprites(FARM_7_23, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(16,16) }
+// alternative_sprites(FARM_7_23, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(16,16) }
+// alternative_sprites(FARM_7_23, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(16,16) }
+
+// replace FARM_7_27(4257, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(17,16) }
+// alternative_sprites(FARM_7_27, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(17,16) }
+// alternative_sprites(FARM_7_27, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(17,16) }
+// alternative_sprites(FARM_7_27, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(17,16) }
+
+// replace FARM_7_30(4258, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(18,16) }
+// alternative_sprites(FARM_7_30, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(18,16) }
+// alternative_sprites(FARM_7_30, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(18,16) }
+// alternative_sprites(FARM_7_30, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(18,16) }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// replace FARM_8_0(4259, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(0,17) }
+// alternative_sprites(FARM_8_0, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(0,17) }
+// alternative_sprites(FARM_8_0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(0,17) }
+// alternative_sprites(FARM_8_0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(0,17) }
+
+// replace FARM_8_1(4260, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(1,17) }
+// alternative_sprites(FARM_8_1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(1,17) }
+// alternative_sprites(FARM_8_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(1,17) }
+// alternative_sprites(FARM_8_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(1,17) }
+
+// replace FARM_8_2(4261, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(2,17) }
+// alternative_sprites(FARM_8_2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(2,17) }
+// alternative_sprites(FARM_8_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(2,17) }
+// alternative_sprites(FARM_8_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(2,17) }
+
+// replace FARM_8_3(4262, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(3,17) }
+// alternative_sprites(FARM_8_3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(3,17) }
+// alternative_sprites(FARM_8_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(3,17) }
+// alternative_sprites(FARM_8_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(3,17) }
+
+// replace FARM_8_4(4263, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(4,17) }
+// alternative_sprites(FARM_8_4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(4,17) }
+// alternative_sprites(FARM_8_4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(4,17) }
+// alternative_sprites(FARM_8_4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(4,17) }
+
+// replace FARM_8_5(4264, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(5,17) }
+// alternative_sprites(FARM_8_5, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(5,17) }
+// alternative_sprites(FARM_8_5, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(5,17) }
+// alternative_sprites(FARM_8_5, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(5,17) }
+
+// replace FARM_8_6(4265, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(6,17) }
+// alternative_sprites(FARM_8_6, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(6,17) }
+// alternative_sprites(FARM_8_6, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(6,17) }
+// alternative_sprites(FARM_8_6, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(6,17) }
+
+// replace FARM_8_7(4266, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(7,17) }
+// alternative_sprites(FARM_8_7, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(7,17) }
+// alternative_sprites(FARM_8_7, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(7,17) }
+// alternative_sprites(FARM_8_7, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(7,17) }
+
+// replace FARM_8_8(4267, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(8,17) }
+// alternative_sprites(FARM_8_8, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(8,17) }
+// alternative_sprites(FARM_8_8, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(8,17) }
+// alternative_sprites(FARM_8_8, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(8,17) }
+
+// replace FARM_8_9(4268, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(9,17) }
+// alternative_sprites(FARM_8_9, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(9,17) }
+// alternative_sprites(FARM_8_9, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(9,17) }
+// alternative_sprites(FARM_8_9, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(9,17) }
+
+// replace FARM_8_10(4269, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(10,17) }
+// alternative_sprites(FARM_8_10, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(10,17) }
+// alternative_sprites(FARM_8_10, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(10,17) }
+// alternative_sprites(FARM_8_10, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(10,17) }
+
+// replace FARM_8_11(4270, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(11,17) }
+// alternative_sprites(FARM_8_11, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(11,17) }
+// alternative_sprites(FARM_8_11, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(11,17) }
+// alternative_sprites(FARM_8_11, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(11,17) }
+
+// replace FARM_8_12(4271, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(12,17) }
+// alternative_sprites(FARM_8_12, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(12,17) }
+// alternative_sprites(FARM_8_12, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(12,17) }
+// alternative_sprites(FARM_8_12, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(12,17) }
+
+// replace FARM_8_13(4272, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(13,17) }
+// alternative_sprites(FARM_8_13, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(13,17) }
+// alternative_sprites(FARM_8_13, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(13,17) }
+// alternative_sprites(FARM_8_13, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(13,17) }
+
+// replace FARM_8_14(4273, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(14,17) }
+// alternative_sprites(FARM_8_14, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(14,17) }
+// alternative_sprites(FARM_8_14, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(14,17) }
+// alternative_sprites(FARM_8_14, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(14,17) }
+
+// replace FARM_8_29(4274, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(15,17) }
+// alternative_sprites(FARM_8_29, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(15,17) }
+// alternative_sprites(FARM_8_29, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(15,17) }
+// alternative_sprites(FARM_8_29, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(15,17) }
+
+// replace FARM_8_23(4275, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(16,17) }
+// alternative_sprites(FARM_8_23, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(16,17) }
+// alternative_sprites(FARM_8_23, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(16,17) }
+// alternative_sprites(FARM_8_23, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(16,17) }
+
+// replace FARM_8_27(4276, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(17,17) }
+// alternative_sprites(FARM_8_27, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(17,17) }
+// alternative_sprites(FARM_8_27, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(17,17) }
+// alternative_sprites(FARM_8_27, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(17,17) }
+
+// replace FARM_8_30(4277, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(18,17) }
+// alternative_sprites(FARM_8_30, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(18,17) }
+// alternative_sprites(FARM_8_30, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(18,17) }
+// alternative_sprites(FARM_8_30, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(18,17) }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// replace FARM_9_0(4278, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(0,18) }
+// alternative_sprites(FARM_9_0, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(0,18) }
+// alternative_sprites(FARM_9_0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(0,18) }
+// alternative_sprites(FARM_9_0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(0,18) }
+
+// replace FARM_9_1(4279, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(1,18) }
+// alternative_sprites(FARM_9_1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(1,18) }
+// alternative_sprites(FARM_9_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(1,18) }
+// alternative_sprites(FARM_9_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(1,18) }
+
+// replace FARM_9_2(4280, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(2,18) }
+// alternative_sprites(FARM_9_2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(2,18) }
+// alternative_sprites(FARM_9_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(2,18) }
+// alternative_sprites(FARM_9_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(2,18) }
+
+// replace FARM_9_3(4281, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(3,18) }
+// alternative_sprites(FARM_9_3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(3,18) }
+// alternative_sprites(FARM_9_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(3,18) }
+// alternative_sprites(FARM_9_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(3,18) }
+
+// replace FARM_9_4(4282, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(4,18) }
+// alternative_sprites(FARM_9_4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(4,18) }
+// alternative_sprites(FARM_9_4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(4,18) }
+// alternative_sprites(FARM_9_4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(4,18) }
+
+// replace FARM_9_5(4283, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(5,18) }
+// alternative_sprites(FARM_9_5, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(5,18) }
+// alternative_sprites(FARM_9_5, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(5,18) }
+// alternative_sprites(FARM_9_5, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(5,18) }
+
+// replace FARM_9_6(4284, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(6,18) }
+// alternative_sprites(FARM_9_6, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(6,18) }
+// alternative_sprites(FARM_9_6, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(6,18) }
+// alternative_sprites(FARM_9_6, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(6,18) }
+
+// replace FARM_9_7(4285, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(7,18) }
+// alternative_sprites(FARM_9_7, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(7,18) }
+// alternative_sprites(FARM_9_7, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(7,18) }
+// alternative_sprites(FARM_9_7, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(7,18) }
+
+// replace FARM_9_8(4286, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(8,18) }
+// alternative_sprites(FARM_9_8, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(8,18) }
+// alternative_sprites(FARM_9_8, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(8,18) }
+// alternative_sprites(FARM_9_8, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(8,18) }
+
+// replace FARM_9_9(4287, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(9,18) }
+// alternative_sprites(FARM_9_9, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(9,18) }
+// alternative_sprites(FARM_9_9, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(9,18) }
+// alternative_sprites(FARM_9_9, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(9,18) }
+
+// replace FARM_9_10(4288, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(10,18) }
+// alternative_sprites(FARM_9_10, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(10,18) }
+// alternative_sprites(FARM_9_10, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(10,18) }
+// alternative_sprites(FARM_9_10, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(10,18) }
+
+// replace FARM_9_11(4289, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(11,18) }
+// alternative_sprites(FARM_9_11, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(11,18) }
+// alternative_sprites(FARM_9_11, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(11,18) }
+// alternative_sprites(FARM_9_11, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(11,18) }
+
+// replace FARM_9_12(4290, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(12,18) }
+// alternative_sprites(FARM_9_12, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(12,18) }
+// alternative_sprites(FARM_9_12, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(12,18) }
+// alternative_sprites(FARM_9_12, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(12,18) }
+
+// replace FARM_9_13(4291, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(13,18) }
+// alternative_sprites(FARM_9_13, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(13,18) }
+// alternative_sprites(FARM_9_13, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(13,18) }
+// alternative_sprites(FARM_9_13, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(13,18) }
+
+// replace FARM_9_14(4292, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(14,18) }
+// alternative_sprites(FARM_9_14, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(14,18) }
+// alternative_sprites(FARM_9_14, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(14,18) }
+// alternative_sprites(FARM_9_14, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(14,18) }
+
+// replace FARM_9_29(4293, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(15,18) }
+// alternative_sprites(FARM_9_29, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(15,18) }
+// alternative_sprites(FARM_9_29, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(15,18) }
+// alternative_sprites(FARM_9_29, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(15,18) }
+
+// replace FARM_9_23(4294, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(16,18) }
+// alternative_sprites(FARM_9_23, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(16,18) }
+// alternative_sprites(FARM_9_23, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(16,18) }
+// alternative_sprites(FARM_9_23, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(16,18) }
+
+// replace FARM_9_27(4295, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(17,18) }
+// alternative_sprites(FARM_9_27, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(17,18) }
+// alternative_sprites(FARM_9_27, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(17,18) }
+// alternative_sprites(FARM_9_27, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(17,18) }
+
+// replace FARM_9_30(4296, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x1(18,18) }
+// alternative_sprites(FARM_9_30, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x1(18,18) }
+// alternative_sprites(FARM_9_30, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/32bpp/terrain/terrain.png") { template_LANDSCAPE_x4(18,18) }
+// alternative_sprites(FARM_9_30, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/8bpp/terrain/terrain-8bpp.png") { template_LANDSCAPE_x4(18,18) }

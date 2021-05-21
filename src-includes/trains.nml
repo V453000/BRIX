@@ -1,0 +1,375 @@
+
+
+
+replace 			WAGONS_RAIL_PASSENGER											(2733)	{ template_x1_8bpp_vehicle8_4views	(32,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(WAGONS_RAIL_PASSENGER, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)   			{ template_x1_32bpp_vehicle8_4views	(32,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_RAIL_PASSENGER, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)    			{ template_x4_32bpp_vehicle8_4views	(32,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_RAIL_PASSENGER, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)    			{ template_x4_8bpp_vehicle8_4views	(32,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			WAGONS_RAIL_COAL_empty											(2737)	{ template_x1_8bpp_vehicle8_4views	(33,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(WAGONS_RAIL_COAL_empty, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)   			{ template_x1_32bpp_vehicle8_4views	(33,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_RAIL_COAL_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)    			{ template_x4_32bpp_vehicle8_4views	(33,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_RAIL_COAL_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)    			{ template_x4_8bpp_vehicle8_4views	(33,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			WAGONS_RAIL_MAIL												(2741)	{ template_x1_8bpp_vehicle8_4views	(34,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(WAGONS_RAIL_MAIL, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)   				{ template_x1_32bpp_vehicle8_4views	(34,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_RAIL_MAIL, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)    				{ template_x4_32bpp_vehicle8_4views	(34,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_RAIL_MAIL, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)    				{ template_x4_8bpp_vehicle8_4views	(34,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			WAGONS_RAIL_TANKER												(2745)	{ template_x1_8bpp_vehicle8_4views	(35,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(WAGONS_RAIL_TANKER, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)   				{ template_x1_32bpp_vehicle8_4views	(35,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_RAIL_TANKER, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)    				{ template_x4_32bpp_vehicle8_4views	(35,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_RAIL_TANKER, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)    				{ template_x4_8bpp_vehicle8_4views	(35,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			WAGONS_RAIL_LIVESTOCK											(2749)	{ template_x1_8bpp_vehicle8_4views	(36,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(WAGONS_RAIL_LIVESTOCK, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)   			{ template_x1_32bpp_vehicle8_4views	(36,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_RAIL_LIVESTOCK, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)    			{ template_x4_32bpp_vehicle8_4views	(36,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_RAIL_LIVESTOCK, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)    			{ template_x4_8bpp_vehicle8_4views	(36,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			WAGONS_RAIL_GOODS												(2753)	{ template_x1_8bpp_vehicle8_4views	(37,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(WAGONS_RAIL_GOODS, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)   				{ template_x1_32bpp_vehicle8_4views	(37,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_RAIL_GOODS, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)    				{ template_x4_32bpp_vehicle8_4views	(37,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_RAIL_GOODS, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)    				{ template_x4_8bpp_vehicle8_4views	(37,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			WAGONS_RAIL_FOOD												(2757)	{ template_x1_8bpp_vehicle8_4views	(38,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(WAGONS_RAIL_FOOD, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)   				{ template_x1_32bpp_vehicle8_4views	(38,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_RAIL_FOOD, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)    				{ template_x4_32bpp_vehicle8_4views	(38,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_RAIL_FOOD, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)    				{ template_x4_8bpp_vehicle8_4views	(38,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			WAGONS_RAIL_GRAIN_empty											(2761)	{ template_x1_8bpp_vehicle8_4views	(39,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(WAGONS_RAIL_GRAIN_empty, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)   			{ template_x1_32bpp_vehicle8_4views	(39,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_RAIL_GRAIN_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)    			{ template_x4_32bpp_vehicle8_4views	(39,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_RAIL_GRAIN_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)    			{ template_x4_8bpp_vehicle8_4views	(39,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			WAGONS_RAIL_WOOD_empty											(2765)	{ template_x1_8bpp_vehicle8_4views	(40,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(WAGONS_RAIL_WOOD_empty, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)   			{ template_x1_32bpp_vehicle8_4views	(40,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_RAIL_WOOD_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)    			{ template_x4_32bpp_vehicle8_4views	(40,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_RAIL_WOOD_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)    			{ template_x4_8bpp_vehicle8_4views	(40,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			WAGONS_RAIL_STEEL_empty											(2769)	{ template_x1_8bpp_vehicle8_4views	(41,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(WAGONS_RAIL_STEEL_empty, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)   			{ template_x1_32bpp_vehicle8_4views	(41,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_RAIL_STEEL_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)    			{ template_x4_32bpp_vehicle8_4views	(41,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_RAIL_STEEL_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)    			{ template_x4_8bpp_vehicle8_4views	(41,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			WAGONS_RAIL_IRONORE_empty										(2773)	{ template_x1_8bpp_vehicle8_4views	(42,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(WAGONS_RAIL_IRONORE_empty, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)  		{ template_x1_32bpp_vehicle8_4views	(42,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_RAIL_IRONORE_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)   		{ template_x4_32bpp_vehicle8_4views	(42,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_RAIL_IRONORE_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)   		{ template_x4_8bpp_vehicle8_4views	(42,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			WAGONS_RAIL_ARMOURED_empty										(2777)	{ template_x1_8bpp_vehicle8_4views	(43,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(WAGONS_RAIL_ARMOURED_empty, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)  		{ template_x1_32bpp_vehicle8_4views	(43,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_RAIL_ARMOURED_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)   		{ template_x4_32bpp_vehicle8_4views	(43,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_RAIL_ARMOURED_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)   		{ template_x4_8bpp_vehicle8_4views	(43,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			WAGONS_RAIL_COAL_full											(2781)	{ template_x1_8bpp_vehicle8_4views	(44,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(WAGONS_RAIL_COAL_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)  			{ template_x1_32bpp_vehicle8_4views	(44,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_RAIL_COAL_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)   			{ template_x4_32bpp_vehicle8_4views	(44,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_RAIL_COAL_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)   			{ template_x4_8bpp_vehicle8_4views	(44,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			WAGONS_RAIL_GRAIN_full											(2785)	{ template_x1_8bpp_vehicle8_4views	(45,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(WAGONS_RAIL_GRAIN_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)  			{ template_x1_32bpp_vehicle8_4views	(45,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_RAIL_GRAIN_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)   			{ template_x4_32bpp_vehicle8_4views	(45,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_RAIL_GRAIN_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)   			{ template_x4_8bpp_vehicle8_4views	(45,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			WAGONS_RAIL_WOOD_full											(2789)	{ template_x1_8bpp_vehicle8_4views	(46,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(WAGONS_RAIL_WOOD_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)  			{ template_x1_32bpp_vehicle8_4views	(46,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_RAIL_WOOD_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)   			{ template_x4_32bpp_vehicle8_4views	(46,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_RAIL_WOOD_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)   			{ template_x4_8bpp_vehicle8_4views	(46,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			WAGONS_RAIL_STEEL_full											(2793)	{ template_x1_8bpp_vehicle8_4views	(47,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(WAGONS_RAIL_STEEL_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)  			{ template_x1_32bpp_vehicle8_4views	(47,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_RAIL_STEEL_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)   			{ template_x4_32bpp_vehicle8_4views	(47,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_RAIL_STEEL_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)   			{ template_x4_8bpp_vehicle8_4views	(47,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			WAGONS_RAIL_IRONORE_full										(2797)	{ template_x1_8bpp_vehicle8_4views	(48,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(WAGONS_RAIL_IRONORE_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)  			{ template_x1_32bpp_vehicle8_4views	(48,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_RAIL_IRONORE_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)   			{ template_x4_32bpp_vehicle8_4views	(48,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_RAIL_IRONORE_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)   			{ template_x4_8bpp_vehicle8_4views	(48,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			WAGONS_RAIL_PAPER_full											(2801)	{ template_x1_8bpp_vehicle8_4views	(49,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(WAGONS_RAIL_PAPER_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)  			{ template_x1_32bpp_vehicle8_4views	(49,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_RAIL_PAPER_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)   			{ template_x4_32bpp_vehicle8_4views	(49,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_RAIL_PAPER_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)   			{ template_x4_8bpp_vehicle8_4views	(49,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			WAGONS_RAIL_COPPERORE_full										(2805)	{ template_x1_8bpp_vehicle8_4views	(50,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(WAGONS_RAIL_COPPERORE_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) 		{ template_x1_32bpp_vehicle8_4views	(50,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_RAIL_COPPERORE_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)  		{ template_x4_32bpp_vehicle8_4views	(50,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_RAIL_COPPERORE_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)  		{ template_x4_8bpp_vehicle8_4views	(50,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			WAGONS_RAIL_WATER												(2809)	{ template_x1_8bpp_vehicle8_4views	(51,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(WAGONS_RAIL_WATER, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) 					{ template_x1_32bpp_vehicle8_4views	(51,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_RAIL_WATER, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)  					{ template_x4_32bpp_vehicle8_4views	(51,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_RAIL_WATER, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)  					{ template_x4_8bpp_vehicle8_4views	(51,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			WAGONS_RAIL_FRUIT_empty											(2813)	{ template_x1_8bpp_vehicle8_4views	(52,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(WAGONS_RAIL_FRUIT_empty, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)  			{ template_x1_32bpp_vehicle8_4views	(52,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_RAIL_FRUIT_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)   			{ template_x4_32bpp_vehicle8_4views	(52,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_RAIL_FRUIT_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)   			{ template_x4_8bpp_vehicle8_4views	(52,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			WAGONS_RAIL_FRUIT_full											(2817)	{ template_x1_8bpp_vehicle8_4views	(53,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(WAGONS_RAIL_FRUIT_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)  			{ template_x1_32bpp_vehicle8_4views	(53,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_RAIL_FRUIT_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)   			{ template_x4_32bpp_vehicle8_4views	(53,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_RAIL_FRUIT_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)   			{ template_x4_8bpp_vehicle8_4views	(53,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			WAGONS_RAIL_RUBBER_empty										(2821)	{ template_x1_8bpp_vehicle8_4views	(54,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(WAGONS_RAIL_RUBBER_empty, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)  			{ template_x1_32bpp_vehicle8_4views	(54,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_RAIL_RUBBER_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)   			{ template_x4_32bpp_vehicle8_4views	(54,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_RAIL_RUBBER_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)   			{ template_x4_8bpp_vehicle8_4views	(54,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			WAGONS_RAIL_RUBBER_full											(2821)	{ template_x1_8bpp_vehicle8_4views	(55,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(WAGONS_RAIL_RUBBER_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)  			{ template_x1_32bpp_vehicle8_4views	(55,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_RAIL_RUBBER_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)   			{ template_x4_32bpp_vehicle8_4views	(55,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_RAIL_RUBBER_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)   			{ template_x4_8bpp_vehicle8_4views	(55,"gfx/8bpp/trains/trains-8bpp.png") }
+
+
+
+
+replace 			WAGONS_MONOMGLV_PASSENGER											(2829)	{ template_x1_8bpp_vehicle8_4views	(56,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(WAGONS_MONOMGLV_PASSENGER, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)   			{ template_x1_32bpp_vehicle8_4views	(56,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_MONOMGLV_PASSENGER, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)    			{ template_x4_32bpp_vehicle8_4views	(56,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_MONOMGLV_PASSENGER, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)    			{ template_x4_8bpp_vehicle8_4views	(56,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			WAGONS_MONOMGLV_COAL_empty											(2833)	{ template_x1_8bpp_vehicle8_4views	(57,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(WAGONS_MONOMGLV_COAL_empty, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)   			{ template_x1_32bpp_vehicle8_4views	(57,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_MONOMGLV_COAL_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)    			{ template_x4_32bpp_vehicle8_4views	(57,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_MONOMGLV_COAL_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)    			{ template_x4_8bpp_vehicle8_4views	(57,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			WAGONS_MONOMGLV_MAIL												(2837)	{ template_x1_8bpp_vehicle8_4views	(58,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(WAGONS_MONOMGLV_MAIL, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)   				{ template_x1_32bpp_vehicle8_4views	(58,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_MONOMGLV_MAIL, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)    				{ template_x4_32bpp_vehicle8_4views	(58,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_MONOMGLV_MAIL, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)    				{ template_x4_8bpp_vehicle8_4views	(58,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			WAGONS_MONOMGLV_TANKER												(2841)	{ template_x1_8bpp_vehicle8_4views	(59,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(WAGONS_MONOMGLV_TANKER, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)   				{ template_x1_32bpp_vehicle8_4views	(59,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_MONOMGLV_TANKER, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)    				{ template_x4_32bpp_vehicle8_4views	(59,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_MONOMGLV_TANKER, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)    				{ template_x4_8bpp_vehicle8_4views	(59,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			WAGONS_MONOMGLV_LIVESTOCK											(2845)	{ template_x1_8bpp_vehicle8_4views	(60,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(WAGONS_MONOMGLV_LIVESTOCK, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)   			{ template_x1_32bpp_vehicle8_4views	(60,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_MONOMGLV_LIVESTOCK, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)    			{ template_x4_32bpp_vehicle8_4views	(60,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_MONOMGLV_LIVESTOCK, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)    			{ template_x4_8bpp_vehicle8_4views	(60,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			WAGONS_MONOMGLV_GOODS												(2849)	{ template_x1_8bpp_vehicle8_4views	(61,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(WAGONS_MONOMGLV_GOODS, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)   				{ template_x1_32bpp_vehicle8_4views	(61,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_MONOMGLV_GOODS, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)    				{ template_x4_32bpp_vehicle8_4views	(61,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_MONOMGLV_GOODS, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)    				{ template_x4_8bpp_vehicle8_4views	(61,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			WAGONS_MONOMGLV_FOOD												(2853)	{ template_x1_8bpp_vehicle8_4views	(62,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(WAGONS_MONOMGLV_FOOD, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)   				{ template_x1_32bpp_vehicle8_4views	(62,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_MONOMGLV_FOOD, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)    				{ template_x4_32bpp_vehicle8_4views	(62,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_MONOMGLV_FOOD, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)    				{ template_x4_8bpp_vehicle8_4views	(62,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			WAGONS_MONOMGLV_GRAIN_empty											(2857)	{ template_x1_8bpp_vehicle8_4views	(63,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(WAGONS_MONOMGLV_GRAIN_empty, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)   			{ template_x1_32bpp_vehicle8_4views	(63,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_MONOMGLV_GRAIN_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)    			{ template_x4_32bpp_vehicle8_4views	(63,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_MONOMGLV_GRAIN_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)    			{ template_x4_8bpp_vehicle8_4views	(63,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			WAGONS_MONOMGLV_WOOD_empty											(2861)	{ template_x1_8bpp_vehicle8_4views	(64,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(WAGONS_MONOMGLV_WOOD_empty, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)   			{ template_x1_32bpp_vehicle8_4views	(64,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_MONOMGLV_WOOD_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)    			{ template_x4_32bpp_vehicle8_4views	(64,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_MONOMGLV_WOOD_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)    			{ template_x4_8bpp_vehicle8_4views	(64,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			WAGONS_MONOMGLV_STEEL_empty											(2865)	{ template_x1_8bpp_vehicle8_4views	(65,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(WAGONS_MONOMGLV_STEEL_empty, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)   			{ template_x1_32bpp_vehicle8_4views	(65,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_MONOMGLV_STEEL_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)    			{ template_x4_32bpp_vehicle8_4views	(65,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_MONOMGLV_STEEL_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)    			{ template_x4_8bpp_vehicle8_4views	(65,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			WAGONS_MONOMGLV_IRONORE_empty										(2869)	{ template_x1_8bpp_vehicle8_4views	(66,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(WAGONS_MONOMGLV_IRONORE_empty, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)  		{ template_x1_32bpp_vehicle8_4views	(66,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_MONOMGLV_IRONORE_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)   		{ template_x4_32bpp_vehicle8_4views	(66,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_MONOMGLV_IRONORE_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)   		{ template_x4_8bpp_vehicle8_4views	(66,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			WAGONS_MONOMGLV_ARMOURED_empty										(2873)	{ template_x1_8bpp_vehicle8_4views	(67,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(WAGONS_MONOMGLV_ARMOURED_empty, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)  		{ template_x1_32bpp_vehicle8_4views	(67,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_MONOMGLV_ARMOURED_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)   		{ template_x4_32bpp_vehicle8_4views	(67,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_MONOMGLV_ARMOURED_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)   		{ template_x4_8bpp_vehicle8_4views	(67,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			WAGONS_MONOMGLV_COAL_full											(2877)	{ template_x1_8bpp_vehicle8_4views	(68,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(WAGONS_MONOMGLV_COAL_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)  			{ template_x1_32bpp_vehicle8_4views	(68,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_MONOMGLV_COAL_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)   			{ template_x4_32bpp_vehicle8_4views	(68,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_MONOMGLV_COAL_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)   			{ template_x4_8bpp_vehicle8_4views	(68,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			WAGONS_MONOMGLV_GRAIN_full											(2881)	{ template_x1_8bpp_vehicle8_4views	(69,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(WAGONS_MONOMGLV_GRAIN_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)  			{ template_x1_32bpp_vehicle8_4views	(69,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_MONOMGLV_GRAIN_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)   			{ template_x4_32bpp_vehicle8_4views	(69,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_MONOMGLV_GRAIN_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)   			{ template_x4_8bpp_vehicle8_4views	(69,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			WAGONS_MONOMGLV_WOOD_full											(2885)	{ template_x1_8bpp_vehicle8_4views	(70,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(WAGONS_MONOMGLV_WOOD_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)  			{ template_x1_32bpp_vehicle8_4views	(70,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_MONOMGLV_WOOD_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)   			{ template_x4_32bpp_vehicle8_4views	(70,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_MONOMGLV_WOOD_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)   			{ template_x4_8bpp_vehicle8_4views	(70,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			WAGONS_MONOMGLV_STEEL_full											(2889)	{ template_x1_8bpp_vehicle8_4views	(71,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(WAGONS_MONOMGLV_STEEL_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)  			{ template_x1_32bpp_vehicle8_4views	(71,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_MONOMGLV_STEEL_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)   			{ template_x4_32bpp_vehicle8_4views	(71,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_MONOMGLV_STEEL_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)   			{ template_x4_8bpp_vehicle8_4views	(71,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			WAGONS_MONOMGLV_IRONORE_full										(2893)	{ template_x1_8bpp_vehicle8_4views	(72,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(WAGONS_MONOMGLV_IRONORE_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)  			{ template_x1_32bpp_vehicle8_4views	(72,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_MONOMGLV_IRONORE_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)   			{ template_x4_32bpp_vehicle8_4views	(72,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_MONOMGLV_IRONORE_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)   			{ template_x4_8bpp_vehicle8_4views	(72,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			WAGONS_MONOMGLV_PAPER_full											(2897)	{ template_x1_8bpp_vehicle8_4views	(73,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(WAGONS_MONOMGLV_PAPER_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)  			{ template_x1_32bpp_vehicle8_4views	(73,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_MONOMGLV_PAPER_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)   			{ template_x4_32bpp_vehicle8_4views	(73,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_MONOMGLV_PAPER_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)   			{ template_x4_8bpp_vehicle8_4views	(73,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			WAGONS_MONOMGLV_COPPERORE_full										(2901)	{ template_x1_8bpp_vehicle8_4views	(74,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(WAGONS_MONOMGLV_COPPERORE_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) 		{ template_x1_32bpp_vehicle8_4views	(74,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_MONOMGLV_COPPERORE_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)  		{ template_x4_32bpp_vehicle8_4views	(74,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_MONOMGLV_COPPERORE_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)  		{ template_x4_8bpp_vehicle8_4views	(74,"gfx/8bpp/trains/trains-8bpp.png") }
+/*
+replace 			WAGONS_MONOMGLV_WATER												(2809)	{ template_x1_8bpp_vehicle8_4views	(75,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(WAGONS_MONOMGLV_WATER, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) 					{ template_x1_32bpp_vehicle8_4views	(75,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_MONOMGLV_WATER, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)  					{ template_x4_32bpp_vehicle8_4views	(75,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_MONOMGLV_WATER, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)  					{ template_x4_8bpp_vehicle8_4views	(75,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			WAGONS_MONOMGLV_FRUIT_empty											(2813)	{ template_x1_8bpp_vehicle8_4views	(76,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(WAGONS_MONOMGLV_FRUIT_empty, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)  			{ template_x1_32bpp_vehicle8_4views	(76,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_MONOMGLV_FRUIT_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)   			{ template_x4_32bpp_vehicle8_4views	(76,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_MONOMGLV_FRUIT_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)   			{ template_x4_8bpp_vehicle8_4views	(76,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			WAGONS_MONOMGLV_FRUIT_full											(2817)	{ template_x1_8bpp_vehicle8_4views	(77,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(WAGONS_MONOMGLV_FRUIT_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)  			{ template_x1_32bpp_vehicle8_4views	(77,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_MONOMGLV_FRUIT_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)   			{ template_x4_32bpp_vehicle8_4views	(77,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_MONOMGLV_FRUIT_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)   			{ template_x4_8bpp_vehicle8_4views	(77,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			WAGONS_MONOMGLV_RUBBER_empty										(2821)	{ template_x1_8bpp_vehicle8_4views	(78,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(WAGONS_MONOMGLV_RUBBER_empty, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)  			{ template_x1_32bpp_vehicle8_4views	(78,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_MONOMGLV_RUBBER_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)   			{ template_x4_32bpp_vehicle8_4views	(78,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_MONOMGLV_RUBBER_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)   			{ template_x4_8bpp_vehicle8_4views	(78,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			WAGONS_MONOMGLV_RUBBER_full											(2821)	{ template_x1_8bpp_vehicle8_4views	(79,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(WAGONS_MONOMGLV_RUBBER_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)  			{ template_x1_32bpp_vehicle8_4views	(79,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_MONOMGLV_RUBBER_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)   			{ template_x4_32bpp_vehicle8_4views	(79,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(WAGONS_MONOMGLV_RUBBER_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)   			{ template_x4_8bpp_vehicle8_4views	(79,"gfx/8bpp/trains/trains-8bpp.png") }
+*/
+
+
+
+
+replace 			TRAINS_RAIL_CHANEY_JUBILEE											(2905)	{ template_x1_8bpp_vehicle8_8views	(0,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(TRAINS_RAIL_CHANEY_JUBILEE, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)   			{ template_x1_32bpp_vehicle8_8views	(0,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(TRAINS_RAIL_CHANEY_JUBILEE, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)    			{ template_x4_32bpp_vehicle8_8views	(0,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(TRAINS_RAIL_CHANEY_JUBILEE, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)    			{ template_x4_8bpp_vehicle8_8views	(0,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			TRAINS_RAIL_GINZU_A4												(2913)	{ template_x1_8bpp_vehicle8_8views	(1,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(TRAINS_RAIL_GINZU_A4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)   				{ template_x1_32bpp_vehicle8_8views	(1,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(TRAINS_RAIL_GINZU_A4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)    				{ template_x4_32bpp_vehicle8_8views	(1,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(TRAINS_RAIL_GINZU_A4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)    				{ template_x4_8bpp_vehicle8_8views	(1,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			TRAINS_RAIL_KIRBY_PAUL_TANK											(2921)	{ template_x1_8bpp_vehicle8_8views	(2,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(TRAINS_RAIL_KIRBY_PAUL_TANK, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)   			{ template_x1_32bpp_vehicle8_8views	(2,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(TRAINS_RAIL_KIRBY_PAUL_TANK, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)    			{ template_x4_32bpp_vehicle8_8views	(2,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(TRAINS_RAIL_KIRBY_PAUL_TANK, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)    			{ template_x4_8bpp_vehicle8_8views	(2,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			TRAINS_RAIL_FLOSS													(2929)	{ template_x1_8bpp_vehicle8_4views	(3,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(TRAINS_RAIL_FLOSS, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)   					{ template_x1_32bpp_vehicle8_4views	(3,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(TRAINS_RAIL_FLOSS, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)    					{ template_x4_32bpp_vehicle8_4views	(3,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(TRAINS_RAIL_FLOSS, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)    					{ template_x4_8bpp_vehicle8_4views	(3,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			TRAINS_RAIL_UU37													(2933)	{ template_x1_8bpp_vehicle8_4views	(4,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(TRAINS_RAIL_UU37, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)   					{ template_x1_32bpp_vehicle8_4views	(4,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(TRAINS_RAIL_UU37, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)    					{ template_x4_32bpp_vehicle8_4views	(4,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(TRAINS_RAIL_UU37, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)    					{ template_x4_8bpp_vehicle8_4views	(4,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			TRAINS_RAIL_SH40													(2937)	{ template_x1_8bpp_vehicle8_4views	(5,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(TRAINS_RAIL_SH40, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)   					{ template_x1_32bpp_vehicle8_4views	(5,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(TRAINS_RAIL_SH40, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)    					{ template_x4_32bpp_vehicle8_4views	(5,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(TRAINS_RAIL_SH40, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)    					{ template_x4_8bpp_vehicle8_4views	(5,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			TRAINS_RAIL_SH125													(2941)	{ template_x1_8bpp_vehicle8_8views	(6,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(TRAINS_RAIL_SH125, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)   					{ template_x1_32bpp_vehicle8_8views	(6,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(TRAINS_RAIL_SH125, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)    					{ template_x4_32bpp_vehicle8_8views	(6,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(TRAINS_RAIL_SH125, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)    					{ template_x4_8bpp_vehicle8_8views	(6,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			TRAINS_RAIL_MANLEY_MORELL											(2949)	{ template_x1_8bpp_vehicle8_8views	(7,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(TRAINS_RAIL_MANLEY_MORELL, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)   			{ template_x1_32bpp_vehicle8_8views	(7,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(TRAINS_RAIL_MANLEY_MORELL, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)    			{ template_x4_32bpp_vehicle8_8views	(7,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(TRAINS_RAIL_MANLEY_MORELL, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)    			{ template_x4_8bpp_vehicle8_8views	(7,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			TRAINS_RAIL_DASH													(2957)	{ template_x1_8bpp_vehicle8_8views	(8,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(TRAINS_RAIL_DASH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)   					{ template_x1_32bpp_vehicle8_8views	(8,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(TRAINS_RAIL_DASH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)    					{ template_x4_32bpp_vehicle8_8views	(8,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(TRAINS_RAIL_DASH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)    					{ template_x4_8bpp_vehicle8_8views	(8,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			TRAINS_RAIL_ASIASTAR												(2965)	{ template_x1_8bpp_vehicle8_8views	(9,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(TRAINS_RAIL_ASIASTAR, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)   				{ template_x1_32bpp_vehicle8_8views	(9,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(TRAINS_RAIL_ASIASTAR, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)    				{ template_x4_32bpp_vehicle8_8views	(9,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(TRAINS_RAIL_ASIASTAR, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)    				{ template_x4_8bpp_vehicle8_8views	(9,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			TRAINS_RAIL_TIM														(2973)	{ template_x1_8bpp_vehicle8_8views	(10,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(TRAINS_RAIL_TIM, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)   						{ template_x1_32bpp_vehicle8_8views	(10,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(TRAINS_RAIL_TIM, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)    						{ template_x4_32bpp_vehicle8_8views	(10,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(TRAINS_RAIL_TIM, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)    						{ template_x4_8bpp_vehicle8_8views	(10,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			TRAINS_MONO_X2001													(2981)	{ template_x1_8bpp_vehicle8_4views	(11,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(TRAINS_MONO_X2001, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)   					{ template_x1_32bpp_vehicle8_4views	(11,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(TRAINS_MONO_X2001, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)    					{ template_x4_32bpp_vehicle8_4views	(11,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(TRAINS_MONO_X2001, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)    					{ template_x4_8bpp_vehicle8_4views	(11,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			TRAINS_MONO_Z1														(2985)	{ template_x1_8bpp_vehicle8_8views	(12,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(TRAINS_MONO_Z1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)   						{ template_x1_32bpp_vehicle8_8views	(12,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(TRAINS_MONO_Z1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)    						{ template_x4_32bpp_vehicle8_8views	(12,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(TRAINS_MONO_Z1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)    						{ template_x4_8bpp_vehicle8_8views	(12,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			TRAINS_MGLV_LEV3													(2993)	{ template_x1_8bpp_vehicle8_8views	(13,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(TRAINS_MGLV_LEV3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)   					{ template_x1_32bpp_vehicle8_8views	(13,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(TRAINS_MGLV_LEV3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)    					{ template_x4_32bpp_vehicle8_8views	(13,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(TRAINS_MGLV_LEV3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)    					{ template_x4_8bpp_vehicle8_8views	(13,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			TRAINS_MGLV_LEV4													(3001)	{ template_x1_8bpp_vehicle8_8views	(14,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(TRAINS_MGLV_LEV4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)   					{ template_x1_32bpp_vehicle8_8views	(14,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(TRAINS_MGLV_LEV4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)    					{ template_x4_32bpp_vehicle8_8views	(14,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(TRAINS_MGLV_LEV4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)    					{ template_x4_8bpp_vehicle8_8views	(14,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			TRAINS_MGLV_LEV1													(3009)	{ template_x1_8bpp_vehicle8_4views	(15,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(TRAINS_MGLV_LEV1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)   					{ template_x1_32bpp_vehicle8_4views	(15,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(TRAINS_MGLV_LEV1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)    					{ template_x4_32bpp_vehicle8_4views	(15,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(TRAINS_MGLV_LEV1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)    					{ template_x4_8bpp_vehicle8_4views	(15,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			TRAINS_MGLV_LEV2													(3013)	{ template_x1_8bpp_vehicle8_4views	(16,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(TRAINS_MGLV_LEV2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)   					{ template_x1_32bpp_vehicle8_4views	(16,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(TRAINS_MGLV_LEV2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)    					{ template_x4_32bpp_vehicle8_4views	(16,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(TRAINS_MGLV_LEV2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)    					{ template_x4_8bpp_vehicle8_4views	(16,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			TRAINS_RAIL_MJS250													(3017)	{ template_x1_8bpp_vehicle8_8views	(17,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(TRAINS_RAIL_MJS250, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)   					{ template_x1_32bpp_vehicle8_8views	(17,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(TRAINS_RAIL_MJS250, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)    					{ template_x4_32bpp_vehicle8_8views	(17,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(TRAINS_RAIL_MJS250, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)    					{ template_x4_8bpp_vehicle8_8views	(17,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			TRAINS_RAIL_CENTENNIAL												(3025)	{ template_x1_8bpp_vehicle8_8views	(18,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(TRAINS_RAIL_CENTENNIAL, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)   				{ template_x1_32bpp_vehicle8_8views	(18,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(TRAINS_RAIL_CENTENNIAL, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)    				{ template_x4_32bpp_vehicle8_8views	(18,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(TRAINS_RAIL_CENTENNIAL, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)    				{ template_x4_8bpp_vehicle8_8views	(18,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			TRAINS_RAIL_CS4000													(3033)	{ template_x1_8bpp_vehicle8_8views	(19,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(TRAINS_RAIL_CS4000, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)   					{ template_x1_32bpp_vehicle8_8views	(19,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(TRAINS_RAIL_CS4000, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)    					{ template_x4_32bpp_vehicle8_8views	(19,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(TRAINS_RAIL_CS4000, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)    					{ template_x4_8bpp_vehicle8_8views	(19,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			TRAINS_RAIL_WILLS													(3041)	{ template_x1_8bpp_vehicle8_8views	(20,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(TRAINS_RAIL_WILLS, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)   					{ template_x1_32bpp_vehicle8_8views	(20,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(TRAINS_RAIL_WILLS, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)    					{ template_x4_32bpp_vehicle8_8views	(20,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(TRAINS_RAIL_WILLS, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)    					{ template_x4_8bpp_vehicle8_8views	(20,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			TRAINS_RAIL_KELLING3100												(3049)	{ template_x1_8bpp_vehicle8_4views	(21,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(TRAINS_RAIL_KELLING3100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)   				{ template_x1_32bpp_vehicle8_4views	(21,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(TRAINS_RAIL_KELLING3100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)    				{ template_x4_32bpp_vehicle8_4views	(21,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(TRAINS_RAIL_KELLING3100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)    				{ template_x4_8bpp_vehicle8_4views	(21,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			TRAINS_RAIL_TURNER_TURBO											(3053)	{ template_x1_8bpp_vehicle8_8views	(22,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(TRAINS_RAIL_TURNER_TURBO, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)   			{ template_x1_32bpp_vehicle8_8views	(22,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(TRAINS_RAIL_TURNER_TURBO, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)    			{ template_x4_32bpp_vehicle8_8views	(22,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(TRAINS_RAIL_TURNER_TURBO, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)    			{ template_x4_8bpp_vehicle8_8views	(22,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			TRAINS_RAIL_MJS1000													(3061)	{ template_x1_8bpp_vehicle8_4views	(23,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(TRAINS_RAIL_MJS1000, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)   					{ template_x1_32bpp_vehicle8_4views	(23,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(TRAINS_RAIL_MJS1000, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)    					{ template_x4_32bpp_vehicle8_4views	(23,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(TRAINS_RAIL_MJS1000, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)    					{ template_x4_8bpp_vehicle8_4views	(23,"gfx/8bpp/trains/trains-8bpp.png") }
+
+replace 			TRAINS_RAIL_CS2400													(3065)	{ template_x1_8bpp_vehicle8_8views	(24,"gfx/8bpp/trains/trains-8bpp.png") }
+alternative_sprites(TRAINS_RAIL_CS2400, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)   					{ template_x1_32bpp_vehicle8_8views	(24,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(TRAINS_RAIL_CS2400, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)    					{ template_x4_32bpp_vehicle8_8views	(24,"gfx/32bpp/trains/trains.png","gfx/32bpp/trains/trains-mask.png") }
+alternative_sprites(TRAINS_RAIL_CS2400, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)    					{ template_x4_8bpp_vehicle8_8views	(24,"gfx/8bpp/trains/trains-8bpp.png") }
+

@@ -1,6 +1,6 @@
 
 replace 			STATUE													(2632)	                      { [0,0,64,80,-31,-24,"gfx/8bpp/buildings/x1/statue-x1-8bpp.png"] }
-alternative_sprites(STATUE, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)   					{ [0,0,64,80,-31,-24,"gfx/32bpp/buildings/x1/statue-x1.png"] }
-alternative_sprites(STATUE, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)    					{ [0,0,256,320,-124,-98,"gfx/32bpp/buildings/x4/statue.png","gfx/32bpp/buildings/x4/statue-mask.png"] }
-alternative_sprites(STATUE, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)    					  { [0,0,256,320,-124,-98,"gfx/8bpp/buildings/x4/statue-8bpp.png"] }
+alternative_sprites(STATUE, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)   					{ [0,0,64,80,-31,-24, "gfx/32bpp/buildings/x1/statue-x1.png"] }
+alternative_sprites(STATUE, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)    					{ [0,0,256,320,-124,-98, ANIM, "gfx/32bpp/buildings/x4/statue.png","gfx/32bpp/buildings/x4/statue-mask.png"] }
+alternative_sprites(STATUE, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)    					{ [0,0,256,320,-124,-98, ANIM, "gfx/8bpp/buildings/x4/statue-8bpp.png"] }
 

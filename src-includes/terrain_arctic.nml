@@ -766,8 +766,8 @@ alternative_sprites(ARCTIC_ROCKS_2_30, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/sp
 //-----------------------------------------------------------------------------------------------------------------------
 
 replace ARCTIC_WATER_0(4061, "gfx/split-spritesheets/8bpp/terrain/terrain-8bpp_row00_col01.png") { template_LANDSCAPE_x1(0,9) }
-alternative_sprites(ARCTIC_WATER_0, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/terrain/terrain_row00_col01.png") { template_LANDSCAPE_x1(0,9) }
-alternative_sprites(ARCTIC_WATER_0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/terrain/terrain_row00_col01.png") { template_LANDSCAPE_x4(0,9) }
+alternative_sprites(ARCTIC_WATER_0, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) { template_LANDSCAPE_mask_x1(0,9, "gfx/split-spritesheets/32bpp/terrain/terrain_row00_col01.png", "gfx/8bpp/terrain/terrain-mask-8bpp.png" ) }
+alternative_sprites(ARCTIC_WATER_0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) { template_LANDSCAPE_mask_x4(0,9, "gfx/split-spritesheets/32bpp/terrain/terrain_row00_col01.png", "gfx/8bpp/terrain/terrain-mask-8bpp.png" ) }
 alternative_sprites(ARCTIC_WATER_0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/split-spritesheets/8bpp/terrain/terrain-8bpp_row00_col01.png") { template_LANDSCAPE_x4(0,9) }
 /*
 replace ARCTIC_WATER_1(4062, "gfx/split-spritesheets/8bpp/terrain/terrain-8bpp_row00_col01.png") { template_LANDSCAPE_x1(4,9) }
@@ -919,41 +919,41 @@ template_LANDSCAPE_x1(13,9)
 template_LANDSCAPE_x1(14,9)
 template_LANDSCAPE_x1(18,9)
 }
-alternative_sprites(ARCTIC_WATER_COASTS, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/terrain/terrain_row00_col01.png"){
-template_LANDSCAPE_x1(16,9)
-template_LANDSCAPE_x1(1,9)
-template_LANDSCAPE_x1(2,9)
-template_LANDSCAPE_x1(3,9)
-template_LANDSCAPE_x1(4,9)
-template_LANDSCAPE_x1(17,9)
-template_LANDSCAPE_x1(6,9)
-template_LANDSCAPE_x1(7,9)
-template_LANDSCAPE_x1(8,9)
-template_LANDSCAPE_x1(9,9)
-template_LANDSCAPE_x1(15,9)
-template_LANDSCAPE_x1(11,9)
-template_LANDSCAPE_x1(12,9)
-template_LANDSCAPE_x1(13,9)
-template_LANDSCAPE_x1(14,9)
-template_LANDSCAPE_x1(18,9)
+alternative_sprites(ARCTIC_WATER_COASTS, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP){
+template_LANDSCAPE_mask_x1(16,9, "gfx/split-spritesheets/32bpp/terrain/terrain_row00_col01.png", "gfx/8bpp/terrain/terrain-mask-8bpp.png" )
+template_LANDSCAPE_mask_x1( 1,9, "gfx/split-spritesheets/32bpp/terrain/terrain_row00_col01.png", "gfx/8bpp/terrain/terrain-mask-8bpp.png" )
+template_LANDSCAPE_mask_x1( 2,9, "gfx/split-spritesheets/32bpp/terrain/terrain_row00_col01.png", "gfx/8bpp/terrain/terrain-mask-8bpp.png" )
+template_LANDSCAPE_mask_x1( 3,9, "gfx/split-spritesheets/32bpp/terrain/terrain_row00_col01.png", "gfx/8bpp/terrain/terrain-mask-8bpp.png" )
+template_LANDSCAPE_mask_x1( 4,9, "gfx/split-spritesheets/32bpp/terrain/terrain_row00_col01.png", "gfx/8bpp/terrain/terrain-mask-8bpp.png" )
+template_LANDSCAPE_mask_x1(17,9, "gfx/split-spritesheets/32bpp/terrain/terrain_row00_col01.png", "gfx/8bpp/terrain/terrain-mask-8bpp.png" )
+template_LANDSCAPE_mask_x1( 6,9, "gfx/split-spritesheets/32bpp/terrain/terrain_row00_col01.png", "gfx/8bpp/terrain/terrain-mask-8bpp.png" )
+template_LANDSCAPE_mask_x1( 7,9, "gfx/split-spritesheets/32bpp/terrain/terrain_row00_col01.png", "gfx/8bpp/terrain/terrain-mask-8bpp.png" )
+template_LANDSCAPE_mask_x1( 8,9, "gfx/split-spritesheets/32bpp/terrain/terrain_row00_col01.png", "gfx/8bpp/terrain/terrain-mask-8bpp.png" )
+template_LANDSCAPE_mask_x1( 9,9, "gfx/split-spritesheets/32bpp/terrain/terrain_row00_col01.png", "gfx/8bpp/terrain/terrain-mask-8bpp.png" )
+template_LANDSCAPE_mask_x1(15,9, "gfx/split-spritesheets/32bpp/terrain/terrain_row00_col01.png", "gfx/8bpp/terrain/terrain-mask-8bpp.png" )
+template_LANDSCAPE_mask_x1(11,9, "gfx/split-spritesheets/32bpp/terrain/terrain_row00_col01.png", "gfx/8bpp/terrain/terrain-mask-8bpp.png" )
+template_LANDSCAPE_mask_x1(12,9, "gfx/split-spritesheets/32bpp/terrain/terrain_row00_col01.png", "gfx/8bpp/terrain/terrain-mask-8bpp.png" )
+template_LANDSCAPE_mask_x1(13,9, "gfx/split-spritesheets/32bpp/terrain/terrain_row00_col01.png", "gfx/8bpp/terrain/terrain-mask-8bpp.png" )
+template_LANDSCAPE_mask_x1(14,9, "gfx/split-spritesheets/32bpp/terrain/terrain_row00_col01.png", "gfx/8bpp/terrain/terrain-mask-8bpp.png" )
+template_LANDSCAPE_mask_x1(18,9, "gfx/split-spritesheets/32bpp/terrain/terrain_row00_col01.png", "gfx/8bpp/terrain/terrain-mask-8bpp.png" )
 }
-alternative_sprites(ARCTIC_WATER_COASTS, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/split-spritesheets/32bpp/terrain/terrain_row00_col01.png"){
-template_LANDSCAPE_x4(16,9)
-template_LANDSCAPE_x4(1,9)
-template_LANDSCAPE_x4(2,9)
-template_LANDSCAPE_x4(3,9)
-template_LANDSCAPE_x4(4,9)
-template_LANDSCAPE_x4(17,9)
-template_LANDSCAPE_x4(6,9)
-template_LANDSCAPE_x4(7,9)
-template_LANDSCAPE_x4(8,9)
-template_LANDSCAPE_x4(9,9)
-template_LANDSCAPE_x4(15,9)
-template_LANDSCAPE_x4(11,9)
-template_LANDSCAPE_x4(12,9)
-template_LANDSCAPE_x4(13,9)
-template_LANDSCAPE_x4(14,9)
-template_LANDSCAPE_x4(18,9)
+alternative_sprites(ARCTIC_WATER_COASTS, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP){
+template_LANDSCAPE_mask_x4(16,9, "gfx/split-spritesheets/32bpp/terrain/terrain_row00_col01.png", "gfx/8bpp/terrain/terrain-mask-8bpp.png" )
+template_LANDSCAPE_mask_x4( 1,9, "gfx/split-spritesheets/32bpp/terrain/terrain_row00_col01.png", "gfx/8bpp/terrain/terrain-mask-8bpp.png" )
+template_LANDSCAPE_mask_x4( 2,9, "gfx/split-spritesheets/32bpp/terrain/terrain_row00_col01.png", "gfx/8bpp/terrain/terrain-mask-8bpp.png" )
+template_LANDSCAPE_mask_x4( 3,9, "gfx/split-spritesheets/32bpp/terrain/terrain_row00_col01.png", "gfx/8bpp/terrain/terrain-mask-8bpp.png" )
+template_LANDSCAPE_mask_x4( 4,9, "gfx/split-spritesheets/32bpp/terrain/terrain_row00_col01.png", "gfx/8bpp/terrain/terrain-mask-8bpp.png" )
+template_LANDSCAPE_mask_x4(17,9, "gfx/split-spritesheets/32bpp/terrain/terrain_row00_col01.png", "gfx/8bpp/terrain/terrain-mask-8bpp.png" )
+template_LANDSCAPE_mask_x4( 6,9, "gfx/split-spritesheets/32bpp/terrain/terrain_row00_col01.png", "gfx/8bpp/terrain/terrain-mask-8bpp.png" )
+template_LANDSCAPE_mask_x4( 7,9, "gfx/split-spritesheets/32bpp/terrain/terrain_row00_col01.png", "gfx/8bpp/terrain/terrain-mask-8bpp.png" )
+template_LANDSCAPE_mask_x4( 8,9, "gfx/split-spritesheets/32bpp/terrain/terrain_row00_col01.png", "gfx/8bpp/terrain/terrain-mask-8bpp.png" )
+template_LANDSCAPE_mask_x4( 9,9, "gfx/split-spritesheets/32bpp/terrain/terrain_row00_col01.png", "gfx/8bpp/terrain/terrain-mask-8bpp.png" )
+template_LANDSCAPE_mask_x4(15,9, "gfx/split-spritesheets/32bpp/terrain/terrain_row00_col01.png", "gfx/8bpp/terrain/terrain-mask-8bpp.png" )
+template_LANDSCAPE_mask_x4(11,9, "gfx/split-spritesheets/32bpp/terrain/terrain_row00_col01.png", "gfx/8bpp/terrain/terrain-mask-8bpp.png" )
+template_LANDSCAPE_mask_x4(12,9, "gfx/split-spritesheets/32bpp/terrain/terrain_row00_col01.png", "gfx/8bpp/terrain/terrain-mask-8bpp.png" )
+template_LANDSCAPE_mask_x4(13,9, "gfx/split-spritesheets/32bpp/terrain/terrain_row00_col01.png", "gfx/8bpp/terrain/terrain-mask-8bpp.png" )
+template_LANDSCAPE_mask_x4(14,9, "gfx/split-spritesheets/32bpp/terrain/terrain_row00_col01.png", "gfx/8bpp/terrain/terrain-mask-8bpp.png" )
+template_LANDSCAPE_mask_x4(18,9, "gfx/split-spritesheets/32bpp/terrain/terrain_row00_col01.png", "gfx/8bpp/terrain/terrain-mask-8bpp.png" )
 }
 alternative_sprites(ARCTIC_WATER_COASTS, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx/split-spritesheets/8bpp/terrain/terrain-8bpp_row00_col01.png"){
 template_LANDSCAPE_x4(16,9)

@@ -96,6 +96,30 @@ template template_LANDSCAPE_x4(x,y) {
 	-124, -160+65-3]//X,Y offsets
 }
 
+template template_LANDSCAPE_mask_x1(x,y, file, mask ) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*64, 	//position on X
+	6400+80*y,		//position on Y
+	64,		//X size
+	80,		//Y size
+	-31, -8-8-8, //X,Y offsets
+	ANIM,
+	file, mask ] //mask
+}
+
+template template_LANDSCAPE_mask_x4(x,y, file, mask ) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*256, //position on X
+	320*y,		//position on Y
+	256,	//X size
+	320,	//Y size
+	-124, -160+65-3, //X,Y offsets
+	ANIM,
+	file, mask ] //mask
+}
+
 
 
 

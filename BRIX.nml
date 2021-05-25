@@ -26,13 +26,14 @@ grf {
         name: string(STR_PARAM_GRASS_COLOUR);
         desc: string(STR_PARAM_GRASS_COLOUR_DESC);
         min_value: 0;
-        max_value: 3;
+        max_value: 4;
         def_value: 0;
             names: {
                 0: string(STR_PARAM_GRASS_COLOUR_AUTO);
                 1: string(STR_PARAM_GRASS_COLOUR_TEMP);
                 2: string(STR_PARAM_GRASS_COLOUR_ARCT);
                 3: string(STR_PARAM_GRASS_COLOUR_TROP);
+                4: string(STR_PARAM_GRASS_COLOUR_TOY);
             };
         }
     }
@@ -214,7 +215,7 @@ if (param_terrain == 1) {
 }
 
 if (param_roads == 1) {
-    if (param_grass_colour == 1 || (param_grass_colour == 0 && (climate == CLIMATE_TEMPERATE || CLIMATE_TOYLAND))) {
+    if (param_grass_colour == 1 || (param_grass_colour == 0 && climate == CLIMATE_TEMPERATE)) {
         //#include src-includes/roads_temperate.nml
     }
     if (param_grass_colour == 2 || (param_grass_colour == 0 && climate == CLIMATE_ARCTIC)) {
@@ -223,10 +224,13 @@ if (param_roads == 1) {
     if (param_grass_colour == 3 || (param_grass_colour == 0 && climate == CLIMATE_TROPICAL)) {
         //#include src-includes/roads_tropic.nml
     }
+    if (param_grass_colour == 4 || (param_grass_colour == 0 && climate == CLIMATE_TOYLAND)) {
+        //#include src-includes/roads_toyland.nml
+    }
 }
 
 if (param_road_crossings == 1) {
-    if (param_grass_colour == 1 || (param_grass_colour == 0 && (climate == CLIMATE_TEMPERATE || CLIMATE_TOYLAND))) {
+    if (param_grass_colour == 1 || (param_grass_colour == 0 && climate == CLIMATE_TEMPERATE)) {
         //#include src-includes/road-crossings_temperate.nml
     }
     if (param_grass_colour == 2 || (param_grass_colour == 0 && climate == CLIMATE_ARCTIC)) {
@@ -235,10 +239,13 @@ if (param_road_crossings == 1) {
     if (param_grass_colour == 3 || (param_grass_colour == 0 && climate == CLIMATE_TROPICAL)) {
         //#include src-includes/road-crossings_tropic.nml
     }
+    if (param_grass_colour == 4 || (param_grass_colour == 0 && climate == CLIMATE_TOYLAND)) {
+        //#include src-includes/road-crossings_toyland.nml
+    }
 }
 
 if (param_tracks == 1) {
-    if (param_grass_colour == 1 || (param_grass_colour == 0 && (climate == CLIMATE_TEMPERATE || CLIMATE_TOYLAND))) {
+    if (param_grass_colour == 1 || (param_grass_colour == 0 && climate == CLIMATE_TEMPERATE)) {
         //#include src-includes/tracks_temperate.nml
     }
     if (param_grass_colour == 2 || (param_grass_colour == 0 && climate == CLIMATE_ARCTIC)) {
@@ -246,6 +253,9 @@ if (param_tracks == 1) {
     }
     if (param_grass_colour == 3 || (param_grass_colour == 0 && climate == CLIMATE_TROPICAL)) {
         //#include src-includes/tracks_tropic.nml
+    }
+    if (param_grass_colour == 4 || (param_grass_colour == 0 && climate == CLIMATE_TOYLAND)) {
+        //#include src-includes/tracks_toyland.nml
     }
 }
 

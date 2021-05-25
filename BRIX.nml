@@ -199,7 +199,7 @@ grf {
 //#include src-includes/gui.nml
 
 if (param_terrain == 1) {
-    if (param_grass_colour == 1 || (param_grass_colour == 0 && (climate == CLIMATE_TEMPERATE || CLIMATE_TOYLAND))) {
+    if (param_grass_colour == 1 || (param_grass_colour == 0 && climate == CLIMATE_TEMPERATE)) {
         //#include src-includes/terrain_temperate.nml
     }
     if (param_grass_colour == 2 || (param_grass_colour == 0 && climate == CLIMATE_ARCTIC)) {
@@ -207,6 +207,9 @@ if (param_terrain == 1) {
     }
     if (param_grass_colour == 3 || (param_grass_colour == 0 && climate == CLIMATE_TROPICAL)) {
         //#include src-includes/terrain_tropic.nml
+    }
+    if (param_grass_colour == 4 || (param_grass_colour == 0 && climate == CLIMATE_TOYLAND)) {
+        //#include src-includes/terrain_toyland.nml
     }
 }
 

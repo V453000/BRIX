@@ -43,7 +43,8 @@ def convert_to_water_mask(input_path, color_dict):
                     else:
                         print('index not found:', pix_rgb,'- at location:', x, y)
         
-        output_path = input_path.replace('32bpp', '8bpp')
+        output_path = input_path.replace('_0000', '')
+        output_path = output_path.replace('32bpp', '8bpp')
         output_path = output_path.replace('.png', '-8bpp.png')
         output_image.save(output_path)
 
@@ -75,4 +76,4 @@ color_dict = create_color_dictionary(color_indexes_to_read)
 print(color_dict)
 color_dict_translated = dictionary_translation(color_dict, color_translations)
 print(color_dict_translated)
-convert_to_water_mask('32bpp/terrain/water-mask_0000.png', color_dict_translated)
+convert_to_water_mask('32bpp/terrain/terrain-mask_0000.png', color_dict_translated)

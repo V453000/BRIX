@@ -1,42 +1,46 @@
 import os
 from PIL import Image
 
-def frame_centers(input_list, grid_size):
-    output_list = []
-    for t in input_list:
-        out_x = t[0] * grid_size[0] + grid_size[0]/2 
-        out_y = t[1] * grid_size[1] + grid_size[1]/2
-        output_list.append( (out_x , out_y) )
-    return output_list
-
-def load_sequence(positions, frame_size, input_image):
+def load_sequence(positions, frame_size, shift, input_image):
     sequence = []
     with Image.open(input_image) as img:
         for pos in positions:
             rectangle = (
-                pos[0] - frame_size[0]/2,
-                pos[1] - frame_size[1]/2,
-                pos[0] + frame_size[0]/2,
-                pos[1] + frame_size[1]/2
+                pos[0] * frame_size[0] + shift[0],
+                pos[1] * frame_size[1] + shift[1],
+                pos[0] * frame_size[0] + frame_size[0] + shift[0],
+                pos[1] * frame_size[1] + frame_size[1] + shift[1]
             )
+            print(frame_size, rectangle)
             sequence.append( img.crop( rectangle ) )
     return sequence
 
-def put_pieces(instructions, sequence, target_image):
+def put_pieces(instructions, sequence, target_image, frame_size, shift):
     for instruction in instructions:
         frame = instruction[1]
-        extra_y = 0
+        extra_y = int(64 / 256 * frame_size[0])
         if frame > 1:
-            extra_y = 32
+            extra_y = int(96 / 256 * frame_size[0])
         rectangle = (
-            int( instruction[0][0] * 256 ),
-            int( instruction[0][1] * 320 + 64 + extra_y ),
-            int( instruction[0][0] * 256 + 256 ),
-            int( instruction[0][1] * 320 + 320 + 64 + extra_y)
+            int( instruction[0][0] * frame_size[0] + shift[0]),
+            int( instruction[0][1] * frame_size[1] + extra_y + shift[1]),
+            int( instruction[0][0] * frame_size[0] + frame_size[0] + shift[0]),
+            int( instruction[0][1] * frame_size[1] + frame_size[1] + extra_y + shift[1])
         )
         # print(frame, rectangle)
         target_image.paste( sequence[frame], box = rectangle )
     #return output_image
+
+def debug_image_print(image_list):
+    id = 0
+    folder = 'debug'
+    os.makedirs(folder, exist_ok = True)
+    for img in image_list:
+        full_path = os.path.join(folder, 'debug_image_' + str(id).zfill(2) + '.png')
+        print(full_path)
+        img.save(full_path)
+        id += 1
+
 
 road_sequence_positions = [
     ( 0, 0),
@@ -297,15 +301,30 @@ maglev_bridge_instructions = [
 ]
 
 frame_size = (256, 320)
-road     = load_sequence( frame_centers(road_sequence_positions, frame_size), frame_size, 'inputs/roads-masked_0000.png' )
-rail     = load_sequence( frame_centers(rail_sequence_positions, frame_size), frame_size, 'inputs/tracks-masked_0000.png' )
-monorail = load_sequence( frame_centers(mono_sequence_positions, frame_size), frame_size, 'inputs/tracks-masked_0000.png' )
-maglev   = load_sequence( frame_centers(mglv_sequence_positions, frame_size), frame_size, 'inputs/tracks-masked_0000.png' )
+roads_x4     = load_sequence( road_sequence_positions, frame_size, (0,0), 'inputs/roads-masked_0000.png'  )
+rails_x4     = load_sequence( rail_sequence_positions, frame_size, (0,0), 'inputs/tracks-masked_0000.png' )
+monorail_x4  = load_sequence( mono_sequence_positions, frame_size, (0,0), 'inputs/tracks-masked_0000.png' )
+maglev_x4    = load_sequence( mglv_sequence_positions, frame_size, (0,0), 'inputs/tracks-masked_0000.png' )
 
-bridge_output = Image.new('RGBA', (16384, 3200), color = (0,0,0,0))
-put_pieces(road_bridge_instructions,     road,     bridge_output)
-put_pieces(rail_bridge_instructions,     rail,     bridge_output)
-put_pieces(monorail_bridge_instructions, monorail, bridge_output)
-put_pieces(maglev_bridge_instructions,   maglev,   bridge_output)
+frame_size_x1 = (64, 80)
+roads_x1     = load_sequence( road_sequence_positions, frame_size_x1, (12800,0), 'inputs/roads-masked_0000.png'  )
+rails_x1     = load_sequence( rail_sequence_positions, frame_size_x1, (12800,0), 'inputs/tracks-masked_0000.png' )
+monorail_x1  = load_sequence( mono_sequence_positions, frame_size_x1, (12800,0), 'inputs/tracks-masked_0000.png' )
+maglev_x1    = load_sequence( mglv_sequence_positions, frame_size_x1, (12800,0), 'inputs/tracks-masked_0000.png' )
+
+#debug_image_print(roads_x1)
+
+bridge_output = Image.new('RGBA', (16384, 3200), color = (0,0,0,0) )
+
+put_pieces(road_bridge_instructions,     roads_x4,     bridge_output, frame_size, (0,0) )
+put_pieces(rail_bridge_instructions,     rails_x4,     bridge_output, frame_size, (0,0) )
+put_pieces(monorail_bridge_instructions, monorail_x4,  bridge_output, frame_size, (0,0) )
+put_pieces(maglev_bridge_instructions,   maglev_x4,    bridge_output, frame_size, (0,0) )
+
+put_pieces(road_bridge_instructions,     roads_x1,     bridge_output, frame_size_x1, (0,2560) )
+put_pieces(rail_bridge_instructions,     rails_x1,     bridge_output, frame_size_x1, (0,2560) )
+put_pieces(monorail_bridge_instructions, monorail_x1,  bridge_output, frame_size_x1, (0,2560) )
+put_pieces(maglev_bridge_instructions,   maglev_x1,    bridge_output, frame_size_x1, (0,2560) )
+
 bridge_output.save('outputs/bridge-infrastructure.png')
 bridge_output.close()

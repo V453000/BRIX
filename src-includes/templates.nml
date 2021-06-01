@@ -83,7 +83,8 @@ template template_LANDSCAPE_x1(x,y) {
 	6400+80*y,		//position on Y
 	64,		//X size
 	80,		//Y size
-	-31, -8-8-8] //X,Y offsets
+	-31, -8-8-8, //X,Y offsets
+	ANIM]
 }
 
 template template_LANDSCAPE_x4(x,y) {
@@ -93,7 +94,8 @@ template template_LANDSCAPE_x4(x,y) {
 	320*y,		//position on Y
 	256,	//X size
 	320,	//Y size
-	-124, -160+65-3]//X,Y offsets
+	-124, -160+65-3,//X,Y offsets
+	ANIM]
 }
 
 template template_LANDSCAPE_mask_x1(x,y, file, mask ) {

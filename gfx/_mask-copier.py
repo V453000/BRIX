@@ -1,11 +1,14 @@
 import os
 from PIL import Image
+Image.MAX_IMAGE_PIXELS = None
 import argparse
 from copy import deepcopy
 
 def run():
   mask_path   = options['mask']
   output_path = options['output']
+  shift_x = int(options['shift_x'])
+  shift_y = int(options['shift_y'])
 
   mask_image = Image.open(mask_path)
   output_image = Image.open(output_path)
@@ -16,9 +19,9 @@ def run():
       if pixel != 0:
         if pixel in [215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226]:
           # replace pink pixel with a blue one instead
-          output_image.putpixel((x,y), 0)
+          output_image.putpixel((x + shift_x, y + shift_y), 0)
         else:
-          output_image.putpixel((x,y), pixel)
+          output_image.putpixel((x + shift_x, y + shift_y), pixel)
   
   output_image.save(output_path)
   print('Mask copying finished!')
@@ -33,10 +36,20 @@ if __name__ == '__main__':
                       help='Path to file to put mask to.',
                       type = str,
                       required = True)
+  parser.add_argument('-x', '--shift_x',
+                      help='Shift target x.',
+                      type = str,
+                      required = False)
+  parser.add_argument('-y', '--shift_y',
+                      help='Shift target y.',
+                      type = str,
+                      required = False)
   options = vars(parser.parse_args())
   default_values = [
     ('mask'             , '' ),
     ('output'           , '' ),
+    ('shift_x'          , 0 ),
+    ('shift_y'          , 0 ),
   ]
   for name, def_value in default_values:
     if not options[name]:

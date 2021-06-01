@@ -297,7 +297,7 @@ template template_BRIDGES_heads_x1_8bpp(x,y,z) {
 	2560+80*y,		//position on Y
 	64,		//X size
 	80,		//Y size
-	-31-1, -48+16-16, //X,Y offsets
+	-31, -48+16-16, //X,Y offsets
 	z]
 }
 
@@ -309,7 +309,7 @@ template template_BRIDGES_heads_x1(x,y,z,m) {
 	2560+80*y,		//position on Y
 	64,		//X size
 	80,		//Y size
-	-31-1, -48+16-16, //X,Y offsets
+	-31, -48+16-16, //X,Y offsets
 	z,m]
 }
 
@@ -343,7 +343,7 @@ template template_BRIDGES_x1_8bpp(x,y,z) {
 	2560+80*y,		//position on Y
 	64,		//X size
 	80,		//Y size
-	-31-1, -43+16-16, //X,Y offsets
+	-31, -43+16-16, //X,Y offsets
 	z]
 }
 
@@ -354,7 +354,7 @@ template template_BRIDGES_x1(x,y,z,m) {
 	2560+80*y,		//position on Y
 	64,		//X size
 	80,		//Y size
-	-31-1, -43+16-16, //X,Y offsets
+	-31, -43+16-16, //X,Y offsets
 	z,m]
 }
 
@@ -388,7 +388,7 @@ template template_BRIDGES_overlay_1_x1_8bpp(x,y,z) { // ////direction
 	2560+80*y,		//position on Y
 	64,		//X size
 	80,		//Y size
-	-55-1, -55+16-16, //X,Y offsets
+	-55, -55+16-16, //X,Y offsets
 	z]
 }
 
@@ -399,7 +399,7 @@ template template_BRIDGES_overlay_1_x1(x,y,z,m) { // ////direction
 	2560+80*y,		//position on Y
 	64,		//X size
 	80,		//Y size
-	-55-1, -55+16-16, //X,Y offsets
+	-55, -55+16-16, //X,Y offsets
 	z,m]
 }
 
@@ -435,7 +435,7 @@ template template_BRIDGES_overlay_2_x1_8bpp(x,y,z) { // \\\\direction
 	2560+80*y,		//position on Y
 	64,		//X size
 	80,		//Y size
-	-7-1, -55+16-16,//X,Y offsets
+	-7, -55+16-16,//X,Y offsets
 	z]
 }
 
@@ -446,7 +446,7 @@ template template_BRIDGES_overlay_2_x1(x,y,z,m) { // \\\\direction
 	2560+80*y,		//position on Y
 	64,		//X size
 	80,		//Y size
-	-7-1, -55+16-16,//X,Y offsets
+	-7, -55+16-16,//X,Y offsets
 	z,m]
 }
 

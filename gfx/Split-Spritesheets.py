@@ -1,6 +1,7 @@
 import os
 from PIL import Image
 Image.MAX_IMAGE_PIXELS = None
+import sys
 
 def split_spritesheet(input_path, rows, columns):
     with Image.open(input_path) as input_image:
@@ -55,9 +56,27 @@ def split_spritesheet(input_path, rows, columns):
 
                     output_image.save(output_filepath)
 
-# split_spritesheet( '8bpp/terrain/terrain-8bpp.png' , 1, 4)
-# split_spritesheet('32bpp/terrain/terrain.png'      , 1, 4)
-# split_spritesheet( '8bpp/roads/roads-8bpp.png' , 4, 1)
-# split_spritesheet('32bpp/roads/roads.png'      , 4, 1)
-split_spritesheet( '8bpp/tracks/tracks-8bpp.png' , 4, 1)
-split_spritesheet('32bpp/tracks/tracks.png'      , 4, 1)
+
+args = sys.argv
+
+if 'rails' in args:
+    split_spritesheet( '8bpp/tracks/tracks-8bpp.png' , 4, 1)
+    split_spritesheet('32bpp/tracks/tracks.png'      , 4, 1)
+if 'roads' in args:
+    split_spritesheet( '8bpp/roads/roads-8bpp.png' , 4, 1)
+    split_spritesheet('32bpp/roads/roads.png'      , 4, 1)
+if 'terrain' in args:
+    split_spritesheet( '8bpp/terrain/terrain-8bpp.png' , 1, 4)
+    split_spritesheet('32bpp/terrain/terrain.png'      , 1, 4)
+
+if 'rails' not in args:
+    if 'roads' not in args:
+        if 'terrain' not in args:
+            split_spritesheet( '8bpp/tracks/tracks-8bpp.png' , 4, 1)
+            split_spritesheet('32bpp/tracks/tracks.png'      , 4, 1)
+
+            split_spritesheet( '8bpp/roads/roads-8bpp.png' , 4, 1)
+            split_spritesheet('32bpp/roads/roads.png'      , 4, 1)
+            
+            split_spritesheet( '8bpp/terrain/terrain-8bpp.png' , 1, 4)
+            split_spritesheet('32bpp/terrain/terrain.png'      , 1, 4)

@@ -14,7 +14,11 @@ def run():
     for x in range(0, mask_image.width):
       pixel = mask_image.getpixel((x,y))
       if pixel != 0:
-        output_image.putpixel((x,y), pixel)
+        if pixel in [215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226]:
+          # replace pink pixel with a blue one instead
+          output_image.putpixel((x,y), 0)
+        else:
+          output_image.putpixel((x,y), pixel)
   
   output_image.save(output_path)
   print('Mask copying finished!')

@@ -276,6 +276,7 @@ if (param_farms == 1) {
 
 if (param_bridges == 1) {
     //#include src-includes/bridges.nml
+    //#include src-includes/bridges-x2.nml
 }
 
 if (param_trees == 1) {

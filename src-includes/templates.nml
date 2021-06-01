@@ -313,6 +313,27 @@ template template_BRIDGES_heads_x1(x,y,z,m) {
 	z,m]
 }
 
+template template_BRIDGES_heads_x2(x,y,z,m) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*128, //position on X
+	160*y,		//position on Y
+	128,	//X size
+	160,	//Y size
+	-62, -97,//X,Y offsets
+	z,m]
+}
+template template_BRIDGES_heads_x2_8bpp(x,y,z) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*128, //position on X
+	160*y,		//position on Y
+	128,	//X size
+	160,	//Y size
+	-62, -97,//X,Y offsets
+	z]
+}
+
 template template_BRIDGES_heads_x4(x,y,z,m) {
 	//x for movement to next tile
 	//y for Y offsets
@@ -358,6 +379,27 @@ template template_BRIDGES_x1(x,y,z,m) {
 	z,m]
 }
 
+template template_BRIDGES_x2(x,y,z,m) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*128, //position on X
+	160*y,		//position on Y
+	128,	//X size
+	160,	//Y size
+	-62, -86,//X,Y offsets
+	z,m]
+}
+
+template template_BRIDGES_x2_8bpp(x,y,z) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*128, //position on X
+	160*y,		//position on Y
+	128,	//X size
+	160,	//Y size
+	-62, -86,//X,Y offsets
+	z]
+}
 template template_BRIDGES_x4(x,y,z,m) {
 	//x for movement to next tile
 	//y for Y offsets
@@ -403,6 +445,27 @@ template template_BRIDGES_overlay_1_x1(x,y,z,m) { // ////direction
 	z,m]
 }
 
+template template_BRIDGES_overlay_1_x2(x,y,z,m) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*128, //position on X
+	160*y,		//position on Y
+	128,	//X size
+	160,	//Y size
+	-110, -111,//X,Y offsets
+	z,m]
+}
+
+template template_BRIDGES_overlay_1_x2_8bpp(x,y,z) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*128, //position on X
+	160*y,		//position on Y
+	128,	//X size
+	160,	//Y size
+	-110, -111,//X,Y offsets
+	z]
+}
 template template_BRIDGES_overlay_1_x4(x,y,z,m) {
 	//x for movement to next tile
 	//y for Y offsets
@@ -450,6 +513,27 @@ template template_BRIDGES_overlay_2_x1(x,y,z,m) { // \\\\direction
 	z,m]
 }
 
+template template_BRIDGES_overlay_2_x2(x,y,z,m) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*128, //position on X
+	160*y,		//position on Y
+	128,	//X size
+	160,	//Y size
+	-14, -111,
+	z,m]//X,Y offsets
+}
+
+template template_BRIDGES_overlay_2_x2_8bpp(x,y,z) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*128, //position on X
+	160*y,		//position on Y
+	128,	//X size
+	160,	//Y size
+	-14, -111,
+	z]//X,Y offsets
+}
 template template_BRIDGES_overlay_2_x4(x,y,z,m) {
 	//x for movement to next tile
 	//y for Y offsets
@@ -497,7 +581,26 @@ template template_BRIDGES_1pylon_x1(a,b,x,y,z,m) {
 	-32+a-1, -40+b+16-16,//X,Y offsets
 	z,m]
 }
-
+template template_BRIDGES_1pylon_x2(a,b,x,y,z,m) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*128, //position on X
+	160*y,		//position on Y
+	128,	//X size
+	160,	//Y size
+	-62+a, -80+b,//X,Y offsets
+	z,m]
+}
+template template_BRIDGES_1pylon_x2_8bpp(a,b,x,y,z) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*128, //position on X
+	160*y,		//position on Y
+	128,	//X size
+	160,	//Y size
+	-62+a, -80+b,//X,Y offsets
+	z]
+}
 template template_BRIDGES_1pylon_x4(a,b,x,y,z,m) {
 	//x for movement to next tile
 	//y for Y offsets
@@ -545,6 +648,27 @@ template template_BRIDGES_2pylons_wooden_x1(x,y,z,m) {
 	z,m]
 }
 
+template template_BRIDGES_2pylons_wooden_x2(x,y,z,m) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*128, //position on X
+	160*y,		//position on Y
+	128,	//X size
+	160,	//Y size
+	-18, -112,//X,Y offsets
+	z,m]
+}
+
+template template_BRIDGES_2pylons_wooden_x2_8bpp(x,y,z) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*128, //position on X
+	160*y,		//position on Y
+	128,	//X size
+	160,	//Y size
+	-18, -112,//X,Y offsets
+	z]
+}
 template template_BRIDGES_2pylons_wooden_x4(x,y,z,m) {
 	//x for movement to next tile
 	//y for Y offsets
@@ -591,7 +715,27 @@ template template_BRIDGES_2pylons_2_x1(x,y,z,m) {
 	-7-1, -55+16-16,//X,Y offsets
 	z,m]
 }
+template template_BRIDGES_2pylons_2_x2(x,y,z,m) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*128, //position on X
+	160*y,		//position on Y
+	128,	//X size
+	160,	//Y size
+	-15, -98,//X,Y offsets
+	z,m]
+}
 
+template template_BRIDGES_2pylons_2_x2_8bpp(x,y,z) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*128, //position on X
+	160*y,		//position on Y
+	128,	//X size
+	160,	//Y size
+	-15, -98,//X,Y offsets
+	z]
+}
 template template_BRIDGES_2pylons_2_x4(x,y,z,m) {
 	//x for movement to next tile
 	//y for Y offsets
@@ -637,6 +781,27 @@ template template_BRIDGES_2pylons_1_x1(x,y,z,m) {
 	z,m] //X,Y offsets
 }
 
+template template_BRIDGES_2pylons_1_x2(x,y,z,m) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*128, //position on X
+	160*y,		//position on Y
+	128,	//X size
+	160,	//Y size
+	-110, -111,//X,Y offsets
+	z,m]
+}
+
+template template_BRIDGES_2pylons_1_x2_8bpp(x,y,z) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*128, //position on X
+	160*y,		//position on Y
+	128,	//X size
+	160,	//Y size
+	-110, -111,//X,Y offsets
+	z]
+}
 template template_BRIDGES_2pylons_1_x4(x,y,z,m) {
 	//x for movement to next tile
 	//y for Y offsets
@@ -685,6 +850,27 @@ template template_BRIDGES_cantliever_pylons_x1(a,b,x,y,z,m) {
 	z,m] //X,Y offsets
 }
 
+template template_BRIDGES_cantliever_pylons_x2(a,b,x,y,z,m) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*128, //position on X
+	160*y,		//position on Y
+	128,	//X size
+	160,	//Y size
+	a, b+1,//X,Y offsets
+	z,m]
+}
+
+template template_BRIDGES_cantliever_pylons_x2_8bpp(a,b,x,y,z) {
+	//x for movement to next tile
+	//y for Y offsets
+	[x*128, //position on X
+	160*y,		//position on Y
+	128,	//X size
+	160,	//Y size
+	a, b+1,//X,Y offsets
+	z]
+}
 template template_BRIDGES_cantliever_pylons_x4(a,b,x,y,z,m) {
 	//x for movement to next tile
 	//y for Y offsets

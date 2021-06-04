@@ -2,6 +2,7 @@ import os
 from subprocess import Popen
 
 def process_line(line, prefix, output_nml):
+  line = line.lstrip()
   if prefix in line:
     output_nml.write(line)
     filename_to_import = line[prefix_length:][:-1]
@@ -18,10 +19,10 @@ def process_line(line, prefix, output_nml):
   else:
     output_nml.write(line)
 
-main_nml = open('NUTS.nml', 'r')
-output_nml = open('NUTS-x-combined.nml', 'w')
+main_nml = open('BRIX.nml', 'r')
+output_nml = open('BRIX-NML-combined.nml', 'w')
 output_nml.close() # clear the content of the file
-output_nml = open('NUTS-x-combined.nml', 'w')
+output_nml = open('BRIX-NML-combined.nml', 'w')
 
 prefix = '//#include '
 prefix_length = len(prefix)

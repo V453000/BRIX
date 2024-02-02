@@ -42,4 +42,4 @@ def combine_nml():
   print('Success! NML combined.')
 
 if __name__ == "__main__":
-  run()
+  combine_nml()

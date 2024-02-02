@@ -4,12 +4,27 @@ Image.MAX_IMAGE_PIXELS = None
 import argparse
 from copy import deepcopy
 
-def run():
-  mask_path   = options['mask']
-  output_path = options['output']
-  shift_x = int(options['shift_x'])
-  shift_y = int(options['shift_y'])
+def copy_mask(options):
+  if 'mask'        in options:
+    mask_path   = options['mask']
+  else:
+    raise Exception("mask_path must be specified")
 
+  if 'output'        in options:
+    output_path   = options['output']
+  else:
+    raise Exception("mask_path must be specified")
+
+  if 'shift_x'in options:
+    shift_x = int(options['shift_x'])
+  else:
+    shift_x = 0
+
+  if 'shift_y'in options:
+    shift_y = int(options['shift_y'])
+  else:
+    shift_y = 0
+    
   mask_image = Image.open(mask_path)
   output_image = Image.open(output_path)
 
@@ -55,4 +70,4 @@ if __name__ == '__main__':
     if not options[name]:
       options[name] = def_value
   
-  run()
+  copy_mask(options)

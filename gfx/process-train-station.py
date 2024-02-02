@@ -16,8 +16,9 @@
 # copy /Y BRIX.grf "C:\Users\V\Documents\OpenTTD\newgrf"
 # pause
 
-from _resizer import resize
 
+# Resizing x4 to x1
+from _resizer import resize
 resize(
     {
         'input' : '32bpp/train-station/x4/train-station.png',
@@ -33,4 +34,34 @@ resize(
     }
 )
 
+# RGBA Eater
+import subprocess
+subprocess.run(['python', 'RGBA-EATER.py', '-n', 'train-station/x4/train-station',    '-e', 'ALL'])
+subprocess.run(['python', 'RGBA-EATER.py', '-n', 'train-station/x4/train-station-CC', '-e', 'CC1'])
 
+subprocess.run(['python', 'RGBA-EATER.py', '-n', 'train-station/x1/train-station-x1',    '-e', 'ALL'])
+subprocess.run(['python', 'RGBA-EATER.py', '-n', 'train-station/x1/train-station-CC-x1', '-e', 'CC1'])
+
+# Copying masks over converted 8bpp
+from _mask_copier import copy_mask
+copy_mask(
+    {
+        'mask'    : '8bpp/train-station/x1/train-station-CC-x1-8bpp.png',
+        'output'  : '8bpp/train-station/x1/train-station-x1-8bpp.png',
+        'shift_x' : 0,
+        'shift_y' : 0
+    }
+)
+copy_mask(
+    {
+        'mask'    : '8bpp/train-station/x4/train-station-CC-8bpp.png',
+        'output'  : '8bpp/train-station/x4/train-station-8bpp.png',
+        'shift_x' : 0,
+        'shift_y' : 0
+    }
+)
+
+# compile the grf etc
+import os
+os.chdir('..')
+subprocess.run(['python', '_SHIT-BRIX_.py'])

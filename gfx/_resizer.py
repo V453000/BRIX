@@ -3,13 +3,28 @@ import os
 import argparse
 import shutil
 
-def run():
+def resize(options):
   input_path    = options['input']
-  output_path   = options['output']
-  divider       = options['divider']
-  remove_frames = options['remove_frames']
-  skip_resizer  = options['skip_resizer']
 
+  if 'output'        in options:
+    output_path   = options['output']
+  else:
+    output_path   = ''
+
+  if 'divider'       in options:
+    divider       = options['divider']
+  else:
+    divider       = 4
+  
+  if 'remove_frames' in options:
+    remove_frames = options['remove_frames']
+  else:
+    remove_frames = False
+
+  if 'skip_resizer'  in options:
+    skip_resizer  = options['skip_resizer']
+  else:
+    skip_resizer  = False
  
   if remove_frames == True:
     png = '.png'
@@ -65,7 +80,7 @@ def run():
       output_width = int(input_image.width/divider)
       output_height = int(input_image.height/divider)
 
-      output_image = input_image.resize((output_width, output_height))
+      output_image = input_image.resize((output_width, output_height), Image.Resampling.NEAREST)
 
       output_folder = os.path.dirname(output_path)
       os.makedirs(output_folder, exist_ok = True)
@@ -107,4 +122,5 @@ if __name__ == '__main__':
     if not options[name]:
       options[name] = def_value
   
-  run()
+  print(options.type)
+  resize(options)
